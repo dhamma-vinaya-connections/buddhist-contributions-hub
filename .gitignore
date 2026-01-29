@@ -1,0 +1,17 @@
+# --- System Junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.env
+
+# --- VS Code ---
+.vscode/
+
+# --- Temporary ---
+test_output/
+*.log
