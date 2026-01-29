@@ -1,0 +1,4 @@
+pymupdf
+ebooklib
+beautifulsoup4
+pyyaml
