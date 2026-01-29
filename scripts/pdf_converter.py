@@ -1,22 +1,18 @@
 import os
-import fitz  # PyMuPDF
+import pymupdf4llm  # <--- The secret weapon for structure
+import fitz
 import yaml
 from pathlib import Path
 from citation_scanner import extract_citations
 
 def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
     """
-    Converts a PDF to a folder containing markdown + images.
-    
-    Args:
-        source_path (Path): Path to the input PDF.
-        dest_root (Path): The 'Library' or 'Contributions' folder.
-        category (str): 'Dhamma' or 'Vinaya'.
+    Converts PDF using 'pymupdf4llm' to preserve Headers, Tables, and formatting.
     """
     
-    filename = source_path.stem  # "Ajahn Chah - Food for the Heart"
+    filename = source_path.stem
     
-    # Try to parse Author/Title from filename
+    # Try to parse Author/Title
     try:
         author, title = filename.split(" - ", 1)
     except ValueError:
@@ -24,27 +20,28 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
         title = filename
 
     # Define Output Structure
-    # Buddhist_Hub/Library/Dhamma/Books/Ajahn Chah/Food for the Heart/
     book_folder = dest_root / category / "Books" / author / title
     img_folder = book_folder / "attachments"
     
     # Create folders
     img_folder.mkdir(parents=True, exist_ok=True)
     
-    print(f"📖 Converting: {title}...")
+    print(f"📖 Converting (Structure Aware): {title}...")
 
-    # --- PDF PROCESSING ---
-    doc = fitz.open(source_path)
-    full_text = ""
-    markdown_body = ""
+    # --- 1. CONVERT TO MARKDOWN (With Formatting) ---
+    # This function extracts text while keeping # Headers, **Bold**, and Tables.
+    # It also extracts images automatically into the dictionary result.
+    md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
     
+    # --- 2. IMAGE EXTRACTION (Manual Control) ---
+    # We do this manually to ensure our custom naming convention (p1_1.png) matches Obsidian links
+    # Note: pymupdf4llm is great at text, but we want strict control over image paths.
+    
+    doc = fitz.open(source_path)
+    
+    # We will append images to the bottom or let the user place them. 
+    # For now, let's keep the image extraction logic simple:
     for page_index, page in enumerate(doc):
-        # 1. Get Text
-        text = page.get_text()
-        full_text += text
-        markdown_body += text + "\n\n"
-        
-        # 2. Extract Images
         image_list = page.get_images()
         for img_index, img in enumerate(image_list):
             xref = img[0]
@@ -52,20 +49,15 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
             image_bytes = base_image["image"]
             image_ext = base_image["ext"]
             
-            # Naming: Page_ImgIndex.png (Keeps it unique per book)
+            # Save Image
             image_name = f"p{page_index+1}_{img_index+1}.{image_ext}"
             image_path = img_folder / image_name
-            
-            # Save Image
             with open(image_path, "wb") as f_img:
                 f_img.write(image_bytes)
-                
-            # Insert Markdown Link at bottom of page text (Approximation)
-            # Link format: ![[attachments/image.png]]
-            markdown_body += f"\n![[{image_name}]]\n"
 
-    # --- METADATA INJECTION ---
-    suttas, vinaya = extract_citations(full_text)
+    # --- 3. METADATA INJECTION ---
+    # Scan the rich markdown for citations
+    suttas, vinaya = extract_citations(md_text)
     
     frontmatter = {
         "title": title,
@@ -73,20 +65,17 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
         "category": category,
         "contribution": "book",
         "sutta_citations": suttas,
-        "vin_citations": vinaya  # <--- As requested
+        "vin_citations": vinaya
     }
     
-    # Combine YAML + Content
-    final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n\n" + markdown_body
+    # Combine
+    final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n\n" + md_text
     
-    # Save Markdown
+    # Save
     with open(book_folder / "content.md", "w", encoding='utf-8') as f:
         f.write(final_content)
         
     print(f"✅ Finished: {book_folder}")
 
-# --- TEST RUNNER (Remove later) ---
 if __name__ == "__main__":
-    # Test with a dummy file if you have one
-    # convert_pdf_to_md(Path("Inbox/Dhamma/pdf/Test.pdf"), Path("Buddhist_Hub/Library"))
     pass
