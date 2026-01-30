@@ -1,9 +1,9 @@
 import os
-import pymupdf4llm  # <--- The secret weapon for structure
+import pymupdf4llm
 import fitz
 import yaml
 from pathlib import Path
-from citation_scanner import extract_citations
+import citation_scanner  # <--- Changed to module import
 
 def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
     """
@@ -28,19 +28,11 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
     
     print(f"📖 Converting (Structure Aware): {title}...")
 
-    # --- 1. CONVERT TO MARKDOWN (With Formatting) ---
-    # This function extracts text while keeping # Headers, **Bold**, and Tables.
-    # It also extracts images automatically into the dictionary result.
+    # --- 1. CONVERT TO MARKDOWN ---
     md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
     
-    # --- 2. IMAGE EXTRACTION (Manual Control) ---
-    # We do this manually to ensure our custom naming convention (p1_1.png) matches Obsidian links
-    # Note: pymupdf4llm is great at text, but we want strict control over image paths.
-    
+    # --- 2. IMAGE EXTRACTION ---
     doc = fitz.open(source_path)
-    
-    # We will append images to the bottom or let the user place them. 
-    # For now, let's keep the image extraction logic simple:
     for page_index, page in enumerate(doc):
         image_list = page.get_images()
         for img_index, img in enumerate(image_list):
@@ -49,15 +41,18 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
             image_bytes = base_image["image"]
             image_ext = base_image["ext"]
             
-            # Save Image
             image_name = f"p{page_index+1}_{img_index+1}.{image_ext}"
             image_path = img_folder / image_name
             with open(image_path, "wb") as f_img:
                 f_img.write(image_bytes)
 
-    # --- 3. METADATA INJECTION ---
-    # Scan the rich markdown for citations
-    suttas, vinaya = extract_citations(md_text)
+    # --- 3. METADATA & LINK INJECTION ---
+    
+    # A. Inject Links (Rewrite "AN 6:63" -> "[[AN6.63]]")
+    md_text = citation_scanner.inject_wikilinks(md_text)
+
+    # B. Extract Citations
+    suttas, vinaya = citation_scanner.extract_citations(md_text)
     
     frontmatter = {
         "title": title,
@@ -71,11 +66,15 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma"):
     # Combine
     final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n\n" + md_text
     
-    # Save
-    with open(book_folder / "content.md", "w", encoding='utf-8') as f:
+    # --- 4. SAVE FILE (Named correctly) ---
+    # Sanitize filename (remove colons or slashes that break filesystems)
+    safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
+    output_path = book_folder / safe_filename
+    
+    with open(output_path, "w", encoding='utf-8') as f:
         f.write(final_content)
         
-    print(f"✅ Finished: {book_folder}")
+    print(f"✅ Finished: {output_path}")
 
 if __name__ == "__main__":
     pass
