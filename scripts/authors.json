@@ -1,9 +1,9 @@
 {
-  "__comment": "MONASTIC SCHOLARS (VEN.)",
-  "analayo": "Ven. Anālayo",
-  "b. analayo": "Ven. Anālayo",
-  "bhikkhu analayo": "Ven. Anālayo",
-  "ven. analayo": "Ven. Anālayo",
+  "__comment": "MONASTIC SCHOLARS (ASCII ONLY)",
+  "analayo": "Ven. Analayo",
+  "b. analayo": "Ven. Analayo",
+  "bhikkhu analayo": "Ven. Analayo",
+  "ven. analayo": "Ven. Analayo",
   
   "bodhi": "Ven. Bodhi",
   "b. bodhi": "Ven. Bodhi",
@@ -16,10 +16,10 @@
   "bhante sujato": "Ven. Sujato",
   "ajahn sujato": "Ven. Sujato",
 
-  "nanananda": "Ven. Ñāṇananda",
-  "ñāṇananda": "Ven. Ñāṇananda",
-  "k. nanananda": "Ven. Ñāṇananda",
-  "bhikkhu nanananda": "Ven. Ñāṇananda",
+  "nanananda": "Ven. Nanananda",
+  "ñāṇananda": "Ven. Nanananda",
+  "k. nanananda": "Ven. Nanananda",
+  "bhikkhu nanananda": "Ven. Nanananda",
 
   "nyanaponika": "Ven. Nyanaponika",
   "nyanaponika thera": "Ven. Nyanaponika",
@@ -32,8 +32,7 @@
   "bhikkhu payutto": "Ven. P. A. Payutto",
   "prayudh payutto": "Ven. P. A. Payutto",
 
-
-  "__comment": "THAI FOREST / WESTERN TEACHERS (AJAHN)",
+  "__comment": "THAI FOREST (ASCII ONLY)",
   "brahm": "Ajahn Brahm",
   "a. brahm": "Ajahn Brahm",
   "ajahn brahmavamso": "Ajahn Brahm",
@@ -62,8 +61,8 @@
   "pasanno": "Ajahn Pasanno",
   "a. pasanno": "Ajahn Pasanno",
 
-  "jayasaro": "Ajahn Jayasāro",
-  "a. jayasaro": "Ajahn Jayasāro",
+  "jayasaro": "Ajahn Jayasaro",
+  "a. jayasaro": "Ajahn Jayasaro",
 
   "sucitto": "Ajahn Sucitto",
   "a. sucitto": "Ajahn Sucitto",
@@ -72,8 +71,7 @@
   "boowa": "Ajahn Maha Boowa",
   "a. maha boowa": "Ajahn Maha Boowa",
 
-
-  "__comment": "LAY SCHOLARS (FIRST LAST)",
+  "__comment": "LAY SCHOLARS (ASCII ONLY)",
   "gombrich": "Richard Gombrich",
   "richard gombrich": "Richard Gombrich",
   "r. gombrich": "Richard Gombrich",
