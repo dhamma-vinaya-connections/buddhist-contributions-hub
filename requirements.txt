@@ -2,3 +2,5 @@ pymupdf
 ebooklib
 beautifulsoup4
 pyyaml
+pymupdf4llm
+pandas
