@@ -9,16 +9,16 @@
 
 ## Phase 2: The Scripts (Development)
 
-- [ ] Citation `scripts/citation_scanner.py` (The shared brain that finds citations).
+- [x] Citation `scripts/citation_scanner.py` (The shared brain that finds citations).
 - [ ] PDF converter `scripts/pdf_converter.py` (The machine that processes books).
-- [ ] EPUB converter `scripts/epub_converter.py` (The machine that processes books).
+- [x] EPUB converter `scripts/epub_converter.py` (The machine that processes books).
 - [ ] **Gatekeeper:** Implement `scripts/gatekeeper.py` (Validation).
 	- [ ] Implement with split-citation validation.
-- [ ] **Librarian:** Implement `scripts/librarian.py` (Main Loop).
+- [x] **Librarian:** Implement `scripts/librarian.py` (Main Loop).
 	- [ ] Implement routing logic (Dhamma vs Vinaya folders).
-- [ ] **Citation Engine:** Create `scripts/citation_sorter.py` module. - *Logic:* Distinguishes `Vin/Pvr` from `DN/MN`.
+- [x] **Citation Engine:** Create `scripts/citation_sorter.py` module. - *Logic:* Distinguishes `Vin/Pvr` from `DN/MN`.
 - [ ] **PDF Engine:** Implement `scripts/pdf_converter.py` using `pymupdf4llm`.
-- [ ] **EPUB Engine:** Implement `scripts/epub_converter.py`.
+- [x] **EPUB Engine:** Implement `scripts/epub_converter.py`.
 - [ ] **MD Handler:** Implement `scripts/md_copier.py`.
 
 ## Phase 3: Automation (GitHub Actions)
@@ -28,5 +28,7 @@
 
 ## Phase 4: Infrastructure
 - [ ] Resolve Git LFS installation (Deferred).
+
+## Phase 5 Documentation
 - [ ] Add `CONTRIBUTING.md` guide for users.
 - [ ] Add `README.md` with download instructions.

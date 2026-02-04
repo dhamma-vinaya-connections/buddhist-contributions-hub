@@ -13,7 +13,6 @@ def clean_filename(stem):
     # 1. Remove Leading numbering
     stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
     # 2. Remove Trailing "Junk IDs" (Underscore + 4+ digits)
-    # Keeps volumes (space + 1 digit), removes IDs (_251013)
     stem = re.sub(r'_[\d]{4,}$', '', stem)
     return stem.strip()
 
@@ -49,6 +48,7 @@ def process_internal_links_and_anchors(soup):
         if a.has_attr('href'):
             href = a['href']
             text = a.get_text()
+            # Only process INTERNAL anchors here
             if '#' in href and not href.startswith('http'):
                 anchor_id = href.split('#')[-1]
                 a.replace_with(f"[[#^{anchor_id}|{text}]]")
@@ -62,7 +62,7 @@ def html_to_markdown(html_content):
     for tag in soup(["script", "style", "meta", "link", "title"]): tag.decompose()
     for comment in soup.find_all(string=lambda text: isinstance(text, Comment)): comment.extract()
     
-    # DESTROY EXTERNAL LINKS (Unwrap)
+    # Unwrap external links (keeps the text "SN 56:11", kills the URL)
     for a in soup.find_all('a'): 
         a.unwrap()
             
@@ -94,17 +94,24 @@ def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_overrid
 
     title = author_tools.strip_accents(title)
 
-    # --- SUBFOLDER MIRRORING ---
+    # --- SMART FLATTENING LOGIC ---
     relative_path = Path("")
     if author_override:
         for parent in source_path.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
-                try: relative_path = source_path.parent.relative_to(parent)
+                try: 
+                    candidate_rel = source_path.parent.relative_to(parent)
+                    folder_name = candidate_rel.name.lower().replace(" ", "").replace("_", "")
+                    book_name = title.lower().replace(" ", "").replace("_", "")
+                    
+                    if folder_name == book_name:
+                        relative_path = Path("") 
+                    else:
+                        relative_path = candidate_rel
                 except: pass
                 break
 
     author_folder = dest_root / category / "Books" / author / relative_path
-    
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
     output_path = author_folder / safe_filename
 
