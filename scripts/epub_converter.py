@@ -5,12 +5,17 @@ import unicodedata
 from pathlib import Path
 import ebooklib
 from ebooklib import epub
-from bs4 import BeautifulSoup, Comment
+from bs4 import BeautifulSoup, Comment, NavigableString
 import citation_scanner
 import author_tools
 
 def clean_filename(stem):
-    return re.sub(r'^[\d\-\.\_\s]+', '', stem) if re.sub(r'^[\d\-\.\_\s]+', '', stem) else stem
+    # 1. Remove Leading numbering
+    stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
+    # 2. Remove Trailing "Junk IDs" (Underscore + 4+ digits)
+    # Keeps volumes (space + 1 digit), removes IDs (_251013)
+    stem = re.sub(r'_[\d]{4,}$', '', stem)
+    return stem.strip()
 
 def extract_epub_metadata(book):
     try:
@@ -44,21 +49,23 @@ def process_internal_links_and_anchors(soup):
         if a.has_attr('href'):
             href = a['href']
             text = a.get_text()
-            if '#' in href:
+            if '#' in href and not href.startswith('http'):
                 anchor_id = href.split('#')[-1]
                 a.replace_with(f"[[#^{anchor_id}|{text}]]")
-            elif "http" in href:
-                a.replace_with(f"[{text}]({href})")
-            else:
-                a.unwrap()
 
 def html_to_markdown(html_content):
     soup = BeautifulSoup(html_content, 'html.parser')
-    for img in soup.find_all('img'): img.decompose() # Kill Images
+    for img in soup.find_all('img'): img.decompose() 
+    
     process_internal_links_and_anchors(soup)
+
     for tag in soup(["script", "style", "meta", "link", "title"]): tag.decompose()
     for comment in soup.find_all(string=lambda text: isinstance(text, Comment)): comment.extract()
-    for a in soup.find_all('a'): a.unwrap()
+    
+    # DESTROY EXTERNAL LINKS (Unwrap)
+    for a in soup.find_all('a'): 
+        a.unwrap()
+            
     for tag in soup.find_all(['b', 'strong']): tag.replace_with(f"**{tag.get_text()}**")
     for tag in soup.find_all(['i', 'em']): tag.replace_with(f"*{tag.get_text()}*")
     for tag in soup.find_all('h1'): tag.replace_with(f"\n\n# {tag.get_text()}\n\n")
@@ -67,12 +74,14 @@ def html_to_markdown(html_content):
     for tag in soup.find_all('h4'): tag.replace_with(f"\n\n#### {tag.get_text()}\n\n")
     for tag in soup.find_all('p'): tag.insert_before("\n"); tag.insert_after("\n")
     for tag in soup.find_all('li'): tag.replace_with(f"- {tag.get_text()}\n")
+    
     return soup.get_text(separator="")
 
 def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_override=None):
     original_stem = source_path.stem
+    
     if author_override:
-        author = author_tools.normalize(author_override)
+        author = author_tools.strip_accents(author_override)
         title = clean_filename(original_stem)
     else:
         if " - " in original_stem:
@@ -83,12 +92,21 @@ def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_overrid
             author = "Unknown"
             title = clean_filename(original_stem)
 
-    author = author_tools.strip_accents(author)
     title = author_tools.strip_accents(title)
 
-    book_folder = dest_root / category / "Books" / author / title
+    # --- SUBFOLDER MIRRORING ---
+    relative_path = Path("")
+    if author_override:
+        for parent in source_path.parents:
+            if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
+                try: relative_path = source_path.parent.relative_to(parent)
+                except: pass
+                break
+
+    author_folder = dest_root / category / "Books" / author / relative_path
+    
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
-    output_path = book_folder / safe_filename
+    output_path = author_folder / safe_filename
 
     if output_path.exists():
         print(f"⏩ Skipping: {title} (Exists)")
@@ -116,7 +134,7 @@ def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_overrid
         "sutta_citations": suttas, "vin_citations": vinaya
     }
     
-    book_folder.mkdir(parents=True, exist_ok=True)
+    author_folder.mkdir(parents=True, exist_ok=True)
     final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n\n" + full_markdown
     
     with open(output_path, "w", encoding='utf-8') as f: f.write(final_content)

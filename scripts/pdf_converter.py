@@ -10,12 +10,18 @@ import citation_scanner
 import author_tools 
 
 def clean_filename(stem):
-    cleaned = re.sub(r'^[\d\-\.\_\s]+', '', stem)
-    return cleaned if cleaned else stem
+    # 1. Remove Leading numbering (e.g. "01 - Book")
+    stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
+    
+    # 2. Remove Trailing "Junk IDs" (Underscore + 4 or more digits)
+    # Matches: "_251013", "_20230101" -> Removes them
+    # Ignores: " 1", " 2", " Vol 1" (Short numbers are Volumes)
+    stem = re.sub(r'_[\d]{4,}$', '', stem)
+    
+    return stem.strip()
 
 def identify_footnotes_by_size(doc):
     font_sizes = []
-    # Sample first 10 pages for body text size
     for page in doc[:10]:
         for b in page.get_text("dict")["blocks"]:
             if "lines" in b:
@@ -53,8 +59,9 @@ def extract_pdf_metadata(doc):
 
 def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override=None):
     original_stem = source_path.stem
+    
     if author_override:
-        author = author_tools.normalize(author_override)
+        author = author_tools.strip_accents(author_override)
         title = clean_filename(original_stem)
     else:
         if " - " in original_stem:
@@ -65,13 +72,21 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
             author = "Unknown"
             title = clean_filename(original_stem)
 
-    # Force ASCII-Safe Unicode Normalization (NFC usually fine, but our tools strip accents)
-    author = author_tools.strip_accents(author)
     title = author_tools.strip_accents(title)
 
-    book_folder = dest_root / category / "Books" / author / title
+    # --- SUBFOLDER MIRRORING ---
+    relative_path = Path("")
+    if author_override:
+        for parent in source_path.parents:
+            if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
+                try: relative_path = source_path.parent.relative_to(parent)
+                except: pass
+                break
+
+    final_folder = dest_root / category / "Books" / author / relative_path
+    
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
-    output_path = book_folder / safe_filename
+    output_path = final_folder / safe_filename
 
     if output_path.exists():
         print(f"⏩ Skipping: {title} (Exists)")
@@ -103,7 +118,8 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
         "sutta_citations": suttas, "vin_citations": vinaya
     }
     
-    book_folder.mkdir(parents=True, exist_ok=True)
+    final_folder.mkdir(parents=True, exist_ok=True)
+    
     final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n\n" + md_text
     
     with open(output_path, "w", encoding='utf-8') as f: f.write(final_content)

@@ -27,14 +27,28 @@ def parse_path_context(filepath):
             category = "Vinaya"
             break
             
-    # 2. Determine Author from Folder
-    parent_folder = filepath.parent.name
-    system_folders = ["pdf", "epub", "md", "reference only", "reference_only", "others", "vinaya", "dhamma", "inbox"]
+    # 2. Determine Author (The Smart Way)
+    # We look for the "Anchor" folders. The Author is the folder DIRECTLY inside the anchor.
+    anchors = ["pdf", "epub", "md", "reference only", "reference_only"]
+    author = None
     
-    if parent_folder.lower() not in system_folders:
-        author = author_tools.normalize(parent_folder)
-    else:
-        author = None
+    # Scan path for anchor
+    for i, part in enumerate(parts):
+        if part.lower() in anchors:
+            # Check if there is a folder after this anchor (and it's not the filename)
+            if i + 1 < len(parts) - 1: 
+                # FOUND IT: .../epub/Ven. Thanissaro/...
+                author = parts[i+1]
+                break
+            elif i + 1 == len(parts) - 1:
+                # FOUND IT (Directly inside): .../epub/Ven. Thanissaro/book.pdf
+                author = parts[i+1]
+                break
+    
+    # If logic fails (file is loose in 'epub' root), author remains None.
+    # The converters will then fallback to "Unknown" or guess from filename.
+    if author:
+        author = author_tools.normalize(author)
         
     return category, author
 

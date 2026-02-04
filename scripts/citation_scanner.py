@@ -4,7 +4,6 @@ import unicodedata
 from pathlib import Path
 
 # --- CONFIGURATION: REPO B FILENAMES ---
-# {num} will be replaced by the book number (e.g. 8)
 FILE_PATTERNS = {
     "VIN-MV": "mv{num}-brahmali-pali",
     "VIN-CV": "cv{num}-brahmali-pali",
@@ -26,12 +25,9 @@ except Exception: pass
 
 # --- MAPPING RULES ---
 CODE_MAP = {
-    'd': 'DN', 'dn': 'DN', 'm': 'MN', 'mn': 'MN',
-    's': 'SN', 'sn': 'SN', 'a': 'AN', 'an': 'AN',
-    'kp': 'KP', 'khp': 'KP', 'dhp': 'DHP', 'snp': 'SNP',
-    'ud': 'UD', 'iti': 'ITI', 'vv': 'VV', 'pv': 'PV',
-    'thag': 'THAG', 'thig': 'THIG', 'ja': 'JA',
-    'ma': 'MA', 'mā': 'MA', 'da': 'DA', 'dā': 'DA',
+    'd': 'DN', 'dn': 'DN', 'm': 'MN', 'mn': 'MN', 's': 'SN', 'sn': 'SN', 'a': 'AN', 'an': 'AN',
+    'kp': 'KP', 'khp': 'KP', 'dhp': 'DHP', 'snp': 'SNP', 'ud': 'UD', 'iti': 'ITI', 'vv': 'VV', 'pv': 'PV',
+    'thag': 'THAG', 'thig': 'THIG', 'ja': 'JA', 'ma': 'MA', 'mā': 'MA', 'da': 'DA', 'dā': 'DA',
     'sa': 'SA', 'sā': 'SA', 'ea': 'EA', 'eā': 'EA',
     'parajika': 'BU-PJ', 'par': 'BU-PJ', 'pj': 'BU-PJ',
     'sanghadisesa': 'BU-SS', 'sang': 'BU-SS', 'ss': 'BU-SS',
@@ -40,10 +36,8 @@ CODE_MAP = {
     'patidesaniya': 'BU-PD', 'pd': 'BU-PD',
     'sekhiya': 'BU-SK', 'sek': 'BU-SK', 'sk': 'BU-SK',
     'adhikarana': 'BU-AS', 'adh': 'BU-AS', 'as': 'BU-AS',
-    'mv': 'VIN-MV', 'mahavagga': 'VIN-MV',
-    'cv': 'VIN-CV', 'cullavagga': 'VIN-CV',
-    'kd': 'VIN-KD', 'khandhaka': 'VIN-KD',
-    'vin': 'VIN',
+    'mv': 'VIN-MV', 'mahavagga': 'VIN-MV', 'cv': 'VIN-CV', 'cullavagga': 'VIN-CV',
+    'kd': 'VIN-KD', 'khandhaka': 'VIN-KD', 'vin': 'VIN',
 }
 
 SUTTA_KEYS = r"d|m|s|a|dn|mn|sn|an|kp|khp|dhp|snp|ud|iti|vv|pv|thag|thig|ja|ma|mā|da|dā|sa|sā|ea|eā"
@@ -81,24 +75,22 @@ def normalize_citation(code, number):
     clean_code = code.replace(".", "").replace(" ", "").lower()
     clean_code = unicodedata.normalize('NFC', clean_code)
     
-    # 1. Handle Roman Numerals (Mv IX -> 9)
-    match_roman = re.match(r"^([ixvIXV]+)([\.\s].*)?$", number)
-    clean_num_str = number
+    clean_num_str = number.replace(":", ".").replace("*", "").replace("_", "")
+    
+    match_roman = re.match(r"^([ixvIXV]+)([\.\s].*)?$", clean_num_str)
     if match_roman:
         int_val = roman_to_int(match_roman.group(1))
         if int_val:
             rest = match_roman.group(2) if match_roman.group(2) else ""
             clean_num_str = f"{int_val}{rest}"
             
-    clean_num_str = clean_num_str.replace(":", ".").replace(" ", ".").replace(",", ".").replace(";", ".").strip('.')
+    clean_num_str = clean_num_str.replace(" ", ".").replace(",", ".").replace(";", ".").strip('.')
 
-    # 2. Handle Kd -> Mv/Cv
     if clean_code in ['kd', 'khandhaka']:
         resolved = resolve_khandhaka(clean_num_str)
         if resolved: return resolved, ""
     
-    # 3. PTS Lookup (if map exists)
-    vol_match = re.match(r'^([ixvIXV]+)[\.\s]+(\d+)', number)
+    vol_match = re.match(r'^([ixvIXV]+)[\.\s]+(\d+)', number) 
     lookup_key = None
     if vol_match:
         roman = vol_match.group(1).lower()
@@ -115,7 +107,6 @@ def normalize_citation(code, number):
     if lookup_key and lookup_key in PTS_MAP:
         return PTS_MAP[lookup_key], "" 
 
-    # 4. Standard Construction
     prefix = CODE_MAP.get(clean_code, clean_code.upper())
     candidate = f"{prefix}{clean_num_str}"
     
@@ -128,7 +119,6 @@ def normalize_citation(code, number):
     return candidate, ""
 
 def generate_smart_link(full_id):
-    # Regex: (VIN-MV|VIN-CV)(\d+)\.(\d+)
     match = re.match(r"^(VIN-MV|VIN-CV)(\d+)\.(\d+)$", full_id)
     if match:
         prefix, book_num, section = match.groups()
@@ -136,7 +126,6 @@ def generate_smart_link(full_id):
             filename = FILE_PATTERNS[prefix].format(num=book_num)
             return f"[[{filename}#^{section}|{full_id}]]"
 
-    # Fallback for Whole Chapter
     match_chap = re.match(r"^(VIN-MV|VIN-CV)(\d+)$", full_id)
     if match_chap:
         prefix, book_num = match_chap.groups()
@@ -147,9 +136,15 @@ def generate_smart_link(full_id):
     return f"[[{full_id}]]"
 
 def extract_citations(text):
-    regex_template = r"(?i)\b({code})[\.\s]*((?:[ivxIVX]+[\.\s]*)?[\d\.\-–:,;]+)"
-    vin_matches = re.findall(regex_template.format(code=VIN_KEYS), text)
-    sutta_matches = re.findall(regex_template.format(code=SUTTA_KEYS), text)
+    # Regex Template (NO (?i) HERE)
+    regex_template = r"\b({code})[\.\s\*\_]*((?:[ivxIVX]+[\.\s]*)?[\d\.\-–:,;]+)"
+    
+    # We prepend (?i) manually to the full string
+    vin_pattern = f"(?i){regex_template.format(code=VIN_KEYS)}"
+    sutta_pattern = f"(?i){regex_template.format(code=SUTTA_KEYS)}"
+    
+    vin_matches = re.findall(vin_pattern, text)
+    sutta_matches = re.findall(sutta_pattern, text)
     
     sutta_links = set([f"[[{normalize_citation(c, n)[0]}]]" for c, n in sutta_matches])
     vin_links = set([f"[[{normalize_citation(c, n)[0]}]]" for c, n in vin_matches])
@@ -157,11 +152,32 @@ def extract_citations(text):
     return sorted(list(sutta_links)), sorted(list(vin_links))
 
 def inject_wikilinks(text):
-    regex_template = r"(?i)\b({code})[\.\s]*((?:[ivxIVX]+[\.\s]*)?[\d\.\-–:,;]+)"
-    full_pattern = regex_template.format(code=f"{SUTTA_KEYS}|{VIN_KEYS}")
+    # 1. TEMPLATE (No Flag)
+    regex_template = r"\b({code})[\.\s\*\_]*((?:[ivxIVX]+[\.\s]*)?[\d\.\-–:,;]+)"
+    citation_pattern = regex_template.format(code=f"{SUTTA_KEYS}|{VIN_KEYS}")
     
-    def replace_match(match):
-        link_id, suffix = normalize_citation(match.group(1), match.group(2))
-        return f"{generate_smart_link(link_id)}{suffix}"
+    # 2. COMBINED (Flag goes at the VERY START)
+    # (?i) applies to both group 1 (existing links) and group 2 (citations)
+    combined_pattern = f"(?i)(\\[\\[.*?\\]\\])|({citation_pattern})"
+    
+    def replace_logic(match):
+        # Case 1: Existing Link -> Skip
+        if match.group(1): return match.group(1)
+        
+        # Case 2: Citation
+        full_citation_text = match.group(2)
+        
+        # We re-match to extract Code vs Number safely
+        # We must add (?i) here too because full_citation_text might be "sn 22"
+        sub_match = re.match(f"(?i){citation_pattern}", full_citation_text)
+        
+        if sub_match:
+            code = sub_match.group(1)
+            number = sub_match.group(2)
+            
+            link_id, suffix = normalize_citation(code, number)
+            return f"{generate_smart_link(link_id)}{suffix}"
+        
+        return full_citation_text
 
-    return re.sub(full_pattern, replace_match, text)
+    return re.sub(combined_pattern, replace_logic, text)

@@ -11,7 +11,11 @@ import citation_scanner
 import author_tools 
 
 def clean_filename(stem):
-    return re.sub(r'^[\d\-\.\_\s]+', '', stem) if re.sub(r'^[\d\-\.\_\s]+', '', stem) else stem
+    # 1. Remove Leading numbering
+    stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
+    # 2. Remove Trailing "Junk IDs" (Underscore + 4+ digits)
+    stem = re.sub(r'_[\d]{4,}$', '', stem)
+    return stem.strip()
 
 def extract_text_from_pdf(filepath):
     try:
@@ -36,7 +40,7 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     ext = filepath.suffix.lower()
     
     if author_override:
-        author = author_tools.normalize(author_override)
+        author = author_tools.strip_accents(author_override)
         title = clean_filename(original_stem)
     else:
         if " - " in original_stem:
@@ -47,11 +51,19 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
             author = "Unknown"
             title = clean_filename(original_stem)
     
-    author = author_tools.strip_accents(author)
     title = author_tools.strip_accents(title)
 
-    book_folder = dest_root / category / "Books" / author / title
-    attachment_folder = book_folder / "attachments"
+    # --- SUBFOLDER MIRRORING ---
+    relative_path = Path("")
+    if author_override:
+        for parent in filepath.parents:
+            if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
+                try: relative_path = filepath.parent.relative_to(parent)
+                except: pass
+                break
+
+    author_folder = dest_root / category / "Books" / author / relative_path
+    attachment_folder = author_folder / "attachments"
     attachment_folder.mkdir(parents=True, exist_ok=True)
 
     print(f"🔍 Reference Stub: {title}...")
@@ -83,6 +95,6 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 """
 
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
-    with open(book_folder / safe_filename, "w", encoding='utf-8') as f: f.write(md_content)
+    with open(author_folder / safe_filename, "w", encoding='utf-8') as f: f.write(md_content)
 
     print(f"✅ Stub Created: {safe_filename}")
