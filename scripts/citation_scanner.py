@@ -3,7 +3,7 @@ import json
 import unicodedata
 from pathlib import Path
 
-# --- CONFIGURATION: REPO B FILENAMES ---
+# --- CONFIGURATION: BRAHMALI FILENAMES ---
 FILE_PATTERNS = {
     "VIN-MV": "mv{num}-brahmali-pali",
     "VIN-CV": "cv{num}-brahmali-pali",
@@ -58,37 +58,41 @@ def resolve_khandhaka(kd_num_str):
     except ValueError: return None
 
 def normalize_citation(code, number):
+    # 1. CASE SENSITIVE OVERRIDE (Sn = Sutta Nipata)
+    book_override = None
+    if code == "Sn": 
+        book_override = "SNP"
+    
     clean_code = code.replace(".", "").replace(" ", "").lower()
     clean_code = unicodedata.normalize('NFC', clean_code)
     
-    # 1. Separator Normalization
-    # Colon (56:11) -> Dot (56.11)
-    # Semicolon (56;11) -> Dot (56.11)
+    # 2. SEPARATOR NORMALIZATION
     clean_num_str = number.replace(":", ".").replace(";", ".").replace(",", ".")
-    
-    # 2. Strip Noise (*, _)
     clean_num_str = clean_num_str.replace("*", "").replace("_", "")
-    
-    # 3. Strip Trailing Dots/Spaces
     clean_num_str = clean_num_str.strip(". ")
 
     if clean_code in ['kd', 'khandhaka']:
         resolved = resolve_khandhaka(clean_num_str)
         if resolved: return resolved, ""
     
-    # PTS Lookup (if formatted as code + number)
+    # PTS Lookup
     if "." in clean_num_str:
         possible_key = f"{clean_code}{clean_num_str}"
         parts = possible_key.split('.')
         if len(parts) >= 2 and f"{parts[0]}.{parts[1]}" in PTS_MAP:
             return PTS_MAP[f"{parts[0]}.{parts[1]}"], ""
 
-    prefix = CODE_MAP.get(clean_code, clean_code.upper())
+    # 3. MAPPING
+    if book_override:
+        prefix = book_override
+    else:
+        prefix = CODE_MAP.get(clean_code, clean_code.upper())
+        
     candidate = f"{prefix}{clean_num_str}"
     
     if candidate in VALID_IDS: return candidate, ""
     
-    # Try stripping suffixes to find a valid parent ID
+    # Recursive fallback
     parts = clean_num_str.split('.')
     for i in range(len(parts)-1, 0, -1):
         check_id = f"{prefix}{'.'.join(parts[:i])}"
@@ -97,27 +101,39 @@ def normalize_citation(code, number):
     return candidate, ""
 
 def generate_smart_link(full_id):
-    match = re.match(r"^(VIN-MV|VIN-CV)(\d+)\.(\d+)$", full_id)
+    """
+    1. Truncates deep paragraphs (MV8.15.3 -> MV8.15)
+    2. Applies Offset for Cullavagga (CV1 -> cv11)
+    """
+    
+    match = re.match(r"^(VIN-MV|VIN-CV)(\d+)\.(\d+)(?:\.[\d\.]+)?$", full_id)
     if match:
         prefix, book_num, section = match.groups()
+        
+        # --- OFFSET LOGIC (CV 1 = File 11) ---
+        if prefix == "VIN-CV":
+            book_num = str(int(book_num) + 10)
+
         if prefix in FILE_PATTERNS:
             filename = FILE_PATTERNS[prefix].format(num=book_num)
             return f"[[{filename}#^{section}|{full_id}]]"
 
+    # Match Whole Chapter (MV8)
     match_chap = re.match(r"^(VIN-MV|VIN-CV)(\d+)$", full_id)
     if match_chap:
         prefix, book_num = match_chap.groups()
+        
+        if prefix == "VIN-CV":
+            book_num = str(int(book_num) + 10)
+
         if prefix in FILE_PATTERNS:
             filename = FILE_PATTERNS[prefix].format(num=book_num)
             return f"[[{filename}|{full_id}]]"
 
+    # Default fallback
     return f"[[{full_id}]]"
 
 def extract_citations(text):
-    # REGEX LOGIC:
-    # 1. Code (SN, MN...)
-    # 2. Separators (Dots, spaces, stars)
-    # 3. NUMBER: Must start with a digit (\d), then can allow separators (.,:;-).
     regex_template = r"\b({code})[\.\s\*\_]*(\d[\d\.\-–:,;]*)"
     
     vin_pattern = f"(?i){regex_template.format(code=VIN_KEYS)}"
@@ -126,8 +142,15 @@ def extract_citations(text):
     vin_matches = re.findall(vin_pattern, text)
     sutta_matches = re.findall(sutta_pattern, text)
     
-    sutta_links = set([f"[[{normalize_citation(c, n)[0]}]]" for c, n in sutta_matches])
-    vin_links = set([f"[[{normalize_citation(c, n)[0]}]]" for c, n in vin_matches])
+    sutta_links = set()
+    for code, num in sutta_matches:
+        full_id, _ = normalize_citation(code, num)
+        sutta_links.add(generate_smart_link(full_id))
+        
+    vin_links = set()
+    for code, num in vin_matches:
+        full_id, _ = normalize_citation(code, num)
+        vin_links.add(generate_smart_link(full_id))
         
     return sorted(list(sutta_links)), sorted(list(vin_links))
 
@@ -138,7 +161,7 @@ def inject_wikilinks(text):
     combined_pattern = f"(?i)(\\[\\[.*?\\]\\])|({citation_pattern})"
     
     def replace_logic(match):
-        if match.group(1): return match.group(1) # Existing link
+        if match.group(1): return match.group(1) 
         
         full_citation_text = match.group(2)
         

@@ -11,11 +11,24 @@ import citation_scanner
 import author_tools 
 
 def clean_filename(stem):
-    # 1. Remove Leading numbering
     stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
-    # 2. Remove Trailing "Junk IDs" (Underscore + 4+ digits)
     stem = re.sub(r'_[\d]{4,}$', '', stem)
     return stem.strip()
+
+def determine_author_and_title(source_path, author_override):
+    original_stem = source_path.stem
+    if " - " in original_stem:
+        file_author_part, file_title_part = original_stem.split(" - ", 1)
+        final_author = author_tools.normalize(file_author_part)
+        final_title = clean_filename(file_title_part)
+    elif author_override:
+        final_author = author_tools.strip_accents(author_override)
+        final_title = clean_filename(original_stem)
+    else:
+        final_author = "Unknown"
+        final_title = clean_filename(original_stem)
+    final_title = author_tools.strip_accents(final_title)
+    return final_author, final_title
 
 def extract_text_from_pdf(filepath):
     try:
@@ -36,33 +49,30 @@ def extract_text_from_epub(filepath):
     except: return ""
 
 def process_reference_file(filepath, dest_root, category, author_override=None):
-    original_stem = filepath.stem
+    author, title = determine_author_and_title(filepath, author_override)
     ext = filepath.suffix.lower()
-    
-    if author_override:
-        author = author_tools.strip_accents(author_override)
-        title = clean_filename(original_stem)
-    else:
-        if " - " in original_stem:
-            raw_author, raw_title = original_stem.split(" - ", 1)
-            author = author_tools.normalize(raw_author)
-            title = raw_title
-        else:
-            author = "Unknown"
-            title = clean_filename(original_stem)
-    
-    title = author_tools.strip_accents(title)
 
-    # --- SUBFOLDER MIRRORING ---
-    relative_path = Path("")
+    # --- DYNAMIC SUBFOLDER & CONTRIBUTION LOGIC ---
+    relative_path = Path("Books") 
+    contribution_type = "book"
+
     if author_override:
         for parent in filepath.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
-                try: relative_path = filepath.parent.relative_to(parent)
+                try: 
+                    full_rel = filepath.parent.relative_to(parent)
+                    if str(full_rel) == "." or author_tools.normalize(full_rel.name) == author_tools.normalize(author):
+                         relative_path = Path("Books")
+                         contribution_type = "book"
+                    else:
+                        relative_path = full_rel
+                        contribution_type = str(full_rel).lower().replace("_", " ")
                 except: pass
                 break
 
-    author_folder = dest_root / category / "Books" / author / relative_path
+    storage_author = author_tools.strip_accents(author_override) if author_override else author
+    author_folder = dest_root / "Contributions" / category / storage_author / relative_path
+    
     attachment_folder = author_folder / "attachments"
     attachment_folder.mkdir(parents=True, exist_ok=True)
 
@@ -72,16 +82,24 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
     elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
     
+    # SCAN CITATIONS (Required for Reference)
     suttas, vinaya = citation_scanner.extract_citations(raw_text)
     
     dest_file = attachment_folder / filepath.name
+    if dest_file.exists():
+        print(f"   ⚠️ Attachment exists, overwriting: {dest_file.name}")
     shutil.move(str(filepath), str(dest_file))
 
     frontmatter = {
-        "title": title, "author": author, "category": category,
-        "contribution": "book", "status": "reference_only",
-        "theme": "To_Fill", "topic": "To_Fill",
-        "sutta_citations": suttas, "vin_citations": vinaya
+        "title": title, 
+        "author": author, 
+        "category": category,
+        "contribution": contribution_type, # <--- DYNAMIC LOWERCASE
+        "status": "reference_only",
+        "theme": "To_Fill", 
+        "topic": "To_Fill",
+        "sutta_citations": suttas, 
+        "vin_citations": vinaya
     }
 
     md_content = f"""---
@@ -95,6 +113,8 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 """
 
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
-    with open(author_folder / safe_filename, "w", encoding='utf-8') as f: f.write(md_content)
+    output_path = author_folder / safe_filename
+    
+    with open(output_path, "w", encoding='utf-8') as f: f.write(md_content)
 
     print(f"✅ Stub Created: {safe_filename}")

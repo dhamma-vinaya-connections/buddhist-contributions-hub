@@ -9,29 +9,14 @@ import citation_scanner
 import author_tools 
 
 def clean_filename(stem):
-    # 1. Remove Leading numbering
     stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
-    # 2. Remove Trailing "Junk IDs" (Underscore + 4+ digits)
     stem = re.sub(r'_[\d]{4,}$', '', stem)
     return stem.strip()
 
 def repair_pali_fractures(text):
-    """
-    Fixes words broken by font switches in PDFs.
-    Example: "_Majjhima-nik_ ā _ya_" -> "_Majjhima-nikāya_"
-    """
-    # Regex explanation:
-    # 1. Matches italicized text ending in _ (_abc_)
-    # 2. Matches a single Pali char floating in space ( ā )
-    # 3. Matches italicized text starting in _ (_xyz_)
-    # We stitch them together into one italicized block: _abcāxyz_
-    
     pattern = r'_([a-zA-Z\-]+)_\s*([āīūḍḷṃṅṇṭñĀĪŪḌḶṂṄṆṬÑ])\s*_([a-zA-Z\-]+)_'
-    
-    # Run it twice to catch multiple fractures in one word
     text = re.sub(pattern, r'_\1\2\3_', text)
     text = re.sub(pattern, r'_\1\2\3_', text)
-    
     return text
 
 def extract_pdf_metadata(doc):
@@ -45,41 +30,48 @@ def extract_pdf_metadata(doc):
         return combined if combined else "To_Fill"
     except: return "To_Fill"
 
-def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override=None):
+def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
-    
-    if author_override:
-        author = author_tools.strip_accents(author_override)
-        title = clean_filename(original_stem)
+    if " - " in original_stem:
+        file_author_part, file_title_part = original_stem.split(" - ", 1)
+        final_author = author_tools.normalize(file_author_part)
+        final_title = clean_filename(file_title_part)
+    elif author_override:
+        final_author = author_tools.strip_accents(author_override)
+        final_title = clean_filename(original_stem)
     else:
-        if " - " in original_stem:
-            raw_author, raw_title = original_stem.split(" - ", 1)
-            author = author_tools.normalize(raw_author)
-            title = raw_title
-        else:
-            author = "Unknown"
-            title = clean_filename(original_stem)
+        final_author = "Unknown"
+        final_title = clean_filename(original_stem)
+    final_title = author_tools.strip_accents(final_title)
+    return final_author, final_title
 
-    title = author_tools.strip_accents(title)
+def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override=None):
+    author, title = determine_author_and_title(source_path, author_override)
 
-    # --- SMART FLATTENING ---
-    relative_path = Path("")
+    # --- DYNAMIC SUBFOLDER & CONTRIBUTION LOGIC ---
+    relative_path = Path("Books") # Default folder
+    contribution_type = "book"    # Default metadata
+
     if author_override:
         for parent in source_path.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
                 try: 
-                    candidate_rel = source_path.parent.relative_to(parent)
-                    folder_name = candidate_rel.name.lower().replace(" ", "").replace("_", "")
-                    book_name = title.lower().replace(" ", "").replace("_", "")
+                    full_rel = source_path.parent.relative_to(parent)
                     
-                    if folder_name == book_name:
-                        relative_path = Path("") 
+                    # If file is directly in author folder, or redundant folder
+                    if str(full_rel) == "." or author_tools.normalize(full_rel.name) == author_tools.normalize(author):
+                         relative_path = Path("Books")
+                         contribution_type = "book"
                     else:
-                        relative_path = candidate_rel
+                        relative_path = full_rel
+                        # Use the folder name as the type (e.g. "Study Guides" -> "study guides")
+                        contribution_type = str(full_rel).lower().replace("_", " ")
                 except: pass
                 break
 
-    final_folder = dest_root / category / "Books" / author / relative_path
+    storage_author = author_tools.strip_accents(author_override) if author_override else author
+    final_folder = dest_root / "Contributions" / category / storage_author / relative_path
+    
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
     output_path = final_folder / safe_filename
 
@@ -94,23 +86,20 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
     extracted_theme = extract_pdf_metadata(doc)
     doc.close()
 
-    # 1. CONVERT
     md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
-    
-    # 2. REPAIR FRACTURES (Fix the spacing issues)
     md_text = repair_pali_fractures(md_text)
-
-    # 3. CLEANUP
     md_text = re.sub(r'!\[.*?\]\(.*?\)', '', md_text)
     
-    # 4. INJECT LINKS (Using Strict Scanner)
+    # Inject Text Links (No YAML extraction)
     md_text = citation_scanner.inject_wikilinks(md_text)
-    suttas, vinaya = citation_scanner.extract_citations(md_text)
     
     frontmatter = {
-        "title": title, "author": author, "category": category,
-        "contribution": "book", "theme": extracted_theme, "topic": "To_Fill",
-        "sutta_citations": suttas, "vin_citations": vinaya
+        "title": title, 
+        "author": author, 
+        "category": category,
+        "contribution": contribution_type, # <--- DYNAMIC LOWERCASE
+        "theme": extracted_theme, 
+        "topic": "To_Fill"
     }
     
     final_folder.mkdir(parents=True, exist_ok=True)

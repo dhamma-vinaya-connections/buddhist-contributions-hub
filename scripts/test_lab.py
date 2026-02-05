@@ -2,82 +2,112 @@ import os
 import shutil
 from pathlib import Path
 
-# --- IMPORT YOUR CONVERTERS ---
+# --- IMPORT TOOLS ---
+import reference_scanner
 import pdf_converter
 import epub_converter
 
 # ==========================================
-# 🧪 CONFIGURATION
-# ==========================================
-TEST_FILE = r"buddhist-contributions-hub/Inbox/Dhamma/pdf/Ven. Analayo/Comparative studies/Analayo - MN comparative 1.pdf"
+# ⚙️ CONFIGURATION
 # ==========================================
 
-def get_author_smart(filepath):
-    """
-    Mimics the Librarian's smart logic.
-    Finds 'epub'/'pdf' in path and grabs the folder IMMEDIATELY after it.
-    """
-    parts = filepath.parts
-    anchors = ["pdf", "epub", "md", "reference only"]
-    
-    for i, part in enumerate(parts):
-        if part.lower() in anchors:
-            if i + 1 < len(parts) - 1:
-                return parts[i+1] # The folder after anchor
-            elif i + 1 == len(parts) - 1:
-                return parts[i+1] # The folder holding the file
-                
-    # Fallback: Parent folder
-    return filepath.parent.name
+# 1. FILE TO PROCESS (Path to a specific file in your Inbox)
+SOURCE_FILE = r"buddhist-contributions-hub/Inbox/Vinaya/reference_only_pdf/Ven. Anon/Ven. Anon - The_Concise_Buddhist_Monastic_Code_1.pdf"
 
-def run_test():
-    source_path = Path(TEST_FILE).resolve()
+# 2. MODE SWITCH
+# False = Safe Test (Creates copies in 'Test_Result' folder)
+# True  = REAL ACTION (Moves file to 'Library' & creates MD)
+PRODUCTION_MODE = True
+
+# 3. DESTINATION (Where is your real Library?)
+REAL_LIBRARY_ROOT = Path(r"buddhist-contributions-hub/Library")
+
+# 4. CATEGORY (Dhamma, Vinaya, etc.)
+CATEGORY = "Dhamma"
+
+# 5. AUTHOR OVERRIDE (Optional, set to None if not needed)
+# If the file is in 'Inbox/Dhamma/pdf/Ven. Thanissaro/Book.pdf', set this to "Ven. Thanissaro"
+AUTHOR_OVERRIDE = "None"
+
+# ==========================================
+
+def run_manual_process():
+    source_path = Path(SOURCE_FILE).resolve()
     
     if not source_path.exists():
         print(f"❌ Error: Could not find file at: {source_path}")
         return
 
-    # Use Smart Logic
-    author_from_folder = get_author_smart(source_path)
-    print(f"🧪 Detected Author: '{author_from_folder}'")
+    # --- DETERMINE ROOT & MODE ---
+    if PRODUCTION_MODE:
+        dest_root = REAL_LIBRARY_ROOT
+        target_file = source_path # We work on the REAL file
+        print("🚨 PRODUCTION MODE ENABLED 🚨")
+        print(f"   Moving file from: {source_path}")
+        print(f"   To Library at:    {dest_root}")
+    else:
+        # Safe Test Setup
+        script_dir = Path(__file__).parent
+        dest_root = script_dir.parent / "Test_Result"
+        fake_inbox = dest_root / "Fake_Inbox"
+        
+        if dest_root.exists(): shutil.rmtree(dest_root)
+        fake_inbox.mkdir(parents=True, exist_ok=True)
+        
+        # Copy file to fake inbox
+        target_file = fake_inbox / source_path.name
+        shutil.copy(source_path, target_file)
+        
+        print("🧪 SAFE TEST MODE")
+        print(f"   Working on copy: {target_file}")
+        print(f"   Outputting to:   {dest_root}")
 
-    script_dir = Path(__file__).parent
-    output_root = script_dir.parent / "Test_Result"
-    
-    if output_root.exists(): shutil.rmtree(output_root)
-    output_root.mkdir(parents=True, exist_ok=True)
-
-    print(f"📂 Output: {output_root}")
     print("-" * 40)
 
-    ext = source_path.suffix.lower()
+    # --- SELECT TOOL BASED ON FOLDER NAME ---
+    # (Or you can manually uncomment the one you want)
     
     try:
-        if ext == ".pdf":
-            pdf_converter.convert_pdf_to_md(
-                source_path, output_root, category="Test_Category", author_override=author_from_folder
+        # CHECK: Is it a Reference Scan?
+        if "reference" in str(source_path).lower():
+            print("🔧 Using: REFERENCE SCANNER")
+            reference_scanner.process_reference_file(
+                filepath=target_file,
+                dest_root=dest_root,
+                category=CATEGORY,
+                author_override=AUTHOR_OVERRIDE
             )
-        elif ext == ".epub":
-            epub_converter.convert_epub_to_md(
-                source_path, output_root, category="Test_Category", author_override=author_from_folder
-            )
-        else:
-            print(f"⚠️ Unsupported file type: {ext}")
             
+        # CHECK: Is it a PDF?
+        elif source_path.suffix.lower() == '.pdf':
+            print("🔧 Using: PDF CONVERTER")
+            pdf_converter.convert_pdf_to_md(
+                source_path=target_file,
+                dest_root=dest_root,
+                category=CATEGORY,
+                author_override=AUTHOR_OVERRIDE
+            )
+            
+        # CHECK: Is it an EPUB?
+        elif source_path.suffix.lower() == '.epub':
+            print("🔧 Using: EPUB CONVERTER")
+            epub_converter.convert_epub_to_md(
+                source_path=target_file,
+                dest_root=dest_root,
+                category=CATEGORY,
+                author_override=AUTHOR_OVERRIDE
+            )
+            
+        else:
+            print("❌ Unknown file type.")
+
     except Exception as e:
         print(f"💥 CRASH: {e}")
         import traceback
         traceback.print_exc()
 
     print("-" * 40)
-    
-    found_files = list(output_root.rglob("*.md"))
-    if found_files:
-        print(f"✅ SUCCESS! Created {len(found_files)} file(s):")
-        for f in found_files:
-            print(f"   📄 {f}")
-    else:
-        print("❌ FAILURE: No Markdown files were created.")
+    print("✅ Done.")
 
 if __name__ == "__main__":
-    run_test()
+    run_manual_process()
