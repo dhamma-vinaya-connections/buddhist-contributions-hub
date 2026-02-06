@@ -12,7 +12,9 @@ import obsidian_processor
 # ==========================================
 REPO_ROOT = Path(__file__).parent.parent 
 INBOX_ROOT = REPO_ROOT / "Inbox"
-DESTINATION_ROOT = REPO_ROOT / "Buddhist_hub"
+
+# CHANGED: Contributions now sits directly at the Repo Root
+DESTINATION_ROOT = REPO_ROOT 
 # ==========================================
 
 def get_category_and_type(path):

@@ -34,20 +34,59 @@ def parse_existing_frontmatter(text):
         except: return {}, text
     return {}, text
 
+def transfer_attachments(body_text, source_path, dest_folder):
+    """
+    Scans the markdown text for ![[image.png]] or ![alt](image.png)
+    and copies those files from Source to Destination.
+    """
+    # 1. Find WikiLinks: ![[image.png]] or ![[image.png|200]]
+    wiki_matches = re.findall(r'!\[\[(.*?)(?:\|.*?)?\]\]', body_text)
+
+    # 2. Find Standard Links: ![alt](image.png)
+    md_matches = re.findall(r'!\[.*?\]\((.*?)\)', body_text)
+
+    all_images = set(wiki_matches + md_matches)
+
+    for img_name in all_images:
+        img_name = img_name.strip()
+        
+        # Assumption: The image path is relative to the note
+        # (e.g. "image.png" or "assets/image.png")
+        src_img = source_path.parent / img_name
+        
+        if src_img.exists() and src_img.is_file():
+            dest_img = dest_folder / img_name
+            
+            # Ensure subfolders exist if link was "assets/img.png"
+            dest_img.parent.mkdir(parents=True, exist_ok=True)
+            
+            # Copy only if it doesn't exist (to save time) or strictly overwrite?
+            # Since we overwrite notes, we should ensure images are current too.
+            if not dest_img.exists():
+                print(f"   🖼️ Copying attachment: {img_name}")
+                shutil.copy2(str(src_img), str(dest_img))
+            else:
+                 # Check if size differs? For now, just skip to save IO if exists.
+                 pass
+
 def process_obsidian_file(source_path, dest_root, category="Dhamma", author_override=None):
     author, title = determine_author_and_title(source_path, author_override)
 
-    # --- MIRROR SUBFOLDER LOGIC ---
-    relative_path = Path("")
+    # --- DYNAMIC FOLDER LOGIC ---
+    relative_path = Path("") 
+    contribution_type = "text" 
+
     if author_override:
         for parent in source_path.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
                 try: 
                     full_rel = source_path.parent.relative_to(parent)
-                    if author_tools.normalize(full_rel.name) == author_tools.normalize(author):
+                    if author_tools.normalize(full_rel.name) == author_tools.normalize(author) or str(full_rel) == ".":
                         relative_path = Path("")
+                        contribution_type = "text"
                     else:
                         relative_path = full_rel
+                        contribution_type = str(full_rel).lower().replace("_", " ")
                 except: pass
                 break
 
@@ -56,47 +95,53 @@ def process_obsidian_file(source_path, dest_root, category="Dhamma", author_over
     
     ext = source_path.suffix.lower()
     
-    # CASE A: MARKDOWN
+    # CASE A: MARKDOWN (OVERWRITE MODE + IMAGE COPY)
     if ext == '.md':
         safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
         output_path = final_folder / safe_filename
         
+        action_msg = "📝 Creating"
         if output_path.exists():
-            print(f"⏩ Skipping: {title} (Exists)")
-            return
+            action_msg = "♻️ Updating (Overwrite)"
+            
+        print(f"{action_msg}: {title}...")
 
-        print(f"📝 Processing MD: {title}...")
         try:
             with open(source_path, 'r', encoding='utf-8') as f: raw_content = f.read()
         except: return
 
         existing_meta, body_text = parse_existing_frontmatter(raw_content)
-        
-        # Inject Links (Minimal Metadata)
         clean_body = citation_scanner.inject_wikilinks(body_text)
         
         frontmatter = existing_meta.copy()
         frontmatter.update({
-            "title": title, "author": author, "category": category,
-            "contribution": frontmatter.get("contribution", "text") 
+            "title": title, 
+            "author": author, 
+            "category": category,
+            "contribution": contribution_type 
         })
         
         final_folder.mkdir(parents=True, exist_ok=True)
+        
+        # --- NEW: COPY ATTACHMENTS ---
+        transfer_attachments(clean_body, source_path, final_folder)
+        # -----------------------------
+
         final_content = "---\n" + yaml.dump(frontmatter, sort_keys=False) + "---\n" + clean_body
         
         with open(output_path, "w", encoding='utf-8') as f: f.write(final_content)
         print(f"✅ Finished: {output_path}")
 
-    # CASE B: CANVAS / OTHERS
+    # CASE B: CANVAS / OTHERS (OVERWRITE MODE)
     else:
         safe_filename = f"{author} - {title}{ext}".replace("/", "-").replace(":", "-")
         output_path = final_folder / safe_filename
         
+        action_msg = "📦 Moving"
         if output_path.exists():
-            print(f"⏩ Skipping: {safe_filename} (Exists)")
-            return
+            action_msg = "♻️ Updating (Overwrite)"
 
-        print(f"📦 Moving {ext}: {safe_filename}...")
+        print(f"{action_msg}: {safe_filename}...")
         final_folder.mkdir(parents=True, exist_ok=True)
-        shutil.copy(str(source_path), str(output_path))
+        shutil.copy2(str(source_path), str(output_path))
         print(f"✅ Finished: {output_path}")

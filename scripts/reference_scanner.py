@@ -52,7 +52,7 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     author, title = determine_author_and_title(filepath, author_override)
     ext = filepath.suffix.lower()
 
-    # --- DYNAMIC SUBFOLDER & CONTRIBUTION LOGIC ---
+    # --- DYNAMIC FOLDER LOGIC ---
     relative_path = Path("Books") 
     contribution_type = "book"
 
@@ -82,19 +82,22 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
     elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
     
-    # SCAN CITATIONS (Required for Reference)
     suttas, vinaya = citation_scanner.extract_citations(raw_text)
     
     dest_file = attachment_folder / filepath.name
+    
+    # --- LOGIC: OVERWRITE ATTACHMENT IN LIBRARY, KEEP IN INBOX ---
     if dest_file.exists():
         print(f"   ⚠️ Attachment exists, overwriting: {dest_file.name}")
-    shutil.move(str(filepath), str(dest_file))
+    
+    # Use copy2 (Copy metadata + file) instead of move
+    shutil.copy2(str(filepath), str(dest_file))
 
     frontmatter = {
         "title": title, 
         "author": author, 
         "category": category,
-        "contribution": contribution_type, # <--- DYNAMIC LOWERCASE
+        "contribution": contribution_type, 
         "status": "reference_only",
         "theme": "To_Fill", 
         "topic": "To_Fill",
@@ -111,10 +114,8 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 
 ![[{filepath.name}]]
 """
-
     safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
     output_path = author_folder / safe_filename
     
     with open(output_path, "w", encoding='utf-8') as f: f.write(md_content)
-
     print(f"✅ Stub Created: {safe_filename}")

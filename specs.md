@@ -34,43 +34,42 @@ The target structure after processing. `Buddhist_hub / Contributions / {Category
 
 > **Note:** The "Format" folder (pdf/epub) is removed. Files are organized purely by Content and Author.
 
-- repo e
+- Buddhist Contributions Hub 
 	- scrips
 	- inbox
 		- Dhamma 
 			- pdf
 				- Folders by author 
-					- books
-					- study guides 
-					- etc
-			- Reference only pdf
-				- Folders by author 
-			- epub
-				- Folders by author 
-			- md
-				- Folders by author 
-			- others (bases canvas, etc)
-		- Vinaya
-			- Pdf
-					- Folders by author 
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
 			- Reference only
 				- Folders by author 
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
 			- epub
 				- Folders by author 
-			- md
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
+			- obsidian 
 				- Folders by author 
-			- others (bases canvas, etc)
-	- Buddhist _hub
-		- Library 
-			- Dhamma
+					- subfolders by type (book, studyguide, canvas, anthologies, notes etc )	
+		- Vinaya
+			- Pdf
+					- Folders by author
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
+			- Reference only
 				- Folders by author 
-			- Vinaya
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
+			- epub
 				- Folders by author 
-		- Contributions 
-			- Dhamma 
+					- subfolders by type (book, studyguide, canvas, anthologies ets )
+			- obsidian 
 				- Folders by author 
-			- Vinaya
-				- Folders by author 
+					- subfolders by type (book, studyguide, canvas, anthologies ets )		
+	- Contributions  
+		- Dhamma
+			- Folders by author 
+				subfolders by type (book, studyguide, canvas, anthologies ets )
+		- Vinaya
+			- Folders by author 
+				subfolders by type (book, studyguide, canvas, anthologies ets )
 
 ## 3. The Automation Pipeline (`main.py`)
 
@@ -82,6 +81,7 @@ The system scans the Inbox and dispatches files based on their **Format** folder
 |`epub`|`epub_converter.py`|extracts text. Cleans HTML junk. Injects links. Moves to Contributions.|
 |`reference only`|`reference_scanner.py`|Moves original file to `attachments`. Creates a wrapper `.md` file. Scans citations into YAML.|
 |`obsidian`|`obsidian_processor.py`|**.md:** Cleans links, updates YAML. **.canvas:** Moves directly.|
+
 
 ---
 
@@ -138,7 +138,10 @@ The scripts enforce a **Force Update** on 4 core fields but preserve all other u
 - **Reference Exception:** If an attachment (PDF) inside the `attachments` folder exists, it is **OVERWRITTEN** (assuming you are updating the scan quality).
     
 
----
+
+### Version control 
+All the files remain in the inbox and only the last version is moved to the contributions folder, specially for obsidian files 
+
 
 ## 5. Script Inventory
 
