@@ -17,7 +17,8 @@ def clean_filename(stem):
 def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
     if " - " in original_stem:
-        file_author_part, file_title_part = original_stem.split(" - ", 1)
+        # SWAPPED: Title - Author
+        file_title_part, file_author_part = original_stem.split(" - ", 1)
         final_author = author_tools.normalize(file_author_part)
         final_title = clean_filename(file_title_part)
     elif author_override:
@@ -84,10 +85,8 @@ def html_to_markdown(html_content):
 def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_override=None):
     author, title = determine_author_and_title(source_path, author_override)
 
-    # --- DYNAMIC SUBFOLDER & CONTRIBUTION LOGIC ---
     relative_path = Path("Books") 
     contribution_type = "book"
-
     if author_override:
         for parent in source_path.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
@@ -105,18 +104,19 @@ def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_overrid
     storage_author = author_tools.strip_accents(author_override) if author_override else author
     final_folder = dest_root / "Contributions" / category / storage_author / relative_path
     
-    safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
+    # OUTPUT: Title - Author.md
+    safe_filename = f"{title} - {author}.md".replace("/", "-").replace(":", "-")
     output_path = final_folder / safe_filename
 
     if output_path.exists():
         print(f"⏩ Skipping: {title} (Exists)")
         return
-
+    
     print(f"📘 Converting: {title}...")
     try: book = epub.read_epub(source_path)
     except: return
-
     extracted_theme = extract_epub_metadata(book)
+    
     full_markdown = ""
     for item_id in book.spine:
         item = book.get_item_with_id(item_id[0])
@@ -125,16 +125,15 @@ def convert_epub_to_md(source_path, dest_root, category="Dhamma", author_overrid
             md = clean_junk_text(html_to_markdown(raw_html))
             if len(md) > 5: full_markdown += md + "\n\n---\n\n" 
 
-    # Inject Text Links (Minimal Metadata)
     full_markdown = citation_scanner.inject_wikilinks(full_markdown)
-    
+
     frontmatter = {
         "title": title, 
         "author": author, 
         "category": category,
-        "contribution": contribution_type, # <--- DYNAMIC LOWERCASE
-        "theme": extracted_theme, 
-        "topic": "To_Fill"
+        "contribution": contribution_type,
+        "theme": extracted_theme
+        # Removed "topic"
     }
     
     final_folder.mkdir(parents=True, exist_ok=True)

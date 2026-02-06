@@ -33,7 +33,8 @@ def extract_pdf_metadata(doc):
 def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
     if " - " in original_stem:
-        file_author_part, file_title_part = original_stem.split(" - ", 1)
+        # SWAPPED: Title - Author
+        file_title_part, file_author_part = original_stem.split(" - ", 1)
         final_author = author_tools.normalize(file_author_part)
         final_title = clean_filename(file_title_part)
     elif author_override:
@@ -48,23 +49,18 @@ def determine_author_and_title(source_path, author_override):
 def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override=None):
     author, title = determine_author_and_title(source_path, author_override)
 
-    # --- DYNAMIC SUBFOLDER & CONTRIBUTION LOGIC ---
-    relative_path = Path("Books") # Default folder
-    contribution_type = "book"    # Default metadata
-
+    relative_path = Path("Books") 
+    contribution_type = "book"
     if author_override:
         for parent in source_path.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
                 try: 
                     full_rel = source_path.parent.relative_to(parent)
-                    
-                    # If file is directly in author folder, or redundant folder
                     if str(full_rel) == "." or author_tools.normalize(full_rel.name) == author_tools.normalize(author):
                          relative_path = Path("Books")
                          contribution_type = "book"
                     else:
                         relative_path = full_rel
-                        # Use the folder name as the type (e.g. "Study Guides" -> "study guides")
                         contribution_type = str(full_rel).lower().replace("_", " ")
                 except: pass
                 break
@@ -72,7 +68,8 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
     storage_author = author_tools.strip_accents(author_override) if author_override else author
     final_folder = dest_root / "Contributions" / category / storage_author / relative_path
     
-    safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
+    # OUTPUT: Title - Author.md
+    safe_filename = f"{title} - {author}.md".replace("/", "-").replace(":", "-")
     output_path = final_folder / safe_filename
 
     if output_path.exists():
@@ -89,17 +86,15 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
     md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
     md_text = repair_pali_fractures(md_text)
     md_text = re.sub(r'!\[.*?\]\(.*?\)', '', md_text)
-    
-    # Inject Text Links (No YAML extraction)
     md_text = citation_scanner.inject_wikilinks(md_text)
     
     frontmatter = {
         "title": title, 
         "author": author, 
         "category": category,
-        "contribution": contribution_type, # <--- DYNAMIC LOWERCASE
-        "theme": extracted_theme, 
-        "topic": "To_Fill"
+        "contribution": contribution_type,
+        "theme": extracted_theme
+        # Removed "topic"
     }
     
     final_folder.mkdir(parents=True, exist_ok=True)

@@ -18,7 +18,8 @@ def clean_filename(stem):
 def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
     if " - " in original_stem:
-        file_author_part, file_title_part = original_stem.split(" - ", 1)
+        # SWAPPED: Title - Author
+        file_title_part, file_author_part = original_stem.split(" - ", 1)
         final_author = author_tools.normalize(file_author_part)
         final_title = clean_filename(file_title_part)
     elif author_override:
@@ -52,10 +53,8 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     author, title = determine_author_and_title(filepath, author_override)
     ext = filepath.suffix.lower()
 
-    # --- DYNAMIC FOLDER LOGIC ---
     relative_path = Path("Books") 
     contribution_type = "book"
-
     if author_override:
         for parent in filepath.parents:
             if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
@@ -72,25 +71,18 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 
     storage_author = author_tools.strip_accents(author_override) if author_override else author
     author_folder = dest_root / "Contributions" / category / storage_author / relative_path
-    
     attachment_folder = author_folder / "attachments"
     attachment_folder.mkdir(parents=True, exist_ok=True)
 
     print(f"🔍 Reference Stub: {title}...")
-
+    
     raw_text = ""
     if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
     elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
-    
     suttas, vinaya = citation_scanner.extract_citations(raw_text)
     
     dest_file = attachment_folder / filepath.name
-    
-    # --- LOGIC: OVERWRITE ATTACHMENT IN LIBRARY, KEEP IN INBOX ---
-    if dest_file.exists():
-        print(f"   ⚠️ Attachment exists, overwriting: {dest_file.name}")
-    
-    # Use copy2 (Copy metadata + file) instead of move
+    if dest_file.exists(): print(f"   ⚠️ Attachment exists, overwriting...")
     shutil.copy2(str(filepath), str(dest_file))
 
     frontmatter = {
@@ -99,10 +91,10 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
         "category": category,
         "contribution": contribution_type, 
         "status": "reference_only",
-        "theme": "To_Fill", 
-        "topic": "To_Fill",
+        "theme": "To_Fill", # <--- Added Fallback
         "sutta_citations": suttas, 
         "vin_citations": vinaya
+        # Removed "topic"
     }
 
     md_content = f"""---
@@ -114,7 +106,8 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 
 ![[{filepath.name}]]
 """
-    safe_filename = f"{author} - {title}.md".replace("/", "-").replace(":", "-")
+    # OUTPUT: Title - Author.md
+    safe_filename = f"{title} - {author}.md".replace("/", "-").replace(":", "-")
     output_path = author_folder / safe_filename
     
     with open(output_path, "w", encoding='utf-8') as f: f.write(md_content)
