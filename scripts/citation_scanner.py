@@ -3,7 +3,7 @@ import json
 import unicodedata
 from pathlib import Path
 
-# --- CONFIGURATION: BRAHMALI FILENAMES ---
+# --- CONFIGURATION: BRAHMALI ---
 FILE_PATTERNS = {
     "VIN-MV": "mv{num}-brahmali-pali",
     "VIN-CV": "cv{num}-brahmali-pali",
@@ -27,8 +27,7 @@ except Exception: pass
 CODE_MAP = {
     'd': 'DN', 'dn': 'DN', 'm': 'MN', 'mn': 'MN', 's': 'SN', 'sn': 'SN', 'a': 'AN', 'an': 'AN',
     'kp': 'KP', 'khp': 'KP', 'dhp': 'DHP', 'snp': 'SNP', 'ud': 'UD', 'iti': 'ITI', 'vv': 'VV', 'pv': 'PV',
-    'thag': 'THAG', 'thig': 'THIG', 'ja': 'JA', 'ma': 'MA', 'mā': 'MA', 'da': 'DA', 'dā': 'DA',
-    'sa': 'SA', 'sā': 'SA', 'ea': 'EA', 'eā': 'EA',
+    'thag': 'THAG', 'thig': 'THIG', 'ja': 'JA', 'ma': 'MA', 'mā': 'MA', 'da': 'DA', 'dā': 'DA', 'sa': 'SA', 'sā': 'SA', 'ea': 'EA', 'eā': 'EA',
     'parajika': 'BU-PJ', 'par': 'BU-PJ', 'pj': 'BU-PJ',
     'sanghadisesa': 'BU-SS', 'sang': 'BU-SS', 'ss': 'BU-SS',
     'nissaggiya': 'BU-NP', 'np': 'BU-NP',
@@ -58,15 +57,12 @@ def resolve_khandhaka(kd_num_str):
     except ValueError: return None
 
 def normalize_citation(code, number):
-    # 1. CASE SENSITIVE OVERRIDE (Sn = Sutta Nipata)
     book_override = None
-    if code == "Sn": 
-        book_override = "SNP"
+    if code == "Sn": book_override = "SNP"
     
     clean_code = code.replace(".", "").replace(" ", "").lower()
     clean_code = unicodedata.normalize('NFC', clean_code)
     
-    # 2. SEPARATOR NORMALIZATION
     clean_num_str = number.replace(":", ".").replace(";", ".").replace(",", ".")
     clean_num_str = clean_num_str.replace("*", "").replace("_", "")
     clean_num_str = clean_num_str.strip(". ")
@@ -75,24 +71,18 @@ def normalize_citation(code, number):
         resolved = resolve_khandhaka(clean_num_str)
         if resolved: return resolved, ""
     
-    # PTS Lookup
     if "." in clean_num_str:
         possible_key = f"{clean_code}{clean_num_str}"
         parts = possible_key.split('.')
         if len(parts) >= 2 and f"{parts[0]}.{parts[1]}" in PTS_MAP:
             return PTS_MAP[f"{parts[0]}.{parts[1]}"], ""
 
-    # 3. MAPPING
-    if book_override:
-        prefix = book_override
-    else:
-        prefix = CODE_MAP.get(clean_code, clean_code.upper())
+    if book_override: prefix = book_override
+    else: prefix = CODE_MAP.get(clean_code, clean_code.upper())
         
     candidate = f"{prefix}{clean_num_str}"
-    
     if candidate in VALID_IDS: return candidate, ""
     
-    # Recursive fallback
     parts = clean_num_str.split('.')
     for i in range(len(parts)-1, 0, -1):
         check_id = f"{prefix}{'.'.join(parts[:i])}"
@@ -102,40 +92,36 @@ def normalize_citation(code, number):
 
 def generate_smart_link(full_id):
     """
-    1. Truncates deep paragraphs (MV8.15.3 -> MV8.15)
-    2. Applies Offset for Cullavagga (CV1 -> cv11)
+    Handles offsets, truncations, and Index routing.
     """
     
+    # 1. DHAMMAPADA ROUTER -> Master Index
+    # Input: DHP42
+    # Output: [[DHP|DHP42]]
+    if full_id.startswith("DHP"):
+        return f"[[DHP|{full_id}]]"
+
+    # 2. VINAYA LOGIC
     match = re.match(r"^(VIN-MV|VIN-CV)(\d+)\.(\d+)(?:\.[\d\.]+)?$", full_id)
     if match:
         prefix, book_num, section = match.groups()
-        
-        # --- OFFSET LOGIC (CV 1 = File 11) ---
-        if prefix == "VIN-CV":
-            book_num = str(int(book_num) + 10)
-
+        if prefix == "VIN-CV": book_num = str(int(book_num) + 10)
         if prefix in FILE_PATTERNS:
             filename = FILE_PATTERNS[prefix].format(num=book_num)
             return f"[[{filename}#^{section}|{full_id}]]"
 
-    # Match Whole Chapter (MV8)
     match_chap = re.match(r"^(VIN-MV|VIN-CV)(\d+)$", full_id)
     if match_chap:
         prefix, book_num = match_chap.groups()
-        
-        if prefix == "VIN-CV":
-            book_num = str(int(book_num) + 10)
-
+        if prefix == "VIN-CV": book_num = str(int(book_num) + 10)
         if prefix in FILE_PATTERNS:
             filename = FILE_PATTERNS[prefix].format(num=book_num)
             return f"[[{filename}|{full_id}]]"
 
-    # Default fallback
     return f"[[{full_id}]]"
 
 def extract_citations(text):
     regex_template = r"\b({code})[\.\s\*\_]*(\d[\d\.\-–:,;]*)"
-    
     vin_pattern = f"(?i){regex_template.format(code=VIN_KEYS)}"
     sutta_pattern = f"(?i){regex_template.format(code=SUTTA_KEYS)}"
     
@@ -157,23 +143,17 @@ def extract_citations(text):
 def inject_wikilinks(text):
     regex_template = r"\b({code})[\.\s\*\_]*(\d[\d\.\-–:,;]*)"
     citation_pattern = regex_template.format(code=f"{SUTTA_KEYS}|{VIN_KEYS}")
-    
     combined_pattern = f"(?i)(\\[\\[.*?\\]\\])|({citation_pattern})"
     
     def replace_logic(match):
         if match.group(1): return match.group(1) 
-        
         full_citation_text = match.group(2)
-        
         sub_match = re.match(f"(?i){citation_pattern}", full_citation_text)
-        
         if sub_match:
             code = sub_match.group(1)
             number = sub_match.group(2)
-            
             link_id, suffix = normalize_citation(code, number)
             return f"{generate_smart_link(link_id)}{suffix}"
-        
         return full_citation_text
 
     return re.sub(combined_pattern, replace_logic, text)
