@@ -1,10 +1,11 @@
-## Part 1: Instructions for Contributors
+# 🌟 Contributing to the Library 
 
-**Target Audience:** Monks, students, or editors adding files to the repository.
+Welcome! This library is a curated, interconnected collection of Dhamma resources. To keep the quality high and the connections strong, we use an automated **Gatekeeper** system.
 
 ### 1. Where do I put my files?
 
-All new work goes into the **Inbox**. Never edit the `Contributions` folder directly.
+All new work goes into the **Inbox**. 
+Never edit the `Contributions` folder directly.
 
 Navigate to: `Inbox / [Dhamma or Vinaya] / [Format] / [Author] / [Subfolder]`
 
@@ -24,19 +25,17 @@ Navigate to: `Inbox / [Dhamma or Vinaya] / [Format] / [Author] / [Subfolder]`
 ### 2. The Golden Rule: Naming Files
 
 The automation script relies on the filename to organize the library. You **must** follow this format:
+If you break these rules, the **Gatekeeper will automatically delete your file** from the Inbox. 
 
-1 
-`Ven. Author Name - The Title of the Work.ext`
+### 1. File Naming Standards
+We use a **"Title First"** convention. 
+* **✅ DO:** `Wings to Awakening - Ven. Thanissaro.pdf` 
+* **✅ DO:** `Mindfulness in Plain English - Ven. Gunaratana.epub` 
+* **❌ DON'T:** `Thanissaro - Wings.pdf` (Author first) 
+* **❌ DON'T:** `scan_001.pdf` (No info)
+* he_Self_v2_FINAL_EDIT.md` (Junk text)
 
-| **✅ DO THIS**                              | **❌ DO NOT DO THIS**                             |
-| ------------------------------------------ | ------------------------------------------------ |
-| `Ven. Thanissaro - Wings to Awakening.pdf` | `wings-to-awakening-final.pdf` (No Author)       |
-| `Ven. Brahmali - Vinaya Analysis.md`       | `Vinaya Analysis - Ven. Brahmali.md` (Backwards) |
-| `Ajahn Geoff - The Self.md`                | `The_Self_v2_FINAL_EDIT.md` (Junk text)          |
-
-#### Naming Standards
-
-**The Rule:** Every file in the final library **must** start with the Author's Name.
+> **Pro Tip:** If you are lazy, just drop the file into a named folder! > `Inbox/Dhamma/pdf/Ven. Thanissaro/Wings to Awakening.pdf` -> **Accepted & Renamed automatically.**
 
 **The Automation:** If you organize your Inbox folders correctly, the system will do this for you.
 
@@ -67,6 +66,9 @@ Any file that does not follow these rules will fail the audit.
 3. **FAILURE MODE:** If the file has NO " - " **AND** is not in an Author folder (it's loose in the `pdf` folder).
     
     - _Result:_ **REJECTED / SKIPPED.** The script cannot determine the author, so it will not process the file.
+
+
+
 
 ### 3. Version Control (Updating Files)
 

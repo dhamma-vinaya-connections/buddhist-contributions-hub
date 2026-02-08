@@ -2,49 +2,23 @@ import unicodedata
 import re
 
 # ==========================================
-# 👤 AUTHOR SYNONYM DICTIONARY
+# 👤 AUTHOR DICTIONARY (Specific Overrides)
 # ==========================================
-# Maps variations (lowercase) -> The Official Folder Name
+# Use this for names that don't follow standard rules
+# or for people with multiple names (e.g., Ajaan Geoff -> Thanissaro)
 AUTHOR_MAP = {
-    # --- THAI FOREST TRADITION ---
-    "thanissaro": "Ven. Thanissaro",
-    "thanissaro bhikkhu": "Ven. Thanissaro",
-    "bhikkhu thanissaro": "Ven. Thanissaro",
+    # Thai Forest Nicknames
     "ajaan geoff": "Ven. Thanissaro",
     "ajahn geoff": "Ven. Thanissaro",
+    "thanissaro": "Ven. Thanissaro",
     
-    "ajahn brahm": "Ajahn Brahm",
-    "brahmavamso": "Ajahn Brahm",
-    "ajahn brahmavamso": "Ajahn Brahm",
-    "phra brahmavamso": "Ajahn Brahm",
-    
-    "ajahn chah": "Ajahn Chah",
-    "chah subhaddo": "Ajahn Chah",
-    "ven. chah": "Ajahn Chah",
-    
-    "ajahn sumedho": "Ajahn Sumedho",
-    "luang por sumedho": "Ajahn Sumedho",
-
-    # --- SCHOLAR MONKS ---
+    # Specific Spellings
     "bhikkhu bodhi": "Ven. Bodhi",
-    "ven. bodhi": "Ven. Bodhi",
-    "acariya bodhi": "Ven. Bodhi",
-    
-    "bhikkhu analayo": "Ven. Analayo",
     "analayo": "Ven. Analayo",
     
-    "bhikkhu sujato": "Ven. Sujato",
-    "sujato": "Ven. Sujato",
-    "ajahn sujato": "Ven. Sujato",
-    
-    "bhikkhu brahmali": "Ven. Brahmali",
-    "brahmali": "Ven. Brahmali",
-    "ajahn brahmali": "Ven. Brahmali",
-    
-    # --- LAY SCHOLARS ---
+    # Lay Scholars
     "gombrich": "Gombrich Richard",
     "richard gombrich": "Gombrich Richard",
-    "damien keown": "Keown Damien",
 }
 
 # ==========================================
@@ -64,7 +38,6 @@ TYPE_MAP = {
 # ==========================================
 
 def clean_text(text):
-    """Basic lowercase and strip."""
     if not text: return ""
     text = unicodedata.normalize('NFD', text)
     text = "".join([c for c in text if unicodedata.category(c) != 'Mn'])
@@ -88,22 +61,46 @@ def normalize_type(folder_name):
 
 def normalize_author(raw_name):
     """
-    Standardizes Author Names using the AUTHOR_MAP.
-    Input: "thanissaro bhikkhu" -> Output: "Ven. Thanissaro"
+    Standardizes Author Names with Rules & Dictionary.
     """
     if not raw_name: return "Unknown"
     
-    # 1. Clean input for lookup
-    search_key = clean_text(raw_name)
+    # 1. Clean input
+    clean = clean_text(raw_name)
     
-    # 2. Check Dictionary
-    if search_key in AUTHOR_MAP:
-        return AUTHOR_MAP[search_key]
+    # 2. DICTIONARY CHECK (Highest Priority)
+    if clean in AUTHOR_MAP:
+        return AUTHOR_MAP[clean]
         
-    # 3. Fallback: Formatting Rules
-    # If no match, try to respect your "Ven." or "Ajahn" rules automatically
+    # 3. RULE ENGINE (General Logic)
     
-    # If Ordained (detected by title), ensure specific format?
-    # For now, just Title Case it to be safe.
-    # e.g. "somedet" -> "Somedet"
+    # Rule A: "Bhikkhu" -> "Ven."
+    # Handles: "Bhikkhu Sujato", "Sujato Bhikkhu" -> "Ven. Sujato"
+    if "bhikkhu" in clean and "bhikkhuni" not in clean:
+        name_part = re.sub(r'\bbhikkhu\b', '', clean).strip().title()
+        return f"Ven. {name_part}"
+        
+    # Rule B: "Bhikkhuni" -> "Ayya"
+    # Handles: "Bhikkhuni Vimala" -> "Ayya Vimala"
+    if "bhikkhuni" in clean:
+        name_part = re.sub(r'\bbhikkhuni\b', '', clean).strip().title()
+        return f"Ayya {name_part}"
+
+    # Rule C: "Thera" -> "Ven."
+    if "thera" in clean:
+        name_part = re.sub(r'\bthera\b', '', clean).strip().title()
+        return f"Ven. {name_part}"
+
+    # Rule D: "Ajahn" (Ensure it is always at the front)
+    # Handles: "Chah Ajahn" -> "Ajahn Chah"
+    if "ajahn" in clean or "ajaan" in clean:
+        name_part = re.sub(r'\ba[jz]a[a]?hn\b', '', clean).strip().title()
+        return f"Ajahn {name_part}"
+
+    # Rule E: "Sayadaw" (Ensure it is always at the front)
+    if "sayadaw" in clean:
+        name_part = re.sub(r'\bsayadaw\b', '', clean).strip().title()
+        return f"Sayadaw {name_part}"
+
+    # 4. Fallback
     return raw_name.strip().title()

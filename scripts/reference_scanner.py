@@ -8,7 +8,8 @@ from ebooklib import epub
 import ebooklib
 from bs4 import BeautifulSoup
 import citation_scanner
-import author_tools 
+import author_tools
+import gatekeeper  # <--- IMPORT RULES
 
 def clean_filename(stem):
     stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
@@ -18,7 +19,6 @@ def clean_filename(stem):
 def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
     if " - " in original_stem:
-        # SWAPPED: Title - Author
         file_title_part, file_author_part = original_stem.split(" - ", 1)
         final_author = author_tools.normalize(file_author_part)
         final_title = clean_filename(file_title_part)
@@ -53,6 +53,25 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     author, title = determine_author_and_title(filepath, author_override)
     ext = filepath.suffix.lower()
 
+    # 1. READ TEXT FIRST (Don't move file yet)
+    print(f"🔍 Scanning: {title}...")
+    raw_text = ""
+    if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
+    elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
+    
+    # 2. EXTRACT CITATIONS
+    suttas, vinaya = citation_scanner.extract_citations(raw_text)
+    total_citations = len(suttas) + len(vinaya)
+
+    # --- 🛡️ GATE 4: CITATION CHECK (Protects against Scans) ---
+    if total_citations < gatekeeper.MIN_CITATIONS:
+        print(f"⛔ REJECTED (Scan/Low Value): {title}")
+        print(f"   ↳ Found {total_citations} citations (Min required: {gatekeeper.MIN_CITATIONS})")
+        print(f"   ↳ If this is a PDF, it might need OCR (Text Recognition).")
+        return # <--- STOP. Do not copy file. Do not create stub.
+    # -----------------------------------------------------------
+
+    # 3. IF PASSED, PROCEED TO COPY
     relative_path = Path("Books") 
     contribution_type = "book"
     if author_override:
@@ -73,28 +92,17 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     author_folder = dest_root / "Contributions" / category / storage_author / relative_path
     attachment_folder = author_folder / "attachments"
     attachment_folder.mkdir(parents=True, exist_ok=True)
-
-    print(f"🔍 Reference Stub: {title}...")
-    
-    raw_text = ""
-    if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
-    elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
-    suttas, vinaya = citation_scanner.extract_citations(raw_text)
     
     dest_file = attachment_folder / filepath.name
     if dest_file.exists(): print(f"   ⚠️ Attachment exists, overwriting...")
+    
     shutil.copy2(str(filepath), str(dest_file))
 
     frontmatter = {
-        "title": title, 
-        "author": author, 
-        "category": category,
-        "contribution": contribution_type, 
-        "status": "reference_only",
-        "theme": "To_Fill", # <--- Added Fallback
-        "sutta_citations": suttas, 
-        "vin_citations": vinaya
-        # Removed "topic"
+        "title": title, "author": author, "category": category,
+        "contribution": contribution_type, "status": "reference_only",
+        "theme": "To_Fill", 
+        "sutta_citations": suttas, "vin_citations": vinaya
     }
 
     md_content = f"""---
@@ -106,7 +114,6 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
 
 ![[{filepath.name}]]
 """
-    # OUTPUT: Title - Author.md
     safe_filename = f"{title} - {author}.md".replace("/", "-").replace(":", "-")
     output_path = author_folder / safe_filename
     
