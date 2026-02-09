@@ -1,0 +1,45 @@
+name: 📚 Dhamma Processor
+
+# TRIGGER: Run only when files are added to 'Inbox'
+on:
+  push:
+    paths:
+      - 'Inbox/**'
+  workflow_dispatch: # Allows manual trigger button for testing
+
+permissions:
+  contents: write # ⚠️ CRITICAL: Allows the bot to commit changes
+
+jobs:
+  process-library:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. CHECKOUT CODE
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # 2. SETUP PYTHON
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # 3. INSTALL DEPENDENCIES
+      - name: Install Libraries
+        run: |
+          pip install -r scripts/requirements.txt
+
+      # 4. RUN THE PROCESSOR
+      - name: Run Main Script
+        run: |
+          python scripts/main.py
+
+      # 5. COMMIT & PUSH CHANGES
+      - name: Save Changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "🤖 Processed Inbox: Auto-categorized & Cleaned"
+          file_pattern: 'Contributions/ Inbox/' # Only commit these folders
+          commit_user_name: "Dhamma Bot"
+          commit_user_email: "actions@github.com"
