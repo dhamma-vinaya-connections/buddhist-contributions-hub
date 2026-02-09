@@ -1,0 +1,10 @@
+# Treat these as binary files (Standard Git, no LFS)
+*.pdf binary
+*.epub binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Exclude them from language statistics
+*.pdf linguist-vendored
+*.epub linguist-vendored
