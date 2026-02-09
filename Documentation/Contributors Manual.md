@@ -29,16 +29,44 @@ Please follow the sections below carefully.
 > 
 > ✅ If all boxes are checked, your file will be processed correctly.
 
----
 
-> [!abstract]+ 🗂️ Visual Folder Map (Overview)
+> [!NOTE]- Folder structure
 > 
-> `Inbox/ ├─ Dhamma/ │  ├─ pdf/ │  │  └─ Ven. Author/ │  ├─ for_reference_only_pdf/ │  │  └─ Author/ │  ├─ epub/ │  │  └─ Ven. Author/ │  └─ obsidian/ │     └─ Ven. Author/ │        ├─ Notes.md │        ├─ Canvas/ │        └─ MOCs/ │ └─ Vinaya/    ├─ pdf/    ├─ for_reference_only_pdf/    ├─ epub/    └─ obsidian/`
-> 
-> **Rule of thumb:**  
-> If you’re unsure where a file goes, it belongs in **Inbox**, not Contributions.
+> - Inbox
+> 		- Dhamma 
+> 			- pdf
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- Reference only
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- epub
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- obsidian 
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies, notes etc )	
+> 		- Vinaya
+> 			- Pdf
+> 					- Folders by author
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- Reference only
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- epub
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )
+> 			- obsidian 
+> 				- Folders by author 
+> 					- subfolders by type (book, studyguide, canvas, anthologies ets )		
+> 	- Contributions  
+> 		- Dhamma
+> 			- Folders by author 
+> 				subfolders by type (book, studyguide, canvas, anthologies ets )
+> 		- Vinaya
+> 			- Folders by author 
+> 				subfolders by type (book, studyguide, canvas, anthologies ets )
 
----
 
 > [!note]+ 📥 1. Where to Put Your Contribution  
 > All new work must go into the **Inbox**.  
@@ -48,9 +76,8 @@ Please follow the sections below carefully.
 > 
 > `Inbox / [Dhamma or Vinaya] / [Format] / [Author] / [Type]`
 
----
 
-> [!example]+ 📄 2. Supported Formats
+> [!example]- 📄 2. Supported Formats
 > 
 > ### PDFs
 > 
@@ -58,13 +85,9 @@ Please follow the sections below carefully.
 > `.../pdf/Ven. Author/`
 > 
 > **Use for:**
-> 
 > - Finished books
->     
 > - Essays
->     
-> - Scans or print-style documents
->     
+> - Study guides
 > 
 > ---
 > 
@@ -114,7 +137,7 @@ Please follow the sections below carefully.
 >     
 > - Canvases
 >     
-> - MOCs (Maps of Content)
+> - Thematic indexes
 >     
 > - Structured projects or research
 >     
@@ -124,17 +147,16 @@ Please follow the sections below carefully.
 > 
 > `.../obsidian/Ven. Thanissaro/Canvas/`
 
----
 
+## File Naming Standards 
 > [!warning]+ 🏷️ 3. File Naming Standards (Critical)  
 > This is a shared public library.  
 > **The automation relies entirely on filenames and folder names.**
 > 
 > Files that do not follow these rules are **automatically deleted from the Inbox**.
 
----
 
-> [!check]+ “Title First” Naming Convention  
+> [!check]- “Title First” Naming Convention  
 > Place files inside the **correct Author folder**, using one of the following:
 > 
 > **Accepted formats:**
@@ -154,9 +176,7 @@ Please follow the sections below carefully.
 >     - Renamed automatically by the system
 >         
 
----
-
-> [!table]+ 👤 Author Naming Conventions
+> [!table]- 👤 Author Naming Conventions
 > 
 > |Category|Rule|Example Folder|Result|
 > |---|---|---|---|
@@ -164,9 +184,7 @@ Please follow the sections below carefully.
 > |Thai Forest|Start with `Ajahn`|Ajahn Geoff|Ajahn Geoff - The Self.md|
 > |Lay|Lastname Firstname|Gethin Rupert|Gethin Rupert - Foundations of Buddhism.md|
 
----
-
-> [!danger]+ ⛔ Automatic Rejection Policy  
+> [!danger]- ⛔ Automatic Rejection Policy  
 > To keep the library usable and consistent, files that fail validation are **deleted**.
 > 
 > **Gatekeeper Logic:**
@@ -201,8 +219,6 @@ Please follow the sections below carefully.
 >     
 > - `the_Self_v2_FINAL_EDIT.md` (Non-standard)
 >     
-
----
 
 > [!refresh]+ 🔄 4. Updating Existing Files  
 > **Do not:**

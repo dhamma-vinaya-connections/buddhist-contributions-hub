@@ -12,23 +12,23 @@
 - [x] Citation `scripts/citation_scanner.py` (The shared brain that finds citations).
 - [ ] PDF converter `scripts/pdf_converter.py` (The machine that processes books).
 - [x] EPUB converter `scripts/epub_converter.py` (The machine that processes books).
-- [ ] **Gatekeeper:** Implement `scripts/gatekeeper.py` (Validation).
-	- [ ] Implement with split-citation validation.
+- [x] **Gatekeeper:** Implement `scripts/gatekeeper.py` (Validation).
+	- [x] Implement with split-citation validation.
 - [x] **Librarian:** Implement `scripts/librarian.py` (Main Loop).
-	- [ ] Implement routing logic (Dhamma vs Vinaya folders).
+	- [x] Implement routing logic (Dhamma vs Vinaya folders).
 - [x] **Citation Engine:** Create `scripts/citation_sorter.py` module. - *Logic:* Distinguishes `Vin/Pvr` from `DN/MN`.
-- [ ] **PDF Engine:** Implement `scripts/pdf_converter.py` using `pymupdf4llm`.
+- [x] **PDF Engine:** Implement `scripts/pdf_converter.py` using `pymupdf4llm`.
 - [x] **EPUB Engine:** Implement `scripts/epub_converter.py`.
-- [ ] **MD Handler:** Implement `scripts/md_copier.py`.
+- [x] **MD Handler:** Implement `scripts/md_copier.py`.
 
 ## Phase 3: Automation (GitHub Actions)
-- [ ] Create `.github/workflows/validate_pr.yml` (Runs Gatekeeper).
-- [ ] Create `.github/workflows/process_library.yml` (Runs Librarian).
-- [ ] Create `.github/workflows/release.yml` (Zips & Publishes).
+- [x] Create `.github/workflows/validate_pr.yml` (Runs Gatekeeper).
+- [x] Create `.github/workflows/process_library.yml` (Runs Librarian).
+- [x] Create `.github/workflows/release.yml` (Zips & Publishes).
 
 ## Phase 4: Infrastructure
-- [ ] Resolve Git LFS installation (Deferred).
+- [x] Resolve Git LFS installation (Deferred).
 
 ## Phase 5 Documentation
-- [ ] Add `CONTRIBUTING.md` guide for users.
-- [ ] Add `README.md` with download instructions.
+- [x] Add `CONTRIBUTING.md` guide for users.
+- [x] Add `README.md` with download instructions.
