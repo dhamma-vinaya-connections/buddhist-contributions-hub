@@ -1,106 +1,86 @@
-import unicodedata
-import re
+import os
+from pathlib import Path
 
 # ==========================================
-# 👤 AUTHOR DICTIONARY (Specific Overrides)
+# 🛡️ SECURITY & QUALITY CONFIGURATION
 # ==========================================
-# Use this for names that don't follow standard rules
-# or for people with multiple names (e.g., Ajaan Geoff -> Thanissaro)
-AUTHOR_MAP = {
-    # Thai Forest Nicknames
-    "ajaan geoff": "Ven. Thanissaro",
-    "ajahn geoff": "Ven. Thanissaro",
-    "thanissaro": "Ven. Thanissaro",
-    
-    # Specific Spellings
-    "bhikkhu bodhi": "Ven. Bodhi",
-    "analayo": "Ven. Analayo",
-    
-    # Lay Scholars
-    "gombrich": "Gombrich Richard",
-    "richard gombrich": "Gombrich Richard",
-}
+MAX_FILE_SIZE_MB = 25   
 
-# ==========================================
-# 📚 FOLDER TYPE DICTIONARY
-# ==========================================
-TYPE_MAP = {
-    "guide": "Study Guide",
-    "manual": "Study Guide",
-    "textbook": "Study Guide",
-    "talk": "Dhamma Talk",
-    "transcript": "Dhamma Talk",
-    "article": "Essay",
-    "paper": "Essay",
-    "canon": "Sutta Translation",
-    "nikaya": "Sutta Translation",
-}
+# Book Rules (Dynamic Density)
+ESSAY_WORD_LIMIT = 15000 
+MIN_CITATIONS_ESSAY = 5   
+MIN_CITATIONS_BOOK = 20   
+
+# Obsidian Note Rules
+MIN_WIKILINKS_NOTE = 5  # Must link to 5 things to be accepted
 # ==========================================
 
-def clean_text(text):
-    if not text: return ""
-    text = unicodedata.normalize('NFD', text)
-    text = "".join([c for c in text if unicodedata.category(c) != 'Mn'])
-    return text.lower().strip()
+def get_file_size_mb(filepath):
+    return os.path.getsize(filepath) / (1024 * 1024)
 
-def normalize_type(folder_name):
-    """Standardizes 'study_guides' -> 'Study Guide'."""
-    if not folder_name: return "Book"
-    clean = re.sub(r'^\d+[\.\-_]\s*', '', folder_name)
-    clean = re.sub(r'[\-_]', ' ', clean).strip().lower()
-    
-    if clean.endswith('s') and not clean.endswith('ss'):
-        clean_singular = clean[:-1]
+def check_malware(filepath, extension):
+    """
+    Checks magic bytes to prevent renamed .exe files.
+    """
+    try:
+        with open(filepath, 'rb') as f:
+            header = f.read(4)
+        
+        if extension == '.pdf': return header.startswith(b'%PDF')
+        if extension == '.epub': return header.startswith(b'PK')
+        if extension == '.md': 
+            if b'\x00' in header: return False 
+            return True
+            
+        return True # Default safe for others (Canvas, JSON, etc.)
+    except: return False
+
+def get_quality_threshold(word_count):
+    """
+    Returns the minimum citations required based on text length.
+    """
+    if word_count < ESSAY_WORD_LIMIT:
+        return MIN_CITATIONS_ESSAY
     else:
-        clean_singular = clean
+        return MIN_CITATIONS_BOOK
 
-    if clean in TYPE_MAP: return TYPE_MAP[clean]
-    if clean_singular in TYPE_MAP: return TYPE_MAP[clean_singular]
-    
-    return clean.title()
-
-def normalize_author(raw_name):
+def reject_and_delete(filepath, reason):
     """
-    Standardizes Author Names with Rules & Dictionary.
+    Deletes the file from Inbox and logs the reason.
     """
-    if not raw_name: return "Unknown"
-    
-    # 1. Clean input
-    clean = clean_text(raw_name)
-    
-    # 2. DICTIONARY CHECK (Highest Priority)
-    if clean in AUTHOR_MAP:
-        return AUTHOR_MAP[clean]
-        
-    # 3. RULE ENGINE (General Logic)
-    
-    # Rule A: "Bhikkhu" -> "Ven."
-    # Handles: "Bhikkhu Sujato", "Sujato Bhikkhu" -> "Ven. Sujato"
-    if "bhikkhu" in clean and "bhikkhuni" not in clean:
-        name_part = re.sub(r'\bbhikkhu\b', '', clean).strip().title()
-        return f"Ven. {name_part}"
-        
-    # Rule B: "Bhikkhuni" -> "Ayya"
-    # Handles: "Bhikkhuni Vimala" -> "Ayya Vimala"
-    if "bhikkhuni" in clean:
-        name_part = re.sub(r'\bbhikkhuni\b', '', clean).strip().title()
-        return f"Ayya {name_part}"
+    print(f"🗑️  DELETING: {filepath.name}")
+    print(f"   ↳ Reason: {reason}")
+    try:
+        os.remove(filepath)
+        print("   ✅ File removed from Inbox.")
+    except Exception as e:
+        print(f"   ⚠️ Could not delete: {e}")
 
-    # Rule C: "Thera" -> "Ven."
-    if "thera" in clean:
-        name_part = re.sub(r'\bthera\b', '', clean).strip().title()
-        return f"Ven. {name_part}"
+def audit_file_structure(filepath, author_name_from_folder):
+    """
+    Basic checks (Size, Name, Malware).
+    Returns: (Passed (bool), Reason (str))
+    """
+    filename = filepath.name
+    ext = filepath.suffix.lower()
 
-    # Rule D: "Ajahn" (Ensure it is always at the front)
-    # Handles: "Chah Ajahn" -> "Ajahn Chah"
-    if "ajahn" in clean or "ajaan" in clean:
-        name_part = re.sub(r'\ba[jz]a[a]?hn\b', '', clean).strip().title()
-        return f"Ajahn {name_part}"
+    # 1. PLUGIN BLOCKER
+    if ".obsidian" in str(filepath):
+        return False, "⛔ SECURITY: Plugins/Settings not allowed."
 
-    # Rule E: "Sayadaw" (Ensure it is always at the front)
-    if "sayadaw" in clean:
-        name_part = re.sub(r'\bsayadaw\b', '', clean).strip().title()
-        return f"Sayadaw {name_part}"
+    # 2. ORPHAN CHECK
+    if author_name_from_folder is None:
+        if " - " not in filename and "obsidian" not in str(filepath):
+            return False, "⛔ ORPHAN: No author in filename or folder."
 
-    # 4. Fallback
-    return raw_name.strip().title()
+    # 3. SIZE CHECK
+    if ext in ['.pdf', '.epub']:
+        size = get_file_size_mb(filepath)
+        if size > MAX_FILE_SIZE_MB:
+            return False, f"⛔ TOO BIG: {size:.1f}MB (Limit: {MAX_FILE_SIZE_MB}MB)"
+
+    # 4. MALWARE CHECK
+    if not check_malware(filepath, ext):
+        return False, "☣️  MALWARE SUSPICION: File signature mismatch."
+
+    return True, "OK"

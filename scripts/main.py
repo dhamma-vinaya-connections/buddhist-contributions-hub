@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+import gatekeeper 
 
 # --- IMPORT WORKERS ---
 import pdf_converter
@@ -12,8 +13,6 @@ import obsidian_processor
 # ==========================================
 REPO_ROOT = Path(__file__).parent.parent 
 INBOX_ROOT = REPO_ROOT / "Inbox"
-
-# CHANGED: Contributions now sits directly at the Repo Root
 DESTINATION_ROOT = REPO_ROOT 
 # ==========================================
 
@@ -37,9 +36,8 @@ def get_category_and_type(path):
         return None, None, None
 
 def process_inbox():
-    print(f"🚀 STARTING INBOX PROCESSOR")
-    print(f"📂 Inbox: {INBOX_ROOT}")
-    print(f"🎯 Dest : {DESTINATION_ROOT}/Contributions")
+    print(f"🚀 STARTING MAIN PROCESSOR")
+    print(f"🛡️  GATEKEEPER ACTIVE: Auto-Delete Enabled")
     print("-" * 50)
 
     count = 0
@@ -51,6 +49,14 @@ def process_inbox():
             category, folder_type, author = get_category_and_type(file_path)
             
             if not category or not folder_type: continue 
+
+            # --- ASK GATEKEEPER (Structure Audit) ---
+            passed, message = gatekeeper.audit_file_structure(file_path, author)
+            if not passed:
+                # 🗑️ DELETE IMMEDIATELY
+                gatekeeper.reject_and_delete(file_path, message)
+                continue 
+            # ----------------------------------------
 
             try:
                 if folder_type == "pdf" and file_path.suffix.lower() == ".pdf":
@@ -73,7 +79,7 @@ def process_inbox():
                 print(f"💥 ERROR on {file}: {e}")
 
     print("-" * 50)
-    print(f"✅ COMPLETE. Processed {count} files.")
+    print(f"✅ WORKER FINISHED. Processed {count} files.")
 
 if __name__ == "__main__":
     process_inbox()

@@ -91,13 +91,7 @@ def normalize_citation(code, number):
     return candidate, ""
 
 def generate_smart_link(full_id):
-    """
-    Handles offsets, truncations, and Index routing.
-    """
-    
     # 1. DHAMMAPADA ROUTER -> Master Index
-    # Input: DHP42
-    # Output: [[DHP|DHP42]]
     if full_id.startswith("DHP"):
         return f"[[DHP|{full_id}]]"
 
@@ -157,3 +151,11 @@ def inject_wikilinks(text):
         return full_citation_text
 
     return re.sub(combined_pattern, replace_logic, text)
+
+# --- HELPER FUNCTIONS FOR GATEKEEPER ---
+def count_words(text):
+    return len(text.split())
+
+def get_citation_count(text):
+    suttas, vinaya = extract_citations(text)
+    return len(suttas) + len(vinaya)

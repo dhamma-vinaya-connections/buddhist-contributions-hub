@@ -7,11 +7,32 @@ import unicodedata
 from pathlib import Path
 import citation_scanner
 import author_tools 
+import gatekeeper 
 
-def clean_filename(stem):
-    stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
-    stem = re.sub(r'_[\d]{4,}$', '', stem)
-    return stem.strip()
+def clean_and_format_title(text):
+    """
+    Smart cleaner: Splits CamelCase, removes dates/junk.
+    """
+    text = str(Path(text).stem)
+    text = re.sub(r'^[\d\-\.\_\s]+', '', text)
+    text = re.sub(r'[_.\s-]*\d{4,}[_.\s-]*$', '', text) 
+    text = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', text)
+    text = text.replace("_", " ").replace("-", " ")
+    return text.strip().title()
+
+def determine_author_and_title(source_path, author_override):
+    original_stem = source_path.stem
+    if " - " in original_stem:
+        file_title_part, file_author_part = original_stem.split(" - ", 1)
+        final_author = author_tools.normalize_author(file_author_part)
+        final_title = clean_and_format_title(file_title_part)
+    elif author_override:
+        final_author = author_tools.normalize_author(author_override)
+        final_title = clean_and_format_title(original_stem)
+    else:
+        final_author = "Unknown"
+        final_title = clean_and_format_title(original_stem)
+    return final_author, final_title
 
 def repair_pali_fractures(text):
     pattern = r'_([a-zA-Z\-]+)_\s*([āīūḍḷṃṅṇṭñĀĪŪḌḶṂṄṆṬÑ])\s*_([a-zA-Z\-]+)_'
@@ -30,45 +51,28 @@ def extract_pdf_metadata(doc):
         return combined if combined else "To_Fill"
     except: return "To_Fill"
 
-def determine_author_and_title(source_path, author_override):
-    original_stem = source_path.stem
-    if " - " in original_stem:
-        # SWAPPED: Title - Author
-        file_title_part, file_author_part = original_stem.split(" - ", 1)
-        final_author = author_tools.normalize(file_author_part)
-        final_title = clean_filename(file_title_part)
-    elif author_override:
-        final_author = author_tools.strip_accents(author_override)
-        final_title = clean_filename(original_stem)
-    else:
-        final_author = "Unknown"
-        final_title = clean_filename(original_stem)
-    final_title = author_tools.strip_accents(final_title)
-    return final_author, final_title
-
 def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override=None):
     author, title = determine_author_and_title(source_path, author_override)
 
     relative_path = Path("Books") 
-    contribution_type = "book"
+    contribution_type = "Book"
     if author_override:
         for parent in source_path.parents:
-            if author_tools.normalize(parent.name) == author_tools.normalize(author_override):
+            if author_tools.clean_text(parent.name) == author_tools.clean_text(author_override):
                 try: 
                     full_rel = source_path.parent.relative_to(parent)
-                    if str(full_rel) == "." or author_tools.normalize(full_rel.name) == author_tools.normalize(author):
+                    if str(full_rel) == "." or author_tools.clean_text(full_rel.name) == author_tools.clean_text(author):
                          relative_path = Path("Books")
-                         contribution_type = "book"
+                         contribution_type = "Book"
                     else:
                         relative_path = full_rel
-                        contribution_type = str(full_rel).lower().replace("_", " ")
+                        contribution_type = author_tools.normalize_type(full_rel.name)
                 except: pass
                 break
 
-    storage_author = author_tools.strip_accents(author_override) if author_override else author
+    storage_author = author_tools.normalize_author(author_override) if author_override else author
     final_folder = dest_root / "Contributions" / category / storage_author / relative_path
     
-    # OUTPUT: Title - Author.md
     safe_filename = f"{title} - {author}.md".replace("/", "-").replace(":", "-")
     output_path = final_folder / safe_filename
 
@@ -83,18 +87,38 @@ def convert_pdf_to_md(source_path, dest_root, category="Dhamma", author_override
     extracted_theme = extract_pdf_metadata(doc)
     doc.close()
 
-    md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
+    try:
+        md_text = pymupdf4llm.to_markdown(source_path, write_images=False) 
+    except: return
+
+    # --- 🛡️ GATEKEEPER: SCAN DETECTION ---
+    if len(md_text.strip()) < 50:
+        reason = "Empty text (Likely Image Scan)"
+        gatekeeper.reject_and_delete(source_path, reason)
+        return
+    # -------------------------------------
+
     md_text = repair_pali_fractures(md_text)
     md_text = re.sub(r'!\[.*?\]\(.*?\)', '', md_text)
     md_text = citation_scanner.inject_wikilinks(md_text)
     
+    # --- 🛡️ GATEKEEPER: DENSITY CHECK ---
+    word_count = citation_scanner.count_words(md_text)
+    citation_count = citation_scanner.get_citation_count(md_text)
+    required_citations = gatekeeper.get_quality_threshold(word_count)
+    
+    if citation_count < required_citations:
+        reason = f"Low Quality (Words: {word_count}, Refs: {citation_count}/{required_citations})"
+        gatekeeper.reject_and_delete(source_path, reason)
+        return 
+    # ------------------------------------
+
     frontmatter = {
         "title": title, 
         "author": author, 
         "category": category,
         "contribution": contribution_type,
         "theme": extracted_theme
-        # Removed "topic"
     }
     
     final_folder.mkdir(parents=True, exist_ok=True)

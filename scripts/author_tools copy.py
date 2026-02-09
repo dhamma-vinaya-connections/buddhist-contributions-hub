@@ -2,23 +2,49 @@ import unicodedata
 import re
 
 # ==========================================
-# 👤 AUTHOR DICTIONARY (Specific Overrides)
+# 👤 AUTHOR SYNONYM DICTIONARY
 # ==========================================
+# Maps variations (lowercase) -> The Official Folder Name
 AUTHOR_MAP = {
-    # Thai Forest Nicknames
+    # --- THAI FOREST TRADITION ---
+    "thanissaro": "Ven. Thanissaro",
+    "thanissaro bhikkhu": "Ven. Thanissaro",
+    "bhikkhu thanissaro": "Ven. Thanissaro",
     "ajaan geoff": "Ven. Thanissaro",
     "ajahn geoff": "Ven. Thanissaro",
-    "thanissaro": "Ven. Thanissaro",
     
-    # Specific Spellings
+    "ajahn brahm": "Ajahn Brahm",
+    "brahmavamso": "Ajahn Brahm",
+    "ajahn brahmavamso": "Ajahn Brahm",
+    "phra brahmavamso": "Ajahn Brahm",
+    
+    "ajahn chah": "Ajahn Chah",
+    "chah subhaddo": "Ajahn Chah",
+    "ven. chah": "Ajahn Chah",
+    
+    "ajahn sumedho": "Ajahn Sumedho",
+    "luang por sumedho": "Ajahn Sumedho",
+
+    # --- SCHOLAR MONKS ---
     "bhikkhu bodhi": "Ven. Bodhi",
-    "analayo": "Ven. Analayo",
-    "sujato": "Ven. Sujato",
-    "brahmali": "Ven. Brahmali",
+    "ven. bodhi": "Ven. Bodhi",
+    "acariya bodhi": "Ven. Bodhi",
     
-    # Lay Scholars
+    "bhikkhu analayo": "Ven. Analayo",
+    "analayo": "Ven. Analayo",
+    
+    "bhikkhu sujato": "Ven. Sujato",
+    "sujato": "Ven. Sujato",
+    "ajahn sujato": "Ven. Sujato",
+    
+    "bhikkhu brahmali": "Ven. Brahmali",
+    "brahmali": "Ven. Brahmali",
+    "ajahn brahmali": "Ven. Brahmali",
+    
+    # --- LAY SCHOLARS ---
     "gombrich": "Gombrich Richard",
     "richard gombrich": "Gombrich Richard",
+    "damien keown": "Keown Damien",
 }
 
 # ==========================================
@@ -38,6 +64,7 @@ TYPE_MAP = {
 # ==========================================
 
 def clean_text(text):
+    """Basic lowercase and strip."""
     if not text: return ""
     text = unicodedata.normalize('NFD', text)
     text = "".join([c for c in text if unicodedata.category(c) != 'Mn'])
@@ -61,35 +88,22 @@ def normalize_type(folder_name):
 
 def normalize_author(raw_name):
     """
-    Standardizes Author Names with Rules & Dictionary.
+    Standardizes Author Names using the AUTHOR_MAP.
+    Input: "thanissaro bhikkhu" -> Output: "Ven. Thanissaro"
     """
     if not raw_name: return "Unknown"
     
-    clean = clean_text(raw_name)
+    # 1. Clean input for lookup
+    search_key = clean_text(raw_name)
     
-    # 1. DICTIONARY CHECK
-    if clean in AUTHOR_MAP:
-        return AUTHOR_MAP[clean]
+    # 2. Check Dictionary
+    if search_key in AUTHOR_MAP:
+        return AUTHOR_MAP[search_key]
         
-    # 2. RULE ENGINE
-    if "bhikkhu" in clean and "bhikkhuni" not in clean:
-        name_part = re.sub(r'\bbhikkhu\b', '', clean).strip().title()
-        return f"Ven. {name_part}"
-        
-    if "bhikkhuni" in clean:
-        name_part = re.sub(r'\bbhikkhuni\b', '', clean).strip().title()
-        return f"Ayya {name_part}"
-
-    if "thera" in clean:
-        name_part = re.sub(r'\bthera\b', '', clean).strip().title()
-        return f"Ven. {name_part}"
-
-    if "ajahn" in clean or "ajaan" in clean:
-        name_part = re.sub(r'\ba[jz]a[a]?hn\b', '', clean).strip().title()
-        return f"Ajahn {name_part}"
-
-    if "sayadaw" in clean:
-        name_part = re.sub(r'\bsayadaw\b', '', clean).strip().title()
-        return f"Sayadaw {name_part}"
-
+    # 3. Fallback: Formatting Rules
+    # If no match, try to respect your "Ven." or "Ajahn" rules automatically
+    
+    # If Ordained (detected by title), ensure specific format?
+    # For now, just Title Case it to be safe.
+    # e.g. "somedet" -> "Somedet"
     return raw_name.strip().title()
