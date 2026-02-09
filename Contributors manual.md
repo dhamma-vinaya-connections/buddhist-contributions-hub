@@ -1,88 +1,241 @@
-# 🌟 Contributing to the Library 
+# 🌟 Contributing to the Library
 
-Welcome! This library is a curated, interconnected collection of Dhamma resources. To keep the quality high and the connections strong, we use an automated **Gatekeeper** system.
+Welcome, and thank you for contributing 🙏  
+This library is a **curated, interconnected collection of Dhamma and Vinaya resources**, designed to work as a single, coherent system inside Obsidian.
 
-### 1. Where do I put my files?
+To keep everything clean, reliable, and link-safe, all contributions are processed through an automated **Gatekeeper** system.
 
-All new work goes into the **Inbox**. 
-Never edit the `Contributions` folder directly.
+Please follow the sections below carefully.
 
-Navigate to: `Inbox / [Dhamma or Vinaya] / [Format] / [Author] / [Subfolder]`
+---
 
-- **PDFs:** Go to `.../pdf/Ven. Author/`
-    - _Use for:_ Finished books, essays, or scans.
-- **PDFs For Reference Only**
-	- These are pdf that when converted is more difficult to read as md file becasue of style so it is preferable to keep them in pdf but extract all the sutta links and include the properties for easy reference /for_reference_only_pdf/Author
+> [!info]+ 🧭 Quick Start: Contributor Checklist  
+> **Before you submit, confirm all of the following:**
+> 
+> -  My file is placed inside the **Inbox** (not Contributions)
+>     
+> -  I used the **correct folder path** (Dhamma/Vinaya → Format → Author)
+>     
+> -  The **filename follows “Title First” rules**
+>     
+> -  The **Author folder name is standardized** (Ven., Ajahn, or Lay)
+>     
+> -  I did **not** add version numbers or dates to the filename
+>     
+> -  If updating, I **overwrote** the existing file (same name)
+>     
+> -  Images (if any) are in the **same folder** as the note
+>     
+> 
+> ✅ If all boxes are checked, your file will be processed correctly.
 
-- **Epubs:** Go to `.../epub/Ven. Author/`
-    - _Use for:_ Digital books.
+---
 
-- **Obsidian/Notes:** Go to `.../obsidian/Ven. Author/`
-    - _Use for:_ Your markdown notes (`.md`), Canvases, or MOCS, Bases, etc.
-    - _Subfolders:_ You **must** create a subfolder if it's a specific project (e.g., `.../obsidian/Ven. Thanissaro/Canvas/`).
-        
+> [!abstract]+ 🗂️ Visual Folder Map (Overview)
+> 
+> `Inbox/ ├─ Dhamma/ │  ├─ pdf/ │  │  └─ Ven. Author/ │  ├─ for_reference_only_pdf/ │  │  └─ Author/ │  ├─ epub/ │  │  └─ Ven. Author/ │  └─ obsidian/ │     └─ Ven. Author/ │        ├─ Notes.md │        ├─ Canvas/ │        └─ MOCs/ │ └─ Vinaya/    ├─ pdf/    ├─ for_reference_only_pdf/    ├─ epub/    └─ obsidian/`
+> 
+> **Rule of thumb:**  
+> If you’re unsure where a file goes, it belongs in **Inbox**, not Contributions.
 
-### 2. The Golden Rule: Naming Files
+---
 
-The automation script relies on the filename to organize the library. You **must** follow this format:
-If you break these rules, the **Gatekeeper will automatically delete your file** from the Inbox. 
+> [!note]+ 📥 1. Where to Put Your Contribution  
+> All new work must go into the **Inbox**.  
+> **Do not edit the `Contributions` folder directly**—it is fully automated.
+> 
+> **Required path structure:**
+> 
+> `Inbox / [Dhamma or Vinaya] / [Format] / [Author] / [Type]`
 
-### 1. File Naming Standards
-We use a **"Title First"** convention. 
-* **✅ DO:** `Wings to Awakening - Ven. Thanissaro.pdf` 
-* **✅ DO:** `Mindfulness in Plain English - Ven. Gunaratana.epub` 
-* **❌ DON'T:** `Thanissaro - Wings.pdf` (Author first) 
-* **❌ DON'T:** `scan_001.pdf` (No info)
-* he_Self_v2_FINAL_EDIT.md` (Junk text)
+---
 
-> **Pro Tip:** If you are lazy, just drop the file into a named folder! > `Inbox/Dhamma/pdf/Ven. Thanissaro/Wings to Awakening.pdf` -> **Accepted & Renamed automatically.**
+> [!example]+ 📄 2. Supported Formats
+> 
+> ### PDFs
+> 
+> **Path:**  
+> `.../pdf/Ven. Author/`
+> 
+> **Use for:**
+> 
+> - Finished books
+>     
+> - Essays
+>     
+> - Scans or print-style documents
+>     
+> 
+> ---
+> 
+> ### PDFs (For Reference Only)
+> 
+> **Path:**  
+> `.../for_reference_only_pdf/Author/`
+> 
+> **Use for:**
+> 
+> - PDFs that do **not** convert cleanly to Markdown
+>     
+> 
+> **What happens automatically:**
+> 
+> - Files remain as PDFs
+>     
+> - All sutta citations are extracted
+>     
+> - Citations are added as metadata for easy reference
+>     
+> 
+> ---
+> 
+> ### EPUBs
+> 
+> **Path:**  
+> `.../epub/Ven. Author/`
+> 
+> **Use for:**
+> 
+> - Digital books in EPUB format
+>     
+> 
+> ⚠️ Only EPUB is supported (no MOBI, AZW, etc.)
+> 
+> ---
+> 
+> ### Obsidian Notes
+> 
+> **Path:**  
+> `.../obsidian/Ven. Author/`
+> 
+> **Use for:**
+> 
+> - Markdown notes (`.md`)
+>     
+> - Canvases
+>     
+> - MOCs (Maps of Content)
+>     
+> - Structured projects or research
+>     
+> 
+> **Tip:**  
+> Create subfolders for larger projects:
+> 
+> `.../obsidian/Ven. Thanissaro/Canvas/`
 
-**The Automation:** If you organize your Inbox folders correctly, the system will do this for you.
+---
 
-**Author Title Conventions:**
+> [!warning]+ 🏷️ 3. File Naming Standards (Critical)  
+> This is a shared public library.  
+> **The automation relies entirely on filenames and folder names.**
+> 
+> Files that do not follow these rules are **automatically deleted from the Inbox**.
 
-We standardize names to respect lineages and status.
+---
 
-|**Category**|**Rule**|**Example Folder Name**|**Resulting Filename**|
-|---|---|---|---|
-|**Ordained (General)**|Start with `Ven.`|`Ven. Brahmali`|`Ven. Brahmali - Vinaya Analysis.md`|
-|**Thai Forest**|Start with `Ajahn`|`Ajahn Geoff`|`Ajahn Geoff - The Self.md`|
-|**Lay Person**|`Lastname Name`|`Gethin Rupert`|`Gethin Rupert - Foundations of Buddhism.md`|
+> [!check]+ “Title First” Naming Convention  
+> Place files inside the **correct Author folder**, using one of the following:
+> 
+> **Accepted formats:**
+> 
+> - `Title – Author.pdf`  
+>     _Example:_  
+>     `Wings to Awakening - Ven. Thanissaro.pdf`
+>     
+> - `Title.pdf` (inside Author folder)  
+>     _Example:_  
+>     `Ven. Thanissaro/Wings to Awakening.pdf`
+>     
+> - `Title only` inside Author folder
+>     
+>     - Accepted
+>         
+>     - Renamed automatically by the system
+>         
 
-#### ⛔ The "Rejection" Policy (The Gatekeeper)
+---
 
-Any file that does not follow these rules will fail the audit.
+> [!table]+ 👤 Author Naming Conventions
+> 
+> |Category|Rule|Example Folder|Result|
+> |---|---|---|---|
+> |Ordained|Start with `Ven.`|Ven. Brahmali|Ven. Brahmali - Vinaya Analysis.md|
+> |Thai Forest|Start with `Ajahn`|Ajahn Geoff|Ajahn Geoff - The Self.md|
+> |Lay|Lastname Firstname|Gethin Rupert|Gethin Rupert - Foundations of Buddhism.md|
 
-**The Filter Logic:**
+---
 
-1. **If the file has " - ":** The script trusts the filename.
-    
-    - _Input:_ `Ven. Sujato - Suttas.pdf` $\rightarrow$ _Output:_ `Ven. Sujato - Suttas.md`
-        
-2. **If the file has NO " - ":** The script looks at the **Parent Folder**.
-    
-    - _Input:_ `.../Ajahn Brahm/Mindfulness.pdf` $\rightarrow$ _Output:_ `Ajahn Brahm - Mindfulness.md`
-        
-3. **FAILURE MODE:** If the file has NO " - " **AND** is not in an Author folder (it's loose in the `pdf` folder).
-    
-    - _Result:_ **REJECTED / SKIPPED.** The script cannot determine the author, so it will not process the file.
+> [!danger]+ ⛔ Automatic Rejection Policy  
+> To keep the library usable and consistent, files that fail validation are **deleted**.
+> 
+> **Gatekeeper Logic:**
+> 
+> 1. **Filename contains “ - ”**  
+>     → System trusts the filename
+>     
+>     - Input: `Ven. Sujato - Suttas.pdf`
+>         
+>     - Output: `Ven. Sujato - Suttas.md`
+>         
+> 2. **No “ - ” in filename**  
+>     → System reads the **Author folder**
+>     
+>     - Input: `.../Ajahn Brahm/Mindfulness.pdf`
+>         
+>     - Output: `Ajahn Brahm - Mindfulness.md`
+>         
+> 3. **Failure mode**
+>     
+>     - No “ - ”
+>         
+>     - Not inside an Author folder  
+>         → ❌ Rejected / skipped
+>         
+> 
+> **Examples that will be rejected:**
+> 
+> - `Thanissaro - Wings.pdf` (Author first)
+>     
+> - `scan_001.pdf` (No metadata)
+>     
+> - `the_Self_v2_FINAL_EDIT.md` (Non-standard)
+>     
 
+---
 
+> [!refresh]+ 🔄 4. Updating Existing Files  
+> **Do not:**
+> 
+> - Create `v2`, `final`, or dated filenames
+>     
+> - Rename existing files
+>     
+> 
+> **Correct method:**
+> 
+> - Overwrite the existing file in the Inbox
+>     
+> - Keep the **exact same filename**
+>     
+> 
+> **Why:**  
+> Git tracks history automatically. Renaming breaks links across the library.
 
+---
 
-### 3. Version Control (Updating Files)
-
-- **Do not** create new files for updates (e.g., `Essay_v2.md`).
-    
-- **Do not** rename the file to add dates.
-    
-- **Action:** Simply overwrite the existing file in the Inbox with your new version. Keep the **exact same filename**.
-    
-- **Why?** The system uses Git to track history. If you rename the file, you break the links in our library.
-    
-
-### 4. Images & Attachments
-
-- **For Obsidian Notes:** If your note uses images, keep the image file **in the same folder** as your note. The script will copy it automatically.
-    
-- **For PDFs/Epubs:** We do not extract images from books. Do not worry about covers.
+> [!image]+ 🖼️ 5. Images & Attachments
+> 
+> **Obsidian Notes**
+> 
+> - Keep images in the **same folder** as the note
+>     
+> - They are copied automatically
+>     
+> 
+> **PDFs & EPUBs**
+> 
+> - Images and covers are not extracted
+>     
+> - No action required
+>
