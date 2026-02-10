@@ -1,33 +1,52 @@
-# --- System Junk ---
+# ===========================
+# 🖥️ OPERATING SYSTEM JUNK
+# ===========================
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 desktop.ini
 
-# --- Python ---
+# ===========================
+# 🐍 PYTHON & SCRIPTS
+# ===========================
 __pycache__/
 *.py[cod]
+*$py.class
 venv/
 .env
-
-# --- VS Code ---
-.vscode/
-
-# --- Temporary ---
-test_output/
 *.log
 
-# System Files (Mac/Windows junk)
-.DS_Store
-Thumbs.db
-desktop.ini
+# ===========================
+# ⚙️ EDITOR SETTINGS
+# ===========================
+# VS Code
+.vscode/
 
-# Obsidian Config (Personal settings shouldn't be shared)
+# Obsidian (Personal workspace settings)
 .obsidian/workspace
 .obsidian/workspace.json
 .obsidian/cache
 .obsidian/plugins/
-# Keep '.obsidian/snippets' if you want to share CSS
+# Note: We keep .obsidian/snippets and themes to share styles
 
-# Python Junk (From running scripts)
-__pycache__/
-*.pyc
+# ===========================
+# 🧪 TESTING & BUILD
+# ===========================
+test_output/
+build/
+dist/
+
+# ===========================
+# 🛡️ LIBRARY SAFETY
+# ===========================
+# Ignore accidental drags into root (files should be in Inbox)
+*.pdf
+*.epub
+*.mobi
+!Inbox/**/*.pdf   # Exception: Allow PDFs in Inbox
+!Inbox/**/*.epub  # Exception: Allow EPUBs in Inbox
+!Contributions/**/*.md # Allow MDs in Contributions

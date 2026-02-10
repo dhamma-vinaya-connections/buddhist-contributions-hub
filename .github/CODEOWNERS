@@ -1,0 +1,23 @@
+# --------------------------------------------------------
+# 🛡️ CODEOWNERS: SYSTEM PROTECTION
+# --------------------------------------------------------
+
+# 1. The "Core System" (Strict Protection)
+# Any change to these files requires YOUR approval.
+# (This prevents hackers/accidents from breaking the robots)
+/scripts/           @dhammavinaya-tools
+/.github/           @dhammavinaya-tools
+/*.py               @dhammavinaya-tools
+/requirements.txt   @dhammavinaya-tools
+/ADMIN.md           @dhammavinaya-tools
+/DEVELOPER.md       @dhammavinaya-tools
+
+# 2. The "Library" (Output)
+# Automated folder. Protect it so people don't edit it manually 
+# without you knowing.
+/Contributions/     @dhammavinaya-tools
+
+# 3. The "Inbox" (Community Access)
+# We do NOT list an owner here.
+# This allows the "Branch Protection" settings to handle reviews,
+# but doesn't strictly lock it to just you (in case you add a helper later).
