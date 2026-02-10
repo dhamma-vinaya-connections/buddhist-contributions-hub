@@ -1,86 +1,57 @@
 import os
+import shutil
 from pathlib import Path
 
 # ==========================================
-# 🛡️ SECURITY & QUALITY CONFIGURATION
-# ==========================================
-MAX_FILE_SIZE_MB = 25   
-
-# Book Rules (Dynamic Density)
-ESSAY_WORD_LIMIT = 15000 
-MIN_CITATIONS_ESSAY = 5   
-MIN_CITATIONS_BOOK = 20   
-
-# Obsidian Note Rules
-MIN_WIKILINKS_NOTE = 5  # Must link to 5 things to be accepted
+# 🛡️ GATEKEEPER CONFIGURATION
 # ==========================================
 
-def get_file_size_mb(filepath):
-    return os.path.getsize(filepath) / (1024 * 1024)
+# 1. MINIMUM CITATIONS (For PDFs/EPUBs)
+# How many Sutta/Vinaya references (e.g., "MN 10") must be found?
+MIN_CITATIONS_BOOK = 35       # For big books (> 40k words)
+MIN_CITATIONS_ESSAY = 20      # For essays/articles (> 2k words)
+MIN_CITATIONS_SHORT = 8       # For very short texts (< 2k words)
 
-def check_malware(filepath, extension):
-    """
-    Checks magic bytes to prevent renamed .exe files.
-    """
-    try:
-        with open(filepath, 'rb') as f:
-            header = f.read(4)
-        
-        if extension == '.pdf': return header.startswith(b'%PDF')
-        if extension == '.epub': return header.startswith(b'PK')
-        if extension == '.md': 
-            if b'\x00' in header: return False 
-            return True
-            
-        return True # Default safe for others (Canvas, JSON, etc.)
-    except: return False
+# 2. MINIMUM CONNECTIVITY (For Markdown Notes)
+# How many wiki-links ([[Link]]) must a note have?
+MIN_WIKILINKS_NOTE = 10       # Rejects "orphan" or empty notes
+
+# 3. WORD COUNT THRESHOLDS
+# Defines what counts as a "Book" vs "Essay"
+THRESHOLD_BOOK_WORDS = 40000
+THRESHOLD_ESSAY_WORDS = 2000
+
+# ==========================================
+
+def count_words(text):
+    if not text: return 0
+    return len(text.split())
 
 def get_quality_threshold(word_count):
     """
-    Returns the minimum citations required based on text length.
+    Returns the required number of citations based on text length.
     """
-    if word_count < ESSAY_WORD_LIMIT:
+    if word_count >= THRESHOLD_BOOK_WORDS:
+        return MIN_CITATIONS_BOOK
+    elif word_count >= THRESHOLD_ESSAY_WORDS:
         return MIN_CITATIONS_ESSAY
     else:
-        return MIN_CITATIONS_BOOK
+        return MIN_CITATIONS_SHORT
 
-def reject_and_delete(filepath, reason):
+def reject_and_delete(file_path, reason):
     """
-    Deletes the file from Inbox and logs the reason.
+    Deletes the file and logs the rejection.
     """
-    print(f"🗑️  DELETING: {filepath.name}")
-    print(f"   ↳ Reason: {reason}")
+    print(f"❌ REJECTED: {file_path.name}")
+    print(f"   Reason: {reason}")
     try:
-        os.remove(filepath)
-        print("   ✅ File removed from Inbox.")
-    except Exception as e:
-        print(f"   ⚠️ Could not delete: {e}")
+        os.remove(file_path)
+        print(f"   🗑️ File deleted from Inbox.")
+    except OSError as e:
+        print(f"   ⚠️ Error deleting file: {e}")
 
-def audit_file_structure(filepath, author_name_from_folder):
+def validate_note_connectivity(link_count):
     """
-    Basic checks (Size, Name, Malware).
-    Returns: (Passed (bool), Reason (str))
+    Checks if an Obsidian note has enough connections.
     """
-    filename = filepath.name
-    ext = filepath.suffix.lower()
-
-    # 1. PLUGIN BLOCKER
-    if ".obsidian" in str(filepath):
-        return False, "⛔ SECURITY: Plugins/Settings not allowed."
-
-    # 2. ORPHAN CHECK
-    if author_name_from_folder is None:
-        if " - " not in filename and "obsidian" not in str(filepath):
-            return False, "⛔ ORPHAN: No author in filename or folder."
-
-    # 3. SIZE CHECK
-    if ext in ['.pdf', '.epub']:
-        size = get_file_size_mb(filepath)
-        if size > MAX_FILE_SIZE_MB:
-            return False, f"⛔ TOO BIG: {size:.1f}MB (Limit: {MAX_FILE_SIZE_MB}MB)"
-
-    # 4. MALWARE CHECK
-    if not check_malware(filepath, ext):
-        return False, "☣️  MALWARE SUSPICION: File signature mismatch."
-
-    return True, "OK"
+    return link_count >= MIN_WIKILINKS_NOTE
