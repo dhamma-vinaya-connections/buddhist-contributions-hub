@@ -1923,7 +1923,7 @@ introductory remark in T 48 at T I 837c21, this discourse belongs to a Madhyama-
 
 ## Chapter 1 Mūlapariyāya-vagga
 
-[[MN1]] Mūlapariyāya-sutta
+### [[MN1]] Mūlapariyāya-sutta
 
 The Mūlapariyāya-sutta, the “discourse on the root instruction”, [1] analyses the perceptual processes of different types of person. [2] This discourse has a Chinese parallel in the
 Ekottarika-āgama. [3] Besides this parallel, a discourse from the Madhyama-āgama and an
@@ -2153,7 +2153,7 @@ all known parallels for a proper assessment of the Pāli version.
 28   • A Comparative Study of the _Majjhima-nikāya_
 
 
-[[MN2]] Sabbāsava-sutta
+### [[MN2]] Sabbāsava-sutta
 The Sabbāsava-sutta, the “discourse on all the influxes”, presents seven methods for
 abandoning the influxes (āsava). [23] This discourse has a parallel in the Madhyama-āgama,
 another parallel in the Ekottarika-āgama, and a third parallel in an individual translation. [24] In addition to these parallels preserved in Chinese translation, a version of the present discourse can also be found as a discourse quotation in Śamathadeva’s commentary
@@ -2435,7 +2435,7 @@ would be broader in scope, since by including the method of “seeing” they al
 method most closely related to becoming a disciple in higher training.
 
 
-[[MN3]] Dhammadāyāda-sutta
+### [[MN3]] Dhammadāyāda-sutta
 The Dhammadāyāda-sutta, the “discourse on heirs in the Dharma”, reports a brief instruction by the Buddha, which is followed by an explanation given by Sāriputta. This
 discourse has a parallel in the Madhyama-āgama and in the Ekottarika-āgama. [52]
 
@@ -2550,7 +2550,7 @@ Madhyama-āgama version concludes with the Buddha expressing his approval of Sā
 Sāriputta’s exposition. [62]
 
 
-[[MN4]] Bhayabherava-sutta
+### [[MN4]] Bhayabherava-sutta
 
 The Bhayabherava-sutta, the “discourse on fear and dread”, expounds the difficulties
 of living in seclusion. This discourse has a parallel in the Ekottarika-āgama. [63] A few
@@ -2778,20 +2778,20 @@ MN I 24
 42   • A Comparative Study of the _Majjhima-nikāya_
 
 
-[[MN5]] Ana�ga�a-sutta
+### [[MN5]] Ana�ga�a-sutta
 
 The Ana�ga�a-sutta, the “discourse on [being] without blemishes”, is an exposition by
 Sāriputta on what constitute blemishes for a monk. This discourse has three Chinese parallels, of which one is found in the Madhyama-āgama, one in the Ekottarika-āgama, and
 the third is an individual translation. [79]
 The four versions of this discourse agree that Sāriputta described four types of person:
 
-      - those who are aware of the presence of blemishes,
+  - those who are aware of the presence of blemishes,
 
-      - those who are not aware of the presence of blemishes,
+  - those who are not aware of the presence of blemishes,
 
-      - those who are aware of the absence of blemishes,
+  - those who are aware of the absence of blemishes,
 
-      - those who are not aware of the absence of blemishes.
+  - those who are not aware of the absence of blemishes.
 In relation to these four, according to all versions those who are aware of their situation
 (the first and third), are superior to those who are not aware of their situation (the second
 and fourth).
@@ -2913,7 +2913,7 @@ overjoyed while watching a cartwright perform a feat of workmanship just as if t
 much joy as a pretty young girl fond of ornaments would joyfully receive a flower garland. [95]
 
 
-[[MN6]] Āka�kheyya-sutta
+### [[MN6]] Āka�kheyya-sutta
 
 The Āka�kheyya-sutta, the “discourse on [what] one may wish”, describes some essential aspects of a monk’s life, the undertaking of which can lead to the fulfilment of a
 range of wishes. This discourse has a Pāli parallel among the tens of the A�guttara-nikāya, and two Chinese parallels found in the Madhyama-āgama and in the Ekottarikaāgama. [96]
@@ -3075,7 +3075,7 @@ highlights that the question at stake is not merely observance of the precepts, 
 an integral practice of all aspects of the path.
 
 
-[[MN7]] Vatthūpama-sutta [112]
+### [[MN7]] Vatthūpama-sutta [112]
 
 The Vatthūpama-sutta, the “discourse on the simile of the cloth”, features an exposition on the nature of mental defilements. This discourse has four Chinese parallels, one
 of which is found in the Madhyama-āgama, another parallel is found in the Ekottarikaāgama, while the remaining two are individual translations. [113] Besides these four parallels, the final part of the Vatthūpama-sutta, which is concerned with ritual bathing in [[AN110]] [[AN10.71]] at AN V 133,9, [[MN6]] at MN I 36,8, and [[EA37.5]] at T II 712c4.
@@ -3479,7 +3479,7 @@ Regarding each of these three main modes of presentation, the Brahmin’s reacti
 the depth of the discourse he has received.
 
 
-[[MN8]] Sallekha-sutta
+### [[MN8]] Sallekha-sutta
 
 The Sallekha-sutta, the “discourse on effacement”, expounds what constitutes real effacement. This discourse has a parallel in the Madhyama-āgama and another parallel in
 the Ekottarika-āgama. [160]
@@ -3768,7 +3768,7 @@ Pāli discourses, which indicates that, even though a conclusion may mention onl
 most prominent person rejoicing, the rejoicing of everyone else present should be understood to be implicit in the same statement.
 
 
-[[MN9]] Sammādi��hi-sutta
+### [[MN9]] Sammādi��hi-sutta
 
 The Sammādi��hi-sutta, the “discourse on right view”, features an exposition by Sāriputta on right view. This discourse has two Chinese parallels, found in the Madhyamaāgama and in the Sa�yukta-āgama, [195] and a parallel in a Sanskrit fragment. [196]
 
@@ -4067,7 +4067,7 @@ point ignorance has vanished and knowledge has arisen, Mahāko��hita was pus
 line of questioning too far.
 
 
-[[MN10]] Satipa��hāna-sutta
+### [[MN10]] Satipa��hāna-sutta
 
 The Satipa��hāna-sutta, the “discourse on the establishing of mindfulness”, offers instructions on satipa��hāna. [231] This discourse has a Pāli parallel in the Dīgha-nikāya and
 two Chinese parallels, found in the Madhyama-āgama and in the Ekottarika-āgama. [232]
