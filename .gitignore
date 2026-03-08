@@ -43,10 +43,15 @@ dist/
 # ===========================
 # 🛡️ LIBRARY SAFETY
 # ===========================
-# Ignore accidental drags into root (files should be in Inbox)
+# 1. First, lock the door: Ignore accidental drags of books into the root
 *.pdf
 *.epub
 *.mobi
-!Inbox/**/*.pdf   # Exception: Allow PDFs in Inbox
-!Inbox/**/*.epub  # Exception: Allow EPUBs in Inbox
-!Contributions/**/*.md # Allow MDs in Contributions
+
+# 2. Then, open specific doors: Allow these files ONLY inside the Hub's Inbox
+!buddhist-contributions-hub/Inbox/**/*.pdf
+!buddhist-contributions-hub/Inbox/**/*.epub
+!buddhist-contributions-hub/Inbox/**/*.mobi
+
+# Allow MDs in Contributions
+!Contributions/**/*.md
