@@ -1126,7 +1126,7 @@ as it really is.
 
 "How does one understand the path to the cessation of bodily form as
 it really is? That is, it is the noble eightfold path: right view, right intention, right speech, right action, right livelihood, right effort, right
-mindfulness, and right concentration – this is called the path to the
+mindfulness, and right samādhi – this is called the path to the
 cessation of bodily form. In this way one understands the path to the
 cessation of bodily form as it really is.
 
@@ -1181,7 +1181,7 @@ is.
 
 "How does one understand the path to the cessation of feeling as it really
 is? That is, it is the noble eightfold path: right view ... _up to_ ... right
-concentration – this is called the path to the cessation of feeling. In
+samādhi – this is called the path to the cessation of feeling. In
 this way one understands the path to the cessation of feeling as it really is.
 
 [10b]
@@ -1228,7 +1228,7 @@ perception as it really is.
 
 "How does one understand the path to the cessation of perception as it
 really is? That is, it is the noble eightfold path: right view ... _up to_ ...
-right concentration – this is called the path to the cessation of perception. In this way one understands the path to the cessation of perception as it really is.
+right samādhi – this is called the path to the cessation of perception. In this way one understands the path to the cessation of perception as it really is.
 
 
 "How does one understand the gratification in perception as it really is?
@@ -1269,7 +1269,7 @@ formations as it really is.
 
 "How does one understand the path to the cessation of formations as it
 really is? That is, it is the noble eightfold path: right view ... _up to_ ...
-right concentration – this is called the path to the cessation of formations. In this way one understands the path to the cessation of formations as it really is.
+right samādhi – this is called the path to the cessation of formations. In this way one understands the path to the cessation of formations as it really is.
 
 
 "How does one understand the gratification in formations as it really is?
@@ -1322,7 +1322,7 @@ the cessation of consciousness as it really is.
 
 "How does one understand the path to the cessation of consciousness
 as it really is? That is, it is the noble eightfold path: right view ... _up_
-_to_ ... right concentration – this is called the path to the cessation of
+_to_ ... right samādhi – this is called the path to the cessation of
 consciousness. In this way one understands the path to the cessation of
 consciousness as it really is.
 

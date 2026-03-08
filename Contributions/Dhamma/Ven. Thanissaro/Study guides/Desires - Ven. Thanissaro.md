@@ -99,11 +99,11 @@ The best way to make this point is to keep tracing the thread from the desire to
 
 Reflecting this way helps to weaken the “why me?” tendency that aggravates suffering and makes you cling fiercely to the desire causing it. It also helps develop two important attitudes that strengthen skillful desires: a sense of dismay *(saṁvega)* over the universality of suffering, and an attitude of heedfulness *(appamāda)* to avoid being duped by that particular type of desire again.
 
-Unskillful desires don’t really give way, though, until you can show that other, less troublesome desires actually can produce greater happiness. This is why the Buddha emphasizes learning how to appreciate the rewards of a virtuous, generous life: the joy in fostering the happiness of others, the solid dignity and self-worth in doing the hard but the right thing. It’s also why his path centers on states of blissful, refreshing concentration. Accessing this refreshment in your meditation gives you immediate, visceral proof that the Buddha was no killjoy. The desires he recommends really do produce a happiness that can give you the strength to keep on choosing the skillful path.
+Unskillful desires don’t really give way, though, until you can show that other, less troublesome desires actually can produce greater happiness. This is why the Buddha emphasizes learning how to appreciate the rewards of a virtuous, generous life: the joy in fostering the happiness of others, the solid dignity and self-worth in doing the hard but the right thing. It’s also why his path centers on states of blissful, refreshing samādhi. Accessing this refreshment in your meditation gives you immediate, visceral proof that the Buddha was no killjoy. The desires he recommends really do produce a happiness that can give you the strength to keep on choosing the skillful path.
 
 That’s the next step: patiently and persistently sticking with the desire to do the skillful thing in all situations. This isn’t a matter of sheer effort. As any good sports coach will tell you, hours of practice don’t necessarily guarantee results. You have to combine your persistence with intent: sensitivity, discernment, ingenuity. Keep an eye out for how to do things more efficiently. Try to see patterns in what you do. At the same time, introduce play and variety into your practice so that the plateaus don’t get boring, and the downs don’t get you down.
 
-The Buddha makes similar points in his meditation instructions. Once you’ve mastered a state of concentration, see where it still contains elements of stress. Then look for patterns to that stress: What are you doing to cause it? Find ways to gladden the mind when it’s down, to liberate it from its confinements, to steady it when it gets restless. In this way, as you learn to enjoy rising to the challenges of meditation, you also gain familiarity with subtle patterns of cause and effect in the mind.
+The Buddha makes similar points in his meditation instructions. Once you’ve mastered a state of samādhi, see where it still contains elements of stress. Then look for patterns to that stress: What are you doing to cause it? Find ways to gladden the mind when it’s down, to liberate it from its confinements, to steady it when it gets restless. In this way, as you learn to enjoy rising to the challenges of meditation, you also gain familiarity with subtle patterns of cause and effect in the mind.
 
 The fourth step, once you’ve mastered those patterns, is to push their limits. Again, this isn’t simply a matter of increased effort. It’s more a rekindling of your imagination to explore the unexpected side-alleys of cause and effect. A famous cellist once said that his most exhilarating concert was one in which he broke a string on his cello and decided to finish the piece he was playing on the remaining strings, refingering it on the spot. The most obvious strings in meditation are the specific techniques for fostering stillness and insight, but the more interesting ones are the assumptions that underlie the quest for skill: lack, strategy, dialogue, your sense of self. Can you learn to do without them? There comes a point in your meditation when the only way for greater happiness is to begin questioning these assumptions.
 
@@ -416,7 +416,7 @@ while the wise, in this regard,
 
 “And what is the result of sensuality? One who wants sensuality produces a corresponding self-state *[attabhāva]* on the side of merit or demerit.…
 
-“And what is the cessation of sensuality? From the cessation of contact is the cessation of sensuality; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the way leading to the cessation of sensuality.” *—[[AN6.63]]*
+“And what is the cessation of sensuality? From the cessation of contact is the cessation of sensuality; and just this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi—is the way leading to the cessation of sensuality.” *—[[AN6.63]]*
 
 §29. “Touched by a painful feeling, an uninstructed run-of-the-mill person delights in sensuality. Why is that? Because he doesn’t discern any escape from painful feeling aside from sensuality. ” *—[[SN36.6]]*
 
@@ -616,7 +616,7 @@ When this was said, Ven. Ānanda said to Ven. Sāriputta, “Sāriputta my frien
 
 ## The Fourth Noble Truth
 
-§44. “Among whatever fabricated phenomena there may be, the noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is considered supreme.” *—[[ITI90]]*
+§44. “Among whatever fabricated phenomena there may be, the noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi—is considered supreme.” *—[[ITI90]]*
 
 §45. “And what is right resolve? Right resolve, I tell you, is of two sorts: There is right resolve with effluents, siding with merit, resulting in the acquisitions [of becoming]; and there is noble right resolve, without effluents, transcendent, a factor of the path.
 
@@ -635,7 +635,7 @@ in sensual passions:
 	you’re said to be 
 	in the up-flowing stream. *—[[DHP|DHP218]]*
 
-§48. “There is the case where a monk develops the base of power endowed with concentration founded on desire & the fabrications of exertion, thinking, ‘This desire of mine will be neither overly sluggish nor overly active, neither inwardly restricted nor outwardly scattered.’ He keeps perceiving what is in front & behind so that what is in front is the same as what is behind, what is behind is the same as what is in front. What is below is the same as what is above, what is above is the same as what is below. [He dwells] by night as by day, and by day as by night. By means of an awareness thus open & unhampered, he develops a brightened mind.…
+§48. “There is the case where a monk develops the base of power endowed with samādhi founded on desire & the fabrications of exertion, thinking, ‘This desire of mine will be neither overly sluggish nor overly active, neither inwardly restricted nor outwardly scattered.’ He keeps perceiving what is in front & behind so that what is in front is the same as what is behind, what is behind is the same as what is in front. What is below is the same as what is above, what is above is the same as what is below. [He dwells] by night as by day, and by day as by night. By means of an awareness thus open & unhampered, he develops a brightened mind.…
 
 “And how is desire overly sluggish? Whatever desire is accompanied by laziness, conjoined with laziness, that is called overly sluggish desire.
 
@@ -649,7 +649,7 @@ in sensual passions:
 
 “And how does a monk dwell so that what is below is the same as what is above, and what is above is the same as what is below? There is the case where a monk reflects on this very body, from the soles of the feet on up, from the crown of the head on down, surrounded by skin, & full of various kinds of unclean things: ‘In this body there are head hairs, body hairs, nails, teeth, skin, flesh, tendons, bones, bone marrow, kidneys, heart, liver, pleura, spleen, lungs, large intestines, small intestines, gorge, feces, bile, phlegm, pus, blood, sweat, fat, tears, skin-oil, saliva, mucus, fluid in the joints, urine.’ This is how a monk dwells so that what is below is the same as what is above, and what is above is the same as what is below.
 
-“And how does a monk dwell by night as by day, and by day as by night? There is the case where a monk at night develops the base of power endowed with concentration founded on desire & the fabrications of exertion by means of the same modes (permutations) & signs & themes that he uses by day, and by day he develops the base of power endowed with concentration founded on desire & the fabrications of exertion by means of the same modes & signs & themes that he uses by night. This is how a monk dwells by night as by day, and by day as by night.
+“And how does a monk dwell by night as by day, and by day as by night? There is the case where a monk at night develops the base of power endowed with samādhi founded on desire & the fabrications of exertion by means of the same modes (permutations) & signs & themes that he uses by day, and by day he develops the base of power endowed with samādhi founded on desire & the fabrications of exertion by means of the same modes & signs & themes that he uses by night. This is how a monk dwells by night as by day, and by day as by night.
 
 “And how does a monk—by means of an awareness open & unhampered—develop a brightened mind? There is the case where a monk has the perception of light, the perception of daytime [at any hour of the day] well in hand & well-established. This is how a monk—by means of an awareness open & unhampered—develops a brightened mind.” *—[[SN51.20]]*
 
@@ -663,7 +663,7 @@ in sensual passions:
 
 “What is the path, the practice, for the abandoning of that desire?”
 
-“Brahman, there is the case where a monk develops the base of power endowed with concentration founded on desire & the fabrications of exertion. He develops the base of power endowed with concentration founded on persistence … concentration founded on intent … concentration founded on discrimination & the fabrications of exertion. This, brahman, is the path, this is the practice for the abandoning of that desire.”
+“Brahman, there is the case where a monk develops the base of power endowed with samādhi founded on desire & the fabrications of exertion. He develops the base of power endowed with samādhi founded on persistence … samādhi founded on intent … samādhi founded on discrimination & the fabrications of exertion. This, brahman, is the path, this is the practice for the abandoning of that desire.”
 
 “If that’s so, Master Ānanda, then it’s an endless path, and not one with an end, for it’s impossible that one could abandon desire by means of desire.”
 
@@ -1175,7 +1175,7 @@ That’s his genuine knowledge—
 
 “And what should the man do in order to be doing what should be done with the raft? There is the case where the man, having crossed over, would think, ‘How useful this raft has been to me! For it was in dependence on this raft that, making an effort with my hands & feet, I have crossed over to safety on the further shore. Why don’t I, having dragged it on dry land or sinking it in the water, go wherever I like?’ In doing this, he would be doing what should be done with the raft. In the same way, monks, I have taught the Dhamma compared to a raft, for the purpose of crossing over, not for the purpose of holding onto. Understanding the Dhamma as taught compared to a raft, you should let go even of Dhammas, to say nothing of non-Dhammas.” *—[[MN22]]*
 
-§75. “The great expanse of water stands for the fourfold flood: the flood of sensuality, the flood of becoming, the flood of views, & the flood of ignorance. The near shore, dubious & risky, stands for self-identity. The further shore, secure and free from risk, stands for Unbinding. The raft stands for just this noble eightfold path: right view…right concentration. Making an effort with hands & feet stands for the arousing of persistence.” *—[[SN35.197]]*
+§75. “The great expanse of water stands for the fourfold flood: the flood of sensuality, the flood of becoming, the flood of views, & the flood of ignorance. The near shore, dubious & risky, stands for self-identity. The further shore, secure and free from risk, stands for Unbinding. The raft stands for just this noble eightfold path: right view…right samādhi. Making an effort with hands & feet stands for the arousing of persistence.” *—[[SN35.197]]*
 
 §76. Then a certain devatā, in the far extreme of the night, her extreme radiance lighting up the entirety of Jeta’s Grove, went to the Blessed One. On arrival, having bowed down to him, she stood to one side. As she was standing there, she said to him, “Tell me, dear sir, how you crossed over the flood.”
 

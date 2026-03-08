@@ -157,8 +157,8 @@ of name-and-form, consciousness arises; with the cessation of nameand-form, cons
 2 Parallel: Akanuma 1929/1990: 29 lists [[SN22.5]] at SN III 13,28 as a parallel, but the
 discourse seems only distantly related to [[SA59]] in as much as both explain how each
 of the five aggregates arises and ceases; cf. also the discussion in Vetter 2000: 174.
-[[SN22.5]] differs in as much as it sets out on the topic of concentration, which provides
-the title for the discourse, indicating that concentration is required for understanding
+[[SN22.5]] differs in as much as it sets out on the topic of samādhi, which provides
+the title for the discourse, indicating that samādhi is required for understanding
 things as they really are. According to [[SN22.5]] the arising of each aggregate is due
 to delight leading to clinging and the remaining links of dependent arising ( _paṭicca_
 _samuppāda_ ), wherefore its cessation takes place through the cessation of clinging,
@@ -789,7 +789,7 @@ escape from feeling.’ Because of not examining it as it really is, he
 32 Parallel: [[SN22.5]] at SN III 13,28. Akanuma 1929/1990: 29 also mentions [[SN22.6]]
 The two discourses differ from each other only in regard to the introduction part,
 where in [[SN22.5]] at SN III 13,29 the Buddha recommends the development of
-concentration, whereas in [[SN22.6]] at SN III 15,20 he recommends seclusion. Since
+samādhi, whereas in [[SN22.6]] at SN III 15,20 he recommends seclusion. Since
 [[SA65]] recommends meditation and calming the mind, [[SN22.5]] appears to be the
 closer parallel. For discourses 65 to 68 my reconstruction of the respective titles is
 based on the _uddāna_ found after discourse 68.
@@ -1313,7 +1313,7 @@ called the cessation of identity.
 “What is path to the cessation of identity? That is, it is the noble
 eightfold path: right view, right intention, right speech, right
 action, right livelihood, right effort, right mindfulness, and right
-concentration. This is called the path to the cessation of identity.
+samādhi. This is called the path to the cessation of identity.
 
 “This is called [the explanation of:] ‘I will teach you identity, the
 arising of identity, the cessation of identity, and the path to the
@@ -2041,21 +2041,21 @@ the seal of the noble Dharma and the reaching of purification of
 
 [knowledge and] vision. Listen and pay careful attention.
 
-“If a monk speaks like this: ‘Without having attained concentration
+“If a monk speaks like this: ‘Without having attained samādhi
 on emptiness, I shall give rise to signlessness ( _animitta_ ), nothingness,
 and have knowledge and vision of being free from conceit’, he
 should not speak like this. Why is that? Without having attained
 
-[concentration on] emptiness, it is impossible to claim: [20b] ‘I attain
+[samādhi on] emptiness, it is impossible to claim: [20b] ‘I attain
 signlessness, nothingness, and have knowledge and vision of being
 free from conceit’.
 
-“If a monk speaks like this: ‘I attain [concentration on] emptiness
+“If a monk speaks like this: ‘I attain [samādhi on] emptiness
 and I am able to give rise to signlessness, nothingness, and have
 knowledge and vision of being free from conceit,’ then this is well
 spoken. Why is that? It is certainly possible that, having attained
 
-[concentration on] emptiness, one is able to give rise to signlessness,
+[samādhi on] emptiness, one is able to give rise to signlessness,
 nothingness, and have knowledge and vision of being free from
 conceit.
 
@@ -2088,20 +2088,20 @@ delighted, purified, and liberated. This is called emptiness. One who
 contemplates in this way, even though not yet able to be free from
 conceit, purifies his knowledge and vision.
 
-“Again there is a rightly attending to concentration by contemplating
+“Again there is a rightly attending to samādhi by contemplating
 the abandoning of the sign ( _nimitta_ ) of forms, the abandoning of the
 sign of sounds, of odours, of flavours, of tangibles, and of mental
 objects. [113] This is called signlessness. [114] One who contemplates in this
 way, even though not yet free from conceit, purifies his knowledge
 and vision.
 
-“Again there is a rightly attending to concentration by contemplating
+“Again there is a rightly attending to samādhi by contemplating
 the abandoning of the sign of lust, the abandoning of the sign of
 anger ... and of delusion. [115] This is called nothingness. One who
 contemplates in this way, even though not yet free from conceit,
 purifies his knowledge and vision.
 
-“Again there is a rightly attending to concentration by contemplating:
+“Again there is a rightly attending to samādhi by contemplating:
 ‘From where do [the notions] ‘I’ and ‘mine’ arise?’ [116]
 
 
@@ -2118,7 +2118,7 @@ Waldschmidt 1965: 90: _yat-punar-idam-ucyate aha(a)m-(a)vāma[m]_ .
 46 法鼓佛學學報第13期（民國102年）
 
 
-“Again there is a rightly attending to concentration by contemplating:
+“Again there is a rightly attending to samādhi by contemplating:
 ‘[The notions] ‘I’ and ‘mine’ arise from seeing, from hearing, from
 smelling, from tasting, from touching, and from cognizing.’ [117]
 

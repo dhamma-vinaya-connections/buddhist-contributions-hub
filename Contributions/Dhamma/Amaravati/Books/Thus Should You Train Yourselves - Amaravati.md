@@ -94,7 +94,7 @@ The TranslatorAbhayagiri Buddhist MonasteryRedwood Valley, CAOctober 2014
 
 *“buddhe aveccappasādena samannāgato bhavissāmi—itipi so bhagavā arahaṃ sammāsambuddho vijjācaraṇasampanno sugato lokavidū anuttaro purisadammasārathi satthā devamanussānaṃ buddho bhagavāti. dhamme ... saṅghe ... ariyakantehi sīlehi samannāgato bhavissāmi akhaṇḍehi acchiddehi asabalehi akammāsehi bhujissehi viññūpasatthehi aparāmaṭṭhehi samādhisaṃvattanikehi”ti. evañhi te, dīghāvu, sikkhitabbaṃ.*
 
-“I will be endowed with verified confidence in the Buddha: ‘He, the Blessed One, is indeed the Pure One, the Perfectly Enlightened One. He is impeccable in conduct and understanding, the Accomplished One, the Knower of the Worlds, he trains perfectly those who wish to be trained, he is teacher of gods and humans, he is awake and holy.’ ... in the Dhamma ... in the Sangha ... I will be endowed with those virtues that are dear to the Noble Ones, unbroken, free from holes, spotless, unblemished, liberating, praised by the wise, ungrasped at, and conducive to concentration.” Thus, Dīghāvu, should you train yourself.
+“I will be endowed with verified confidence in the Buddha: ‘He, the Blessed One, is indeed the Pure One, the Perfectly Enlightened One. He is impeccable in conduct and understanding, the Accomplished One, the Knower of the Worlds, he trains perfectly those who wish to be trained, he is teacher of gods and humans, he is awake and holy.’ ... in the Dhamma ... in the Sangha ... I will be endowed with those virtues that are dear to the Noble Ones, unbroken, free from holes, spotless, unblemished, liberating, praised by the wise, ungrasped at, and conducive to samādhi.” Thus, Dīghāvu, should you train yourself.
 
 [[SN55.3]]
 

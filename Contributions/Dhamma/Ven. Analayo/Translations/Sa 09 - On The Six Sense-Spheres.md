@@ -348,7 +348,7 @@ ending, and its disappearance.
 “What is the path to the cessation of the world? That is, it is the
 noble eightfold path of right view, right intention, right speech,
 right action, right livelihood, right effort, right mindfulness, and
-right concentration.”
+right samādhi.”
 
 When the Buddha had spoken this discourse, hearing what the
 Buddha had said the monastics were delighted and received it
@@ -679,7 +679,7 @@ The Buddha said to Sāriputta: “What meditative abiding did you
 enter today?”
 
 Sāriputta said to the Buddha: “Blessed One, today in that grove
-I entered the meditative abiding of the concentration on
+I entered the meditative abiding of the samādhi on
 emptiness.”
 
 The Buddha said to Sāriputta: “It is well, it is well, Sāriputta.

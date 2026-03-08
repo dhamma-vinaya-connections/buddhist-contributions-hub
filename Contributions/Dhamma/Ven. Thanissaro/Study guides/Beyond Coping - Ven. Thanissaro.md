@@ -144,7 +144,7 @@ The Blessed One said: “Now, what is the noble purgative that always succeeds a
 
 “In one who has right mindfulness, wrong mindfulness is purged away ....
 
-“In one who has right concentration, wrong concentration is purged away ....
+“In one who has right samādhi, wrong samādhi is purged away ....
 
 “In one who has right knowledge, wrong knowledge is purged away ....
 
@@ -348,7 +348,7 @@ or any other.
 
 “There are these two extremes that are not to be indulged in by one who has gone forth. Which two? That which is devoted to sensual pleasure with reference to sensual objects: base, vulgar, common, ignoble, unprofitable; and that which is devoted to self-affliction: painful, ignoble, unprofitable. Avoiding both of these extremes, the middle way realized by the Tathagata—producing vision, producing knowledge—leads to calm, to direct knowledge, to self-awakening, to unbinding.
 
-“And what is the middle way realized by the Tathagata that—producing vision, producing knowledge—leads to calm, to direct knowledge, to self-awakening, to unbinding? Precisely this noble eightfold path: right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration. This is the middle way realized by the Tathagata that—producing vision, producing knowledge—leads to calm, to direct knowledge, to self-awakening, to unbinding.
+“And what is the middle way realized by the Tathagata that—producing vision, producing knowledge—leads to calm, to direct knowledge, to self-awakening, to unbinding? Precisely this noble eightfold path: right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi. This is the middle way realized by the Tathagata that—producing vision, producing knowledge—leads to calm, to direct knowledge, to self-awakening, to unbinding.
 
 “Now this, monks, is the noble truth of stress: Birth is stressful, aging is stressful, death is stressful; sorrow, lamentation, pain, distress, & despair are stressful; association with the unbeloved is stressful, separation from the loved is stressful, not getting what is wanted is stressful. In short, the five clinging-aggregates are stressful.
 
@@ -356,7 +356,7 @@ or any other.
 
 “And this, monks, is the noble truth of the cessation of stress: the remainderless fading & cessation, renunciation, relinquishment, release, & letting go of that very craving.
 
-“And this, monks, is the noble truth of the way of practice leading to the cessation of stress: precisely this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.
+“And this, monks, is the noble truth of the way of practice leading to the cessation of stress: precisely this noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi.
 
 “Vision arose, insight arose, discernment arose, knowledge arose, illumination arose within me with regard to things never heard before: ‘This is the noble truth of stress’ ... ‘This noble truth of stress is to be comprehended’ ... ‘This noble truth of stress has been comprehended.’
 
@@ -1576,7 +1576,7 @@ already dead.
 
 —[[AN10.15]]
 
-§34. “And what is heedfulness? There is the case where a monk guards his mind against to (mental) fermentations and (mental) qualities accompanied by fermentations. When his mind is guarded against fermentations and qualities accompanied by fermentations, the faculty of conviction goes to the culmination of its development. The faculty of persistence ... mindfulness ... concentration ... discernment goes to the culmination of its development.”
+§34. “And what is heedfulness? There is the case where a monk guards his mind against to (mental) fermentations and (mental) qualities accompanied by fermentations. When his mind is guarded against fermentations and qualities accompanied by fermentations, the faculty of conviction goes to the culmination of its development. The faculty of persistence ... mindfulness ... samādhi ... discernment goes to the culmination of its development.”
 
 —[[SN48.56]]
 
@@ -2496,11 +2496,11 @@ And what is kamma that is neither dark nor white with neither dark nor white res
 
 *[[AN4.234]] repeats most of the above, defining dark kamma with dark result with the following example: “There is the case of a certain person who kills living beings, steals what is not given, engages in illicit sex, tells lies, and drinks fermented & distilled liquors that are the basis for heedlessness,” and white kamma with white result with the following example: “There is the case of a certain person who abstains from killing living beings, abstains from stealing what is not given, abstains from engaging in illicit sex, abstains from telling lies, and abstains from drinking fermented & distilled liquors that are the basis for heedlessness.”]*
 
-§58. And what is kamma that is neither dark nor white with neither dark nor white result, leading to the ending of kamma? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.
+§58. And what is kamma that is neither dark nor white with neither dark nor white result, leading to the ending of kamma? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi.
 
 —[[AN8.34]]
 
-*[The discourse immediately following this is identical to this except that it replaces the above factors of the noble eightfold path with the following seven factors for awakening: mindfulness as a factor for awakening, analysis of qualities ... persistence ... rapture ... serenity ... concentration ... equanimity as a factor for awakening.]*
+*[The discourse immediately following this is identical to this except that it replaces the above factors of the noble eightfold path with the following seven factors for awakening: mindfulness as a factor for awakening, analysis of qualities ... persistence ... rapture ... serenity ... samādhi ... equanimity as a factor for awakening.]*
 
 §59. I have heard that on one occasion the Blessed One was staying near Rajagaha, at the Bamboo Grove, the Squirrels’ Feeding Ground.
 
@@ -2906,7 +2906,7 @@ and look for peace.”
 
 —[[SN2.19]]
 
-§71. “Now what, monks, is the noble eightfold path? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.
+§71. “Now what, monks, is the noble eightfold path? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi.
 
 “And what is right view? Knowledge in terms of stress, knowledge in terms of the origination of stress, knowledge in terms of the cessation of stress, knowledge in terms of the way of practice leading to the cessation of stress: This is called right view.
 
@@ -2922,7 +2922,7 @@ and look for peace.”
 
 “And what is right mindfulness? [i] There is the case where a monk remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. [ii] He remains focused on feelings in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world. [iii] He remains focused on the mind in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. [iv] He remains focused on mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world. This is called right mindfulness.
 
-“And what is right concentration? [i] There is the case where a monk—quite secluded from sensuality, secluded from unskillful qualities—enters & remains in the first jhana: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. [ii] With the stilling of directed thoughts & evaluations, he enters & remains in the second jhana: rapture & pleasure born of concentration, unification of awareness free from directed thought & evaluation—internal assurance. [iii] With the fading of rapture, he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhana, of which the noble ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ [iv] With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhana: purity of equanimity & mindfulness, neither pleasure nor pain. This is called right concentration.”
+“And what is right samādhi? [i] There is the case where a monk—quite secluded from sensuality, secluded from unskillful qualities—enters & remains in the first jhana: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. [ii] With the stilling of directed thoughts & evaluations, he enters & remains in the second jhana: rapture & pleasure born of samādhi, unification of awareness free from directed thought & evaluation—internal assurance. [iii] With the fading of rapture, he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhana, of which the noble ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ [iv] With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhana: purity of equanimity & mindfulness, neither pleasure nor pain. This is called right samādhi.”
 
 —[[SN45.8]]
 
@@ -3254,7 +3254,7 @@ to the Further Shore.
 
 “Serenity as a factor for awakening ....
 
-“Concentration as a factor for awakening ....
+“samādhi as a factor for awakening ....
 
 “Equanimity as a factor for awakening rightly taught by me, when developed and pursued, leads to direct knowledge, to self-awakening, to unbinding.
 
@@ -3336,7 +3336,7 @@ Then, soon after Nakula’s father the householder had recovered from being sick
 
 —[[AN6.16]]
 
-§83. “Mahanama, a discerning lay follower who is diseased, in pain, severely ill should be reassured by another discerning lay follower with four reassurances: ‘Be reassured, friend, that you are endowed with verified confidence in the Awakened One … verified confidence in the Dhamma … verified confidence in the Sangha … virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to concentration.’
+§83. “Mahanama, a discerning lay follower who is diseased, in pain, severely ill should be reassured by another discerning lay follower with four reassurances: ‘Be reassured, friend, that you are endowed with verified confidence in the Awakened One … verified confidence in the Dhamma … verified confidence in the Sangha … virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to samādhi.’
 
 “Mahanama, when a discerning lay follower who is diseased, in pain, severely ill has been reassured by another discerning lay follower with these four reassurances, he should be asked: ‘Friend, are you concerned for your mother & father?’ If he should say, ‘I am…,’ he should be told, ‘You, my dear friend, are subject to death. If you feel concern for your mother & father, you’re still going to die. If you don’t feel concern for your mother & father, you’re still going to die. It would be good if you abandoned concern for your mother & father.’
 
@@ -3764,9 +3764,9 @@ So Cunda the novice, taking Ven. Sariputta’s bowl & robes, went to Ven. Ananda
 
 So Ven. Ananda & Cunda the novice went to the Blessed One and, on arrival, having bowed down to him, sat to one side. As they were sitting there, Ven. Ananda said to him, “Lord, just now Cunda the novice said to me, ‘Venerable sir, Ven. Sariputta has attained total unbinding. Here are his bowl & robes.’ It was as if my body were drugged, I lost my bearings, things weren’t clear to me, on hearing that Ven. Sariputta had attained total unbinding.”
 
-“But, Ananda, when he attained total unbinding, did Sariputta take the aggregate of virtue along with him? Did he take the aggregate of concentration ... discernment ... release ... the aggregate of knowledge & vision of release along with him?”
+“But, Ananda, when he attained total unbinding, did Sariputta take the aggregate of virtue along with him? Did he take the aggregate of samādhi ... discernment ... release ... the aggregate of knowledge & vision of release along with him?”
 
-“No, lord, when he attained total unbinding, Ven. Sariputta didn’t take the aggregate of virtue ... concentration ... discernment ... release ... the aggregate of knowledge & vision of release along with him. It’s just that he was my instructor & counselor, one who exhorted, urged, roused, & encouraged me. He was tireless in teaching the Dhamma, a help to his companions in the holy life. We miss the nourishment of his Dhamma, the wealth of his Dhamma, his help in the Dhamma.”
+“No, lord, when he attained total unbinding, Ven. Sariputta didn’t take the aggregate of virtue ... samādhi ... discernment ... release ... the aggregate of knowledge & vision of release along with him. It’s just that he was my instructor & counselor, one who exhorted, urged, roused, & encouraged me. He was tireless in teaching the Dhamma, a help to his companions in the holy life. We miss the nourishment of his Dhamma, the wealth of his Dhamma, his help in the Dhamma.”
 
 “But, Ananda, haven’t I already taught you the state of growing different with regard to all things dear & appealing, the state of becoming separate, the state of becoming otherwise? What else is there to expect? It’s impossible that one could forbid anything born, existent, fabricated, & subject to disintegration from disintegrating.
 
@@ -3848,7 +3848,7 @@ Then he recovered from the illness. Soon after his recovery he came out of his d
 
 “What more does the community of monks want from me, Ananda? I have taught the Dhamma without an inner or an outer version. The Tathagata has no closed fist with regard to teachings. Whoever has the thought, ‘I will rule the community of monks,’ or ‘The community of monks is dedicated to me,’ he should give some pronouncement concerning the community of monks. But the Tathagata has no such thoughts. So why should he give some pronouncement concerning the community of monks?
 
-“I am old now, Ananda, & aged. My years have turned eighty. Just as an old cart is kept going with the help of bamboo strips, it seems to me as if the Tathagata’s body is kept going with the help of bamboo strips. The only time the Tathagata’s body feels at ease is when, not attending to any theme at all, and with the cessation of certain feelings, he enters & remains in the theme-less concentration of awareness. Therefore each of you should remain with your self as an island, your self as your refuge, without anything else as a refuge. Remain with the Dhamma as an island, the Dhamma as your refuge, without anything else as a refuge.
+“I am old now, Ananda, & aged. My years have turned eighty. Just as an old cart is kept going with the help of bamboo strips, it seems to me as if the Tathagata’s body is kept going with the help of bamboo strips. The only time the Tathagata’s body feels at ease is when, not attending to any theme at all, and with the cessation of certain feelings, he enters & remains in the theme-less samādhi of awareness. Therefore each of you should remain with your self as an island, your self as your refuge, without anything else as a refuge. Remain with the Dhamma as an island, the Dhamma as your refuge, without anything else as a refuge.
 
 “And how does a monk remain with his self as an island, his self as his refuge, without anything else as a refuge? How does he remain with the Dhamma as an island, the Dhamma as his refuge, without anything else as a refuge? There is the case where a monk remains focused on the body in & of itself—ardent, alert, & mindful—subduing greed & distress with reference to the world. He remains focused on feelings ... mind ... mental qualities in & of themselves—ardent, alert, & mindful—subduing greed & distress with reference to the world. This is how a monk remains with his self as an island, his self as his refuge, without anything else as a refuge, with the Dhamma as an island, the Dhamma as his refuge, without anything else as a refuge. For those who—now or after I am gone—remain with their self as an island ... the Dhamma as their refuge, without anything else as a refuge, they will be the highest of the monks who desire training.”
 
@@ -3900,7 +3900,7 @@ Then another devata exclaimed in the Blessed One’s presence: “What a strong 
 
 Then another devata exclaimed in the Blessed One’s presence: “What a tamed one is Gotama the contemplative! And like a tamed one, when bodily feelings have arisen—painful, fierce, sharp, wracking, repellent, disagreeable—he endures them mindful, alert, & unperturbed!”
 
-Then another devata exclaimed in the Blessed One’s presence: “See a concentration well-developed, a mind well-released—neither pressed down nor forced back, nor with mental fabrication kept blocked or suppressed. Whoever would think that such a naga of a man, lion of a man, thoroughbred of a man, chief bull of a man, strong burden-carrier of a man, such a tamed man should be violated: What else is that if not blindness?”
+Then another devata exclaimed in the Blessed One’s presence: “See a samādhi well-developed, a mind well-released—neither pressed down nor forced back, nor with mental fabrication kept blocked or suppressed. Whoever would think that such a naga of a man, lion of a man, thoroughbred of a man, chief bull of a man, strong burden-carrier of a man, such a tamed man should be violated: What else is that if not blindness?”
 
 Five-Veda Brahmans,
 
@@ -4536,7 +4536,7 @@ Be heedful, monks,
 
 mindful, virtuous.
 
-With your resolves well-concentrated,
+With your resolves well-collected,
 
 look after your minds.
 
@@ -4760,7 +4760,7 @@ Deva (devatā): Literally, “shining one.” An inhabitant of heavenly or terre
 
 Dhamma: (1) Event; action; (2) a phenomenon in and of itself; (3) mental quality; (4) doctrine, teaching; (5) nibbāna (although some passages in the Canon describe nibbāna as the abandoning of all dhammas). Sanskrit form: *Dharma.*
 
-Jhāna: Mental absorption. A state of strong concentration focused on a single sensation or mental notion. This term is derived from the verb jhāyati, which means to burn with a still, steady flame. Sanskrit form: *Dhyāna.*
+Jhāna: Mental absorption. A state of strong samādhi focused on a single sensation or mental notion. This term is derived from the verb jhāyati, which means to burn with a still, steady flame. Sanskrit form: *Dhyāna.*
 
 Kamma: Intentional act. Sanskrit form: *Karma.*
 

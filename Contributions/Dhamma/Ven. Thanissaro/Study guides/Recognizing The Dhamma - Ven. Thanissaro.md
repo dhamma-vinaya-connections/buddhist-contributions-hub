@@ -580,7 +580,7 @@ Then, when the night had passed, the woman, with her own hand, served & satisfie
 
 **§ 1.8** “Quite secluded from sensuality, secluded from unskillful qualities, he enters and remains in the first jhāna: rapture and pleasure born of seclusion, accompanied by directed thought & evaluation. He permeates and pervades, suffuses and fills this very body with the rapture & pleasure born from seclusion. Just as if a skilled bathman or bathman’s apprentice would pour bath powder into a brass basin and knead it together, sprinkling it again and again with water, so that his ball of bath powder—saturated, moisture-laden, permeated within and without—would nevertheless not drip; even so, the monk permeates… this very body with the rapture & pleasure born of seclusion. There is nothing of his entire body unpervaded by rapture & pleasure born of seclusion. This is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime. ^Sec1.8
 
-“Furthermore, with the stilling of directed thoughts and evaluations, he enters and remains in the second jhāna: rapture and pleasure born of concentration, singleness of awareness free from directed thought & evaluation—internal assurance. He permeates and pervades, suffuses and fills this very body with the rapture & pleasure born of concentration. Just like a lake with spring-water welling up from within, having no inflow from the east, west, north, or south, and with the skies supplying abundant showers time and again, so that the cool fount of water welling up from within the lake would permeate and pervade, suffuse and fill it with cool waters, there being no part of the lake unpervaded by the cool waters; even so, the monk permeates… this very body with the rapture & pleasure born of concentration. There is nothing of his entire body unpervaded by rapture & pleasure born of concentration. This, too, is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime.
+“Furthermore, with the stilling of directed thoughts and evaluations, he enters and remains in the second jhāna: rapture and pleasure born of samādhi, singleness of awareness free from directed thought & evaluation—internal assurance. He permeates and pervades, suffuses and fills this very body with the rapture & pleasure born of samādhi. Just like a lake with spring-water welling up from within, having no inflow from the east, west, north, or south, and with the skies supplying abundant showers time and again, so that the cool fount of water welling up from within the lake would permeate and pervade, suffuse and fill it with cool waters, there being no part of the lake unpervaded by the cool waters; even so, the monk permeates… this very body with the rapture & pleasure born of samādhi. There is nothing of his entire body unpervaded by rapture & pleasure born of samādhi. This, too, is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime.
 
 “And furthermore, with the fading of rapture, he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters and remains in the third jhāna, of which the noble ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ He permeates and pervades, suffuses and fills this very body with the pleasure divested of rapture. Just as in a lotus pond, some of the lotuses, born and growing in the water, stay immersed in the water and flourish without standing up out of the water, so that they are permeated and pervaded, suffused and filled with cool water from their roots to their tips, and nothing of those lotuses would be unpervaded with cool water; even so, the monk permeates… this very body with the pleasure divested of rapture. There is nothing of his entire body unpervaded with pleasure divested of rapture. This, too, is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime.
 
@@ -1314,15 +1314,15 @@ When this was said, Ven. Ānanda said to Ven. Sāriputta, “Sāriputta my frien
 
 “Surely,” [said Ven. Ānanda,] “it’s because Ven. Sāriputta’s I-making & mine-making and latent tendencies to conceit have long been well uprooted that even if there were change & alteration in the Teacher, there would arise within him no sorrow, lamentation, pain, distress, or despair.” — [[SN21.2]]
 
-**§ 2.15** Then Ven. Anuruddha went to Ven. Sāriputta and, on arrival, greeted him courteously. After an exchange of friendly greetings & courtesies, he sat down to one side. As he was sitting there, he said to Ven. Sāriputta: “By means of the divine eye, purified & surpassing the human, I see the thousand-fold cosmos. My persistence is aroused & unsluggish. My mindfulness is established & unshaken. My body is calm & unaroused, my mind concentrated into singleness. And yet my mind is not released from the effluents through lack of clinging/sustenance.” ^Sec2.15
+**§ 2.15** Then Ven. Anuruddha went to Ven. Sāriputta and, on arrival, greeted him courteously. After an exchange of friendly greetings & courtesies, he sat down to one side. As he was sitting there, he said to Ven. Sāriputta: “By means of the divine eye, purified & surpassing the human, I see the thousand-fold cosmos. My persistence is aroused & unsluggish. My mindfulness is established & unshaken. My body is calm & unaroused, my mind collected into singleness. And yet my mind is not released from the effluents through lack of clinging/sustenance.” ^Sec2.15
 
-[Ven. Sāriputta:] “My friend, when the thought occurs to you, ‘By means of the divine eye, purified & surpassing the human, I see the thousand-fold cosmos,’ that is related to your conceit. When the thought occurs to you, ‘My persistence is aroused & unsluggish. My mindfulness is established & unshaken. My body is calm & unperturbed; my mind concentrated into singleness,’ that is related to your restlessness. When the thought occurs to you, ‘And yet my mind is not released from the effluents through lack of clinging/sustenance,’ that is related to your anxiety. It would be well if—abandoning these three qualities, not attending to these three qualities—you directed your mind to the Deathless property.”
+[Ven. Sāriputta:] “My friend, when the thought occurs to you, ‘By means of the divine eye, purified & surpassing the human, I see the thousand-fold cosmos,’ that is related to your conceit. When the thought occurs to you, ‘My persistence is aroused & unsluggish. My mindfulness is established & unshaken. My body is calm & unperturbed; my mind collected into singleness,’ that is related to your restlessness. When the thought occurs to you, ‘And yet my mind is not released from the effluents through lack of clinging/sustenance,’ that is related to your anxiety. It would be well if—abandoning these three qualities, not attending to these three qualities—you directed your mind to the Deathless property.”
 
 So after that, Ven. Anuruddha—abandoning those three qualities, not attending to those three qualities—directed his mind to the Deathless property. Dwelling alone, secluded, heedful, ardent, & resolute, he in no long time reached & remained in the supreme goal of the holy life for which clansmen rightly go forth from home into homelessness, knowing & realizing it for himself in the here & now. He knew: “Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.” And thus Ven. Anuruddha became another one of the arahants. — [[AN3.131]]
 
 **§ 2.16** “And what is ignorance? Not knowing in terms of stress, not knowing in terms of the origination of stress, not knowing in terms of the cessation of stress, not knowing in terms of the way of practice leading to the cessation of stress: This is called ignorance.” — [[SN12.2]] ^Sec2.16
 
-**§ 2.17** “Just as if there were a pool of water in a mountain glen—clear, limpid, and unsullied—where a man with good eyesight standing on the bank could see shells, gravel, and pebbles, and also shoals of fish swimming about and resting, and it would occur to him, ‘This pool of water is clear, limpid, and unsullied. Here are these shells, gravel, and pebbles, and also these shoals of fish swimming about and resting.’ In the same way—with his mind thus concentrated, purified, and bright, unblemished, free from defects, pliant, malleable, steady, and attained to imperturbability—the monk directs and inclines it to the knowledge of the ending of the effluents. He discerns, as it has come to be, that ‘This is stress… This is the origination of stress… This is the cessation of stress… This is the way leading to the cessation of stress… These are effluents… This is the origination of effluents… This is the cessation of effluents… This is the way leading to the cessation of effluents.’ His heart, thus knowing, thus seeing, is released from the effluent of sensuality, the effluent of becoming, the effluent of ignorance. With release, there is the knowledge, ‘Released.’ He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’ This, too, great king, is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime. And as for another visible fruit of the contemplative life, higher and more sublime than this, there is none.” — [[DN2]] ^Sec2.17
+**§ 2.17** “Just as if there were a pool of water in a mountain glen—clear, limpid, and unsullied—where a man with good eyesight standing on the bank could see shells, gravel, and pebbles, and also shoals of fish swimming about and resting, and it would occur to him, ‘This pool of water is clear, limpid, and unsullied. Here are these shells, gravel, and pebbles, and also these shoals of fish swimming about and resting.’ In the same way—with his mind thus collected, purified, and bright, unblemished, free from defects, pliant, malleable, steady, and attained to imperturbability—the monk directs and inclines it to the knowledge of the ending of the effluents. He discerns, as it has come to be, that ‘This is stress… This is the origination of stress… This is the cessation of stress… This is the way leading to the cessation of stress… These are effluents… This is the origination of effluents… This is the cessation of effluents… This is the way leading to the cessation of effluents.’ His heart, thus knowing, thus seeing, is released from the effluent of sensuality, the effluent of becoming, the effluent of ignorance. With release, there is the knowledge, ‘Released.’ He discerns that ‘Birth is ended, the holy life fulfilled, the task done. There is nothing further for this world.’ This, too, great king, is a fruit of the contemplative life, visible here and now, more excellent than the previous ones and more sublime. And as for another visible fruit of the contemplative life, higher and more sublime than this, there is none.” — [[DN2]] ^Sec2.17
 
  ^content
 
@@ -2064,7 +2064,7 @@ Then the Blessed One, emerging from his seclusion in the late afternoon, went to
 
 “It isn’t right, monks, that sons of good families, on having gone forth out of faith from home to the homeless life, should get engaged in such topics of conversation, i.e., conversation about kings, robbers, & ministers of state… talk of whether things exist or not.
 
-“There are these ten topics of (proper) conversation. Which ten? Talk on having few wants, on contentment, on seclusion, on non-entanglement, on arousing persistence, on virtue, on concentration, on discernment, on release, and on the knowledge & vision of release. These are the ten topics of conversation. If you were to engage repeatedly in these ten topics of conversation, you would outshine even the sun & moon, so mighty, so powerful—to say nothing of the wanderers of other sects.” — [[AN10.69]]
+“There are these ten topics of (proper) conversation. Which ten? Talk on having few wants, on contentment, on seclusion, on non-entanglement, on arousing persistence, on virtue, on samādhi, on discernment, on release, and on the knowledge & vision of release. These are the ten topics of conversation. If you were to engage repeatedly in these ten topics of conversation, you would outshine even the sun & moon, so mighty, so powerful—to say nothing of the wanderers of other sects.” — [[AN10.69]]
 
 ***§ 6.4** MahāKassapa:* ^Sec6.4
 
@@ -2076,7 +2076,7 @@ by a company:
 
 one gets distracted;
 
-concentration
+samādhi
 
 is hard to gain.
 
@@ -2094,7 +2094,7 @@ A sage shouldn’t visit families:
 
 one gets distracted;
 
-concentration
+samādhi
 
 is hard to gain.
 
@@ -2396,9 +2396,9 @@ lives the wandering life.” — [[SN22.4]]
 
 **§ 7.1** “And what is the faculty of persistence? There is the case where a monk, a disciple of the noble ones, keeps his persistence aroused for abandoning unskillful mental qualities and taking on skillful mental qualities. He is steadfast, solid in his effort, not shirking his duties with regard to skillful mental qualities. He generates desire, endeavors, arouses persistence, upholds & exerts his intent for the sake of the non-arising of evil, unskillful qualities that have not yet arisen… for the sake of the abandoning of evil, unskillful qualities that have arisen… for the sake of the arising of skillful qualities that have not yet arisen… (and) for the maintenance, non-confusion, increase, plenitude, development, & culmination of skillful qualities that have arisen. This is called the faculty of persistence.” — [[SN48.10]] ^Sec7.1
 
-**§ 7.2** “As I was remaining heedful, ardent, & resolute… it occurred to me, ‘Excessive persistence arose in me, and because of the excessive persistence my concentration fell away…. Just as if a man might hold a quail tightly with both hands; it would die then & there. In the same way, excessive persistence arose in me…. I will act in such a way that… excessive persistence will not arise in me again.’ ^Sec7.2
+**§ 7.2** “As I was remaining heedful, ardent, & resolute… it occurred to me, ‘Excessive persistence arose in me, and because of the excessive persistence my samādhi fell away…. Just as if a man might hold a quail tightly with both hands; it would die then & there. In the same way, excessive persistence arose in me…. I will act in such a way that… excessive persistence will not arise in me again.’ ^Sec7.2
 
-“As I was remaining heedful, ardent, & resolute… it occurred to me, ‘Sluggish persistence arose in me, and because of the sluggish persistence my concentration fell away…. Just as if a man might hold a quail loosely; it would fly out of his hand. In the same way, sluggish persistence arose in me…. I will act in such a way that… excessive persistence & sluggish persistence will not arise in me again.’” — [[MN128]]
+“As I was remaining heedful, ardent, & resolute… it occurred to me, ‘Sluggish persistence arose in me, and because of the sluggish persistence my samādhi fell away…. Just as if a man might hold a quail loosely; it would fly out of his hand. In the same way, sluggish persistence arose in me…. I will act in such a way that… excessive persistence & sluggish persistence will not arise in me again.’” — [[MN128]]
 
 **§ 7.3** I have heard that on one occasion the Blessed One was staying near Rājagaha, on Vulture Peak Mountain. And on that occasion Ven. Soṇa was staying near Rājagaha in the Cool Wood. Then, as Ven. Soṇa was meditating in seclusion [after doing walking meditation until the skin of his soles was split & bleeding], this train of thought arose in his awareness: “Of the Blessed One’s disciples who have aroused their persistence, I am one, but my mind is not released from the effluents through lack of clinging/sustenance. Now, my family has enough wealth that it would be possible to enjoy wealth & make merit. What if I were to disavow the training, return to the lower life, enjoy wealth, & make merit?” ^Sec7.3
 
@@ -2564,7 +2564,7 @@ the mind grows clearer;
 
 mindfulness, discernment,
 
-concentration stand
+samādhi stand
 
 more firm.
 
@@ -2922,7 +2922,7 @@ so that you will not detest me.’
 
 ***Dhamma:*** (1) Event; action; (2) a phenomenon in and of itself; (3) mental quality; (4) doctrine, teaching; (5) nibbāna (although there are passages describing nibbāna as the abandoning of all dhammas). Sanskrit form: *Dharma.*
 
-***Jhāna:*** Mental absorption. A state of strong concentration focused on a single sensation or mental notion. This term is derived from the verb *jhāyati,* which means to burn with a still, steady flame. Sanskrit form: *dhyāna.*
+***Jhāna:*** Mental absorption. A state of strong samādhi focused on a single sensation or mental notion. This term is derived from the verb *jhāyati,* which means to burn with a still, steady flame. Sanskrit form: *dhyāna.*
 
 ***Māra:*** Death and temptation personified.
 

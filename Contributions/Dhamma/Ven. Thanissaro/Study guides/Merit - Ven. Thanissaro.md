@@ -246,7 +246,7 @@ of the abundant. — [[DHP|DHP290]]
 
 [A related discourse repeats most of the above, defining dark action with dark result with the following example: “There is the case of a certain person who kills living beings, steals what is not given, engages in sexual misconduct, tells lies, and drinks fermented & distilled liquors that are the basis for heedlessness,” and bright action with bright result with the following example: “There is the case of a certain person who abstains from killing living beings, abstains from stealing what is not given, abstains from engaging in sexual misconduct, abstains from telling lies, and abstains from drinking fermented & distilled liquors that are the basis for heedlessness.”] — [[AN4.235]]
 
-“And what is action that is neither dark nor bright with neither dark nor bright result, leading to the ending of action? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.” — [[AN8.34]]
+“And what is action that is neither dark nor bright with neither dark nor bright result, leading to the ending of action? Right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi.” — [[AN8.34]]
 
 Then the Blessed One gave a graduated talk to Upali the householder, i.e., a talk on giving, a talk on virtue, a talk on heaven; he proclaimed the drawbacks of, degradation in, & defilement in sensuality, and the rewards of renunciation. Then—when he knew that Upali the householder was of ready mind, malleable mind, unhindered mind, exultant mind, confident mind—he proclaimed to him the distinctive teaching of the Awakened Ones: stress, origination, cessation, path. Just as a white cloth with stains removed would rightly take dye, in the same way there arose to Upali the householder, in that very seat, the dustless, stainless Dhamma eye: Whatever is subject to origination is all subject to cessation. Then—having seen the Dhamma, having reached the Dhamma, known the Dhamma, gained a foothold in the Dhamma, having crossed over & beyond doubt, having had no more questioning—Upali the householder gained fearlessness and was independent of others with regard to the Teacher’s message. — [[MN56]]
 
@@ -1038,7 +1038,7 @@ As he was sitting to one side, King Pasenadi Kosala said to the Blessed One: “
 
 “In the same way, great king. When someone has gone forth from the home life into homelessness—no matter from what clan—and he has abandoned five factors and is endowed with five, what is given to him bears great fruit.
 
-“And which five factors has he abandoned? He has abandoned sensual desire… ill will… sloth & drowsiness… restlessness & anxiety ... uncertainty. These are the five factors he has abandoned. And with which five factors is he endowed? He is endowed with the aggregate of virtue of one beyond training… the aggregate of concentration of one beyond training… the aggregate of discernment of one beyond training… the aggregate of release of one beyond training… the aggregate of knowledge & vision of release of one beyond training. These are the five factors with which he is endowed.
+“And which five factors has he abandoned? He has abandoned sensual desire… ill will… sloth & drowsiness… restlessness & anxiety ... uncertainty. These are the five factors he has abandoned. And with which five factors is he endowed? He is endowed with the aggregate of virtue of one beyond training… the aggregate of samādhi of one beyond training… the aggregate of discernment of one beyond training… the aggregate of release of one beyond training… the aggregate of knowledge & vision of release of one beyond training. These are the five factors with which he is endowed.
 
 “What is given to one who has abandoned five factors and is endowed with five factors in this way bears great fruit.”
 
@@ -1148,7 +1148,7 @@ who gives.” — [[SN22.21]]
 
 “Among whatever qualities there may be, fabricated or unfabricated, dispassion—the subduing of intoxication, the elimination of thirst, the uprooting of attachment, the breaking of the round, the destruction of craving, dispassion, cessation, the realization of Unbinding—is considered supreme. Those who have confidence in the quality of dispassion have confidence in what is supreme; and for those with confidence in the supreme, supreme is the result.
 
-“Among whatever fabricated qualities there may be, the noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is considered supreme. Those who have confidence in the quality of the noble path have confidence in what is supreme; and for those with confidence in the supreme, supreme is the result.
+“Among whatever fabricated qualities there may be, the noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi—is considered supreme. Those who have confidence in the quality of the noble path have confidence in what is supreme; and for those with confidence in the supreme, supreme is the result.
 
 “Among whatever communities or groups there may be, the Sangha of the Tathagata’s disciples is considered supreme—i.e., the four [groups of noble disciples] when taken as pairs, the eight when taken as persons. Those who have confidence in the Sangha have confidence in what is supreme; and for those with confidence in the supreme, supreme will be the result.
 
@@ -1850,7 +1850,7 @@ at all. — [[ITI27]]
 
 “Monks, for one whose release of awareness through good will is cultivated, developed, pursued, given a means of transport, given a grounding, steadied, consolidated, and well-undertaken, eleven benefits can be expected. Which eleven?
 
-“One sleeps easily, wakes easily, dreams no evil dreams. One is dear to human beings, dear to non-human beings. Devas protect one. Neither fire, poison, nor weapons can touch one. One’s mind gains concentration quickly. One’s complexion is bright. One dies unconfused and—if penetrating no higher—is headed for the Brahma worlds.” — [[AN11.16]]
+“One sleeps easily, wakes easily, dreams no evil dreams. One is dear to human beings, dear to non-human beings. Devas protect one. Neither fire, poison, nor weapons can touch one. One’s mind gains samādhi quickly. One’s complexion is bright. One dies unconfused and—if penetrating no higher—is headed for the Brahma worlds.” — [[AN11.16]]
 
 “Now, what are the roots of unskillful things? Greed is a root of unskillful things, aversion is a root of unskillful things, delusion is a root of unskillful things. These are termed the roots of unskillful things.…
 
@@ -2118,23 +2118,23 @@ The Blessed One said, “Once upon a time, monks, a bamboo acrobat, having erect
 
 “The establishing of mindfulness is to be practiced with the thought, ‘I’ll watch after myself.’ The establishing of mindfulness is to be practiced with the thought, ‘I’ll watch after others.’ When watching after yourself, you watch after others. When watching after others, you watch after yourself.” — [[SN47.19]]
 
-“Wise & mindful, you should develop immeasurable concentration [i.e., concentration based on immeasurable good will, compassion, empathetic joy, or equanimity]. When, wise & mindful, one has developed immeasurable concentration, five realizations arise right within oneself. Which five?
+“Wise & mindful, you should develop immeasurable samādhi [i.e., samādhi based on immeasurable good will, compassion, empathetic joy, or equanimity]. When, wise & mindful, one has developed immeasurable samādhi, five realizations arise right within oneself. Which five?
 
-“The realization arises right within oneself that ‘This concentration is blissful in the present and will result in bliss in the future.’
+“The realization arises right within oneself that ‘This samādhi is blissful in the present and will result in bliss in the future.’
 
-“The realization arises right within oneself that ‘This concentration is noble & not connected with the baits of the ﬂesh.’
+“The realization arises right within oneself that ‘This samādhi is noble & not connected with the baits of the ﬂesh.’
 
-“The realization arises right within oneself that ‘This concentration is not obtained by base people.’
+“The realization arises right within oneself that ‘This samādhi is not obtained by base people.’
 
-“The realization arises right within oneself that ‘This concentration is peaceful, exquisite, the acquiring of serenity, the attainment of unity, not kept in place by the fabrications of forceful restraint.’
+“The realization arises right within oneself that ‘This samādhi is peaceful, exquisite, the acquiring of serenity, the attainment of unity, not kept in place by the fabrications of forceful restraint.’
 
-“The realization arises right within oneself that ‘I enter into this concentration mindfully, and mindfully I emerge from it.’
+“The realization arises right within oneself that ‘I enter into this samādhi mindfully, and mindfully I emerge from it.’
 
-“Wise & mindful, you should develop immeasurable concentration. When, wise & mindful, one has developed immeasurable concentration, these five realizations arise right within oneself.” — [[AN5.27]]
+“Wise & mindful, you should develop immeasurable samādhi. When, wise & mindful, one has developed immeasurable samādhi, these five realizations arise right within oneself.” — [[AN5.27]]
 
 “Monks, for one whose awareness-release through good will is cultivated, developed, pursued, given a means of transport, given a grounding, steadied, consolidated, and well-undertaken, eleven benefits can be expected. Which eleven?
 
-“One sleeps easily, wakes easily, dreams no evil dreams. One is dear to human beings, dear to non-human beings. The devas protect one. Neither fire, poison, nor weapons can touch one. One’s mind gains concentration quickly. One’s complexion is bright. One dies unconfused and—if penetrating no higher—is headed for the Brahma worlds.
+“One sleeps easily, wakes easily, dreams no evil dreams. One is dear to human beings, dear to non-human beings. The devas protect one. Neither fire, poison, nor weapons can touch one. One’s mind gains samādhi quickly. One’s complexion is bright. One dies unconfused and—if penetrating no higher—is headed for the Brahma worlds.
 
 “These are the eleven benefits that can be expected for one whose awareness-release through good will is cultivated, developed, pursued, given a means of transport, given a grounding, steadied, consolidated, and well-undertaken.” — [[AN11.16]]
 
@@ -2220,7 +2220,7 @@ NOTE: 1. F. L. Woodward—the Pali Text Society translator of the Anguttara Tens
 
 “And how is awareness-release through good will developed, what is its destiny, its excellence, its reward, & its consummation?
 
-“There is the case where a monk develops *mindfulness* as a factor for Awakening accompanied by good will, dependent on seclusion… dispassion… cessation, resulting in letting go. He develops *analysis of qualities* as a factor for Awakening… *persistence* as a factor for Awakening… *rapture* as a factor for Awakening… *calm* as a factor for Awakening… *concentration* as a factor for Awakening… *equanimity* as a factor for Awakening accompanied by good will, dependent on seclusion… dispassion… cessation, resulting in letting go. If he wants, he remains percipient of loathsomeness in the presence of what is not loathsome. If he wants, he remains percipient of unloathsomeness in the presence of what is loathsome. If he wants, he remains percipient of loathsomeness in the presence of what is not loathsome & what is. If he wants, he remains percipient of unloathsomeness in the presence of what is loathsome & what is not. If he wants—in the presence of what is loathsome & what is not—cutting himself off from both, he remains equanimous, alert, & mindful. Or he may enter & remain in the beautiful liberation. I tell you, monks, awareness-release through good will has the beautiful as its excellence—in the case of one who has penetrated to no higher release.
+“There is the case where a monk develops *mindfulness* as a factor for Awakening accompanied by good will, dependent on seclusion… dispassion… cessation, resulting in letting go. He develops *analysis of qualities* as a factor for Awakening… *persistence* as a factor for Awakening… *rapture* as a factor for Awakening… *calm* as a factor for Awakening… *samādhi* as a factor for Awakening… *equanimity* as a factor for Awakening accompanied by good will, dependent on seclusion… dispassion… cessation, resulting in letting go. If he wants, he remains percipient of loathsomeness in the presence of what is not loathsome. If he wants, he remains percipient of unloathsomeness in the presence of what is loathsome. If he wants, he remains percipient of loathsomeness in the presence of what is not loathsome & what is. If he wants, he remains percipient of unloathsomeness in the presence of what is loathsome & what is not. If he wants—in the presence of what is loathsome & what is not—cutting himself off from both, he remains equanimous, alert, & mindful. Or he may enter & remain in the beautiful liberation. I tell you, monks, awareness-release through good will has the beautiful as its excellence—in the case of one who has penetrated to no higher release.
 
 “And how is awareness-release through compassion developed, what is its destiny, its excellence, its reward, & its consummation?
 
@@ -2260,15 +2260,15 @@ Then a certain monk went to the Blessed One and, on arrival, having bowed down t
 
 “Then, monk, you should train yourself thus: ‘My mind will be established inwardly, well-composed. No evil, unskillful qualities, once they have arisen, will remain consuming the mind.’ That’s how you should train yourself.
 
-“Then you should train yourself thus: ‘Good will, as my awareness-release, will be developed, pursued, given a means of transport, given a grounding, steadied, consolidated, & well-undertaken.’ That’s how you should train yourself. When you have developed this concentration in this way, you should develop this concentration with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
+“Then you should train yourself thus: ‘Good will, as my awareness-release, will be developed, pursued, given a means of transport, given a grounding, steadied, consolidated, & well-undertaken.’ That’s how you should train yourself. When you have developed this samādhi in this way, you should develop this samādhi with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
 
-“When this concentration is thus developed, thus well-developed by you, you should then train yourself thus: ‘Compassion, as my awareness-release.… Empathetic joy, as my awareness-release.… Equanimity, as my awareness-release, will be developed, pursued, given a means of transport, given a grounding, steadied, consolidated, & well-undertaken.’ That’s how you should train yourself. When you have developed this concentration in this way, you should develop this concentration with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
+“When this samādhi is thus developed, thus well-developed by you, you should then train yourself thus: ‘Compassion, as my awareness-release.… Empathetic joy, as my awareness-release.… Equanimity, as my awareness-release, will be developed, pursued, given a means of transport, given a grounding, steadied, consolidated, & well-undertaken.’ That’s how you should train yourself. When you have developed this samādhi in this way, you should develop this samādhi with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
 
-“When this concentration is thus developed, thus well-developed by you, you should then train yourself thus: ‘I will remain focused on the body in & of itself—ardent, alert, & mindful—putting aside greed & distress with reference to the world.’ That’s how you should train yourself. When you have developed this concentration in this way, you should develop this concentration with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
+“When this samādhi is thus developed, thus well-developed by you, you should then train yourself thus: ‘I will remain focused on the body in & of itself—ardent, alert, & mindful—putting aside greed & distress with reference to the world.’ That’s how you should train yourself. When you have developed this samādhi in this way, you should develop this samādhi with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
 
-“When this concentration is thus developed, thus well-developed by you, you should train yourself: ‘I will remain focused on feelings in & of themselves… the mind in & of itself… mental qualities in & of themselves—ardent, alert, & mindful—putting aside greed & distress with reference to the world.’ That’s how you should train yourself. When you have developed this concentration in this way, you should develop this concentration with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
+“When this samādhi is thus developed, thus well-developed by you, you should train yourself: ‘I will remain focused on feelings in & of themselves… the mind in & of itself… mental qualities in & of themselves—ardent, alert, & mindful—putting aside greed & distress with reference to the world.’ That’s how you should train yourself. When you have developed this samādhi in this way, you should develop this samādhi with directed thought & evaluation, you should develop it with no directed thought & a modicum of evaluation, you should develop it with no directed thought & no evaluation, you should develop it accompanied by rapture… not accompanied by rapture… endowed with a sense of enjoyment; you should develop it endowed with equanimity.
 
-“When this concentration is thus developed, thus well-developed by you, then wherever you go, you will go in comfort. Wherever you stand, you will stand in comfort. Wherever you sit, you will sit in comfort. Wherever you lie down, you will lie down in comfort.”
+“When this samādhi is thus developed, thus well-developed by you, then wherever you go, you will go in comfort. Wherever you stand, you will stand in comfort. Wherever you sit, you will sit in comfort. Wherever you lie down, you will lie down in comfort.”
 
 Then that monk, having been admonished by the admonishment from the Blessed One, got up from his seat and bowed down to the Blessed One, circled around him, keeping the Blessed One to his right side, and left. Then, dwelling alone, secluded, heedful, ardent, & resolute, he in no long time reached & remained in the supreme goal of the holy life for which clansmen rightly go forth from home into homelessness, knowing & realizing it for himself in the here & now. He knew: “Birth is ended, the holy life fulfilled, the task done. There is nothing further for the sake of this world.” And thus he became another one of the Arahants. — [[AN8.63]]
 
@@ -2300,9 +2300,9 @@ Then that monk, having been admonished by the admonishment from the Blessed One,
 
 “Sariputta, ‘The stream, the stream’: thus it is said. And what, Sariputta, is the stream?”
 
-“This noble eightfold path, lord, is the stream: right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration.”
+“This noble eightfold path, lord, is the stream: right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi.”
 
-“Very good, Sariputta! Very good! This noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right concentration—is the stream.” — [[SN55.5]]
+“Very good, Sariputta! Very good! This noble eightfold path—right view, right resolve, right speech, right action, right livelihood, right effort, right mindfulness, right samādhi—is the stream.” — [[SN55.5]]
 
 “And what is right view? Knowledge in terms of stress, knowledge in terms of the origination of stress, knowledge in terms of the cessation of stress, knowledge in terms of the way of practice leading to the cessation of stress: This is called right view.
 
@@ -2318,9 +2318,9 @@ Then that monk, having been admonished by the admonishment from the Blessed One,
 
 “And what is right mindfulness? There is the case where a monk remains focused on the body in & of itself—ardent, alert, & mindful—putting aside greed & distress with reference to the world. He remains focused on feelings in & of themselves… the mind in & of itself… mental qualities in & of themselves—ardent, alert, & mindful—putting aside greed & distress with reference to the world. This is called right mindfulness.
 
-“And what is right concentration? There is the case where a monk—quite secluded from sensuality, secluded from unskillful qualities—enters & remains in the first jhana: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. With the stilling of directed thoughts & evaluations, he enters & remains in the second jhana: rapture & pleasure born of concentration, unification of awareness free from directed thought & evaluation—internal assurance. With the fading of rapture he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhana, of which the Noble Ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhana: purity of equanimity & mindfulness, neither pleasure nor pain. This is called right concentration.” — [[SN45.8]]
+“And what is right samādhi? There is the case where a monk—quite secluded from sensuality, secluded from unskillful qualities—enters & remains in the first jhana: rapture & pleasure born of seclusion, accompanied by directed thought & evaluation. With the stilling of directed thoughts & evaluations, he enters & remains in the second jhana: rapture & pleasure born of samādhi, unification of awareness free from directed thought & evaluation—internal assurance. With the fading of rapture he remains equanimous, mindful, & alert, and senses pleasure with the body. He enters & remains in the third jhana, of which the Noble Ones declare, ‘Equanimous & mindful, he has a pleasant abiding.’ With the abandoning of pleasure & pain—as with the earlier disappearance of elation & distress—he enters & remains in the fourth jhana: purity of equanimity & mindfulness, neither pleasure nor pain. This is called right samādhi.” — [[SN45.8]]
 
-“There is the case where the disciple of the noble ones [here meaning a stream-enterer] is endowed with verified confidence in the Awakened One… verified confidence in the Dhamma… verified confidence in the Sangha… He/she is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to concentration.” — [[AN10.92]]
+“There is the case where the disciple of the noble ones [here meaning a stream-enterer] is endowed with verified confidence in the Awakened One… verified confidence in the Dhamma… verified confidence in the Sangha… He/she is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to samādhi.” — [[AN10.92]]
 
 “Monks, there are these four bonanzas of merit, bonanzas of skillfulness, nourishments of bliss. Which four?
 
@@ -2330,7 +2330,7 @@ Then that monk, having been admonished by the admonishment from the Blessed One,
 
 “Furthermore, the disciple of the noble ones is endowed with verified confidence in the Sangha: ‘The Sangha of the Blessed One’s disciples who have practiced well… who have practiced straight-forwardly… who have practiced methodically… who have practiced masterfully—in other words, the four types of noble disciples when taken as pairs, the eight when taken as individual types—they are the Sangha of the Blessed One’s disciples: worthy of gifts, worthy of hospitality, worthy of offerings, worthy of respect, the incomparable field of merit for the world.’ This is the third bonanza of merit, bonanza, of skillfulness, nourishment of bliss.
 
-“Furthermore, the disciple of the noble ones is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to concentration. This is the fourth bonanza of merit, bonanza, of skillfulness, nourishment of bliss.
+“Furthermore, the disciple of the noble ones is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the wise, untarnished, leading to samādhi. This is the fourth bonanza of merit, bonanza, of skillfulness, nourishment of bliss.
 
 “These are four bonanzas of merit, bonanzas of skillfulness, nourishments of bliss.” — [[SN55.31]]
 
@@ -2370,7 +2370,7 @@ Then the Blessed One, picking up a little bit of dust with the tip of his finger
 
 “He/she is endowed with verified confidence in the Sangha: ‘The Sangha of the Blessed One’s disciples who have practiced well… who have practiced straight-forwardly… who have practiced methodically… who have practiced masterfully—in other words, the four types of noble disciples when taken as pairs, the eight when taken as individual types—they are the Sangha of the Blessed One’s disciples: worthy of gifts, worthy of hospitality, worthy of offerings, worthy of respect, the incomparable field of merit for the world.’
 
-“He/she is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the observant, ungrasped at, leading to concentration.
+“He/she is endowed with virtues that are appealing to the noble ones: untorn, unbroken, unspotted, unsplattered, liberating, praised by the observant, ungrasped at, leading to samādhi.
 
 “He/she is endowed with these four qualities.
 
@@ -2472,7 +2472,7 @@ a brahman. — [[DHP|DHP412]]
 
 *Dhamma:*  (1) Event; action; (2) a phenomenon in and of itself; (3) mental quality; (4) doctrine, teaching; (5) *nibbana* (although there are passages describing nibbana as the abandoning of all dhammas). Sanskrit form: *Dharma.*
 
-*Jhana:*  Mental absorption. A state of strong concentration focused on a single sensation or mental notion. This term is related to the verb *jhayati,* which means to burn with a still, steady ﬂame.
+*Jhana:*  Mental absorption. A state of strong samādhi focused on a single sensation or mental notion. This term is related to the verb *jhayati,* which means to burn with a still, steady ﬂame.
 
 *Kamma:*  Intentional action. Sanskrit form: *Karma.*
 

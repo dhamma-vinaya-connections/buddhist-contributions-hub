@@ -255,7 +255,7 @@ List of Tables:
 13.4 Gradual Training in [[MN125]] and [[MA198]] 719
 13.5 Similes in [[MN126]] and [[MA173]] 725
 13.6 Progression of Topics in the First Part of [[MN127]] and [[MA79]] 729
-13.7 Mental Obstructions to Concentration in [[MN128]] and [[MA72]] 738
+13.7 Mental Obstructions to samādhi in [[MN128]] and [[MA72]] 738
 13.8 Evil Conduct in [[MN129]] and its Parallels 742
 13.9 Types of Animal Rebirth in [[MN129]] and its Parallels 744
 13.10 Listings of Divine Messengers in [[MN130]] and its Parallels 749
@@ -1917,7 +1917,7 @@ asked the Brahmin Esukārī if the whole world had authorized the Brahmins to es
 dhammanijjhānakkhantiyā sati chando jāyati. The Kāma�hika-sūtra fragment 327V6 in Hartmann
 2002b: 15 proceeds differently, since from memorizing the teachings it continues via thinking and examining to investigating, dh�ta� dharma� cintayati, cintayitvā tulayati, tulayitvā upaparīk�ate.
 170 E.g., [[AN10.2]] at AN V 2,25 indicates that the presence of joy, pāmojja, naturally leads to the arising of
-happiness, concentration, and realization. [[SN12.23]] at SN II 32,3 compares this natural sequence to rain
+happiness, samādhi, and realization. [[SN12.23]] at SN II 32,3 compares this natural sequence to rain
 that falls on a hill top and in due course fills the rivers and flows into the sea.
 171 DĀ (Skt) fragment 328r4. This final part of the Kāma�hika-sūtra fragments is no longer part of the material published in Hartmann 2002b (I am indebted to Jens-Uwe Hartmann for kindly providing me
 with a preliminary draft transliteration of this section of the fragment).
@@ -3340,7 +3340,7 @@ meaning between the expressions “consciousness 識遍 kasi�a” and “spher
 also indicates that in the early discourses kasi�a or k�tsna stood for the all-pervasive totality that characterizes such experiences, for developing of which the meditation devices described in the commentaries are merely the tools. Vetter 1988: 66-67 comments that “in the Visuddhimagga we no longer find
 that a Kasina sphere is considered as being immeasurable. It is even characteristic of the technique that 安世高
 one first concentrates on a limited” object, wherefore 識普 “the Visuddhimagga is consistent in substituting
-the last two instances of the old Kasina series ... by concentration on (a limited amount of) light and a 上下 遍不二無有量
+the last two instances of the old Kasina series ... by samādhi on (a limited amount of) light and a 上下 遍不二無有量
 limited space”; cf. also Anālayo 2009t and Wynne 2007: 31-34.
 34 [[MN102]] at MN II 230,2: akiñcaññāyatana and its counterpart ci yang med pa’i skye mched in Skilling
 1994a: 318,3; cf. also DĀ (Skt) fragment 300v4-5. In view of the use of “sphere” at this point in all versions, the Tibetan version’s earlier usage of “sphere” in relation to consciousness seems more in conformity with the remainder of the discourse than the Pāli version’s reference to the consciousness “kasi�a”,
@@ -3763,7 +3763,7 @@ Chapter 11 Devadaha-vagga                                    -  603
 
 fetters and thus to non-return or full awakening. [91] As the same discourse indicates, this
 maxim stands for inclining the mind toward the deathless element. [92] A discourse in the
-A�guttara-nikāya in fact refers to the same as a form of concentration. [93]
+A�guttara-nikāya in fact refers to the same as a form of samādhi. [93]
 Hence, the proposal made by the recluse in the Pañcattaya-sutta, even though based
 on an overestimation, in itself would indeed be a path conducive to Nirvā�a, all the
 more as it is based on the ability to attain the four jhānas. [94]
@@ -4250,7 +4250,7 @@ them mistakenly thought to have already accomplished.
 [[MN106]] Āneñjasappāya-sutta
 
 The Āneñjasappāya-sutta, the “discourse on [what] is suitable for [the attainment of]
-imperturbability”, describes approaches to the attainment of high levels of concentration and of Nirvā�a. This discourse has a parallel in the Madhyama-āgama and in a
+imperturbability”, describes approaches to the attainment of high levels of samādhi and of Nirvā�a. This discourse has a parallel in the Madhyama-āgama and in a
 discourse quotation in Śamathadeva’s commentary on the Abhidharmakośabhā�ya. [142]
 The basic pattern of the discourse proceeds through the following themes:
 
@@ -5477,7 +5477,7 @@ description of various occasions for the arising of conceit in the Śrāvakabhū
 26 [[MA85]] at T I 561b17 and T 48 at T I 838a23.
 27 [[EA17.9]] at T II 585b6. The corresponding section in [[EA17.9]] is quite short in comparison, as it covers
 only five topics, namely being from a high family, being energetic in relation to moral conduct, being
-concentrated, being foremost in wisdom, and obtaining requisites.
+collected, being foremost in wisdom, and obtaining requisites.
 28 [[MN113]] at MN III 39,18+31 and MN III 40,9 lists bahussuta, vinayadhara, and dhammakathika.
 
 
@@ -5493,7 +5493,7 @@ Table 12.2: Occasions for Conceit According to [[MN113]] and its Parallels
 
 |[[EA17.9]]|T 48|
 |---|---|
-|comes from high family (→ 1)<br>keeps precepts energetically<br>is concentrated<br>is foremost in wisdom<br>gains requisites (→ 6)<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>(≠ 2-5, 7-27)|comes from high family (→ 1)<br>is handsome<br>is an eloquent speaker (→ 9?)<br>is famous elder (→ 5)<br>recites discourses, knowsVinaya (→ 7, 8)<br>begs for food from only 7 houses, takes single<br>meal (→ 12, 18)<br>wears rag robes (→ 11)<br>dwells out in the open, at tree root, in cemetery<br>(→ 15, 13, 14)<br>attains 1st jhāna (→ 19) <br>attains 2nd, 3rd, 4th jhāna (→ 20, 21, 22)<br>attains 1st, 2nd, 3rd, 4th immaterial attainment (→ 23,<br>24, 25, 26)<br>(≠ 2-4, 6, 10, 16-17, 27)|
+|comes from high family (→ 1)<br>keeps precepts energetically<br>is collected<br>is foremost in wisdom<br>gains requisites (→ 6)<br> <br> <br> <br> <br> <br> <br> <br> <br> <br>(≠ 2-5, 7-27)|comes from high family (→ 1)<br>is handsome<br>is an eloquent speaker (→ 9?)<br>is famous elder (→ 5)<br>recites discourses, knowsVinaya (→ 7, 8)<br>begs for food from only 7 houses, takes single<br>meal (→ 12, 18)<br>wears rag robes (→ 11)<br>dwells out in the open, at tree root, in cemetery<br>(→ 15, 13, 14)<br>attains 1st jhāna (→ 19) <br>attains 2nd, 3rd, 4th jhāna (→ 20, 21, 22)<br>attains 1st, 2nd, 3rd, 4th immaterial attainment (→ 23,<br>24, 25, 26)<br>(≠ 2-4, 6, 10, 16-17, 27)|
 
 
 
@@ -5560,7 +5560,7 @@ Chapter 12 Anupada-vagga                                    -  643
 
 
 While the Ekottarika-āgama presentation has none of these meditative attainments
-and instead just speaks of being accomplished in concentration, [34] the Madhyama-āgama discourse and the individual translation similarly take up the four jhānas and the
+and instead just speaks of being accomplished in samādhi, [34] the Madhyama-āgama discourse and the individual translation similarly take up the four jhānas and the
 four immaterial spheres. [35] The Madhyama-āgama account also agrees with the Majjhima-nikāya version that the worthy man avoids praising himself and disparaging others
 because he is inspired by a saying by the Buddha according to which conceivings are a
 manifestation of craving. [36]
@@ -5589,7 +5589,7 @@ yena hi maññanti, etc.) recurs in [[UD3.10]] at [[UD32.30]] [[SNP3.8]] at [[SN
 three instances, this phrase seems to stand for the worldling’s mistaken ideas about the nature of reality,
 in particular in [[UD3.10]] and [[SNP757]] for the delusion of a self, while in [[SNP588]] the topic is the closely
 related illusion of permanency.
-34 [[EA17.9]] at T II 585b17 only mentions being “accomplished in concentration”, .
+34 [[EA17.9]] at T II 585b17 only mentions being “accomplished in samādhi”, .
 35 Instead of speaking of the attainment of “nothingness”, T 48 at T I 838c19 refers to the attainment of “impermanence”,, which based on the context I take to be an error for the third immaterial attainment.
 36 [[MA85]] at T I 562a2: “the Blessed One has explained in many ways that, if there are conceivings, this is
 reckoned to be [a form] of craving”, .
@@ -5841,7 +5841,7 @@ sets of six elements at Vibh 82-87, the triplet sense, form, and formless at Vib
 skilled or knowledgeable in the elements, siyā pana, bhante, añño pi pariyāyo? The parallel versions do
 not record any intervention by Ānanda, so that their exposition of the elements comes as one continuous
 explanation by the Buddha.
-60 The additional elements covered in the Chinese and Tibetan versions can also be found in other Pāli discourses. The four elements occur in an analysis of deeper levels of concentration into its constituent elements under the heading of the four mental aggregates given in [[MN64]] at MN I 436,21+29, which enjoins to develop insight in regard to “whatever there is of feeling, perception, volitional formations, and
+60 The additional elements covered in the Chinese and Tibetan versions can also be found in other Pāli discourses. The four elements occur in an analysis of deeper levels of samādhi into its constituent elements under the heading of the four mental aggregates given in [[MN64]] at MN I 436,21+29, which enjoins to develop insight in regard to “whatever there is of feeling, perception, volitional formations, and
 consciousness”, yad eva tattha hoti vedanāgata� saññāgata� sa�khāragata� viññā�agata�. The additional element triplets found in the Chinese and Tibetan versions recur in [[DN33]] at DN III 215,20+22,
 DN III 216,16, DN III 217,24, and DN III 218,1, which has the triplet form, formless, and cessation as
 its entry 3:14; what is inferior, middle, and superior as its entry 3:15; past, future, and present as its entry 3:24; meritorious, demeritorious, and indeterminate formations as its entry 3:35; and the trainee, the
@@ -6190,7 +6190,7 @@ still in use nowadays as a protective chant, a paritta. [91]
 [[MN117]] Mahācattārīsaka-sutta
 
 The Mahācattārīsaka-sutta, the “discourse on the great forty”, examines the noble
-eightfold path from the perspective of its eighth and final factor, right concentration.
+eightfold path from the perspective of its eighth and final factor, right samādhi.
 This discourse has a parallel in the Madhyama-āgama. [92] Another parallel can be found
 in a discourse quotation in Śamathadeva’s commentary on the Abhidharmakośabhā�ya,
 extant in Tibetan. [93] A few lines of this discourse have also been preserved in Sanskrit
@@ -6223,14 +6223,14 @@ III 77,21-24, while R3 has preserved part of the shift from the eightfold noble 
 
 
 MN III 71  The Mahācattārīsaka-sutta and its parallels approach their subject by defining right
-concentration as one-pointedness of the mind that is supported by the other seven factors of the noble eightfold path. [95] This definition, unlike the more common definition of
-right concentration by way of the four jhānas, [96] highlights the importance of developing concentration as part of a comprehensive practice of the noble eightfold path. [97]
-Before coming to this definition of right concentration, the Madhyama-āgama version introduces right concentration as the “single way” for the purification of beings, [98]
+samādhi as one-pointedness of the mind that is supported by the other seven factors of the noble eightfold path. [95] This definition, unlike the more common definition of
+right samādhi by way of the four jhānas, [96] highlights the importance of developing samādhi as part of a comprehensive practice of the noble eightfold path. [97]
+Before coming to this definition of right samādhi, the Madhyama-āgama version introduces right samādhi as the “single way” for the purification of beings, [98]
 thereby making use of a qualification that the Madhyama-āgama parallel to the Satipa��hāna-sutta uses in relation to the four satipa��hānas. [99] The discourse quotation in
 Śamathadeva’s commentary has a similar passage, although it speaks of the “single vehicle” for the purification of beings. [100]
-The Madhyama-āgama discourse follows its definition of right concentration by describing the conditional dependence of each path factor on the preceding one, a statement found at a later point also in the Pāli and Tibetan versions. [101] At the conclusion of
+The Madhyama-āgama discourse follows its definition of right samādhi by describing the conditional dependence of each path factor on the preceding one, a statement found at a later point also in the Pāli and Tibetan versions. [101] At the conclusion of
 this conditioned sequence, the Madhyama-āgama and Tibetan versions declare that a
-noble disciple, who has acquired right concentration in this way, will soon reach awakening. [102]
+noble disciple, who has acquired right samādhi in this way, will soon reach awakening. [102]
 The three versions highlight the role of right view as a precursor to the other path
 factors, since based on right view and with the support of right effort and right mindfulness the other path factors can be developed. The task of right view is to differentiate between right and wrong manifestations of the first five path factors. Right effort is
 the actual endeavour to overcome wrong path factors and to develop their right counterparts, while right mindfulness is the presence of mindfulness required for this task. [103]
@@ -6238,7 +6238,7 @@ the actual endeavour to overcome wrong path factors and to develop their right c
 
 fers from the presentation in [[MN117]] and also appears to have stood at a different point in the Sanskrit
 version, namely right after the summing up of the exposition into two sets of twenty.
-95 A discourse quotation paralleling the definition of right concentration, given in [[MN117]] at MN III 71,20,
+95 A discourse quotation paralleling the definition of right samādhi, given in [[MN117]] at MN III 71,20,
 can be found in Abhidh-k 8:8 in Pradhan 1967: 438,5; cf. also T 1559 at T XXIX 298a20 and Abhidhk-� at D (4094) mngon pa, nyu 72b4 or Q (5595) thu 117a7.
 96 E.g., [[DN22]] at DN II 313,12, a definition also found in [[MA189]] at T I 736b16.
 97 The same definition can also be found in [[DN18]] at DN II 217,1 and [[SN45.28]] at SN V 21,15. [[DN33]] at
@@ -6318,9 +6318,9 @@ Tibetan version do not have the supramundane manifestations of the path factors,
 in the Majjhima-nikāya version, at all (see below table 12.6). [107] Notably, the Mahācattārīsaka-sutta is the only discourse in the Pāli Nikāyas that features such a presentation
 of the path factors defined as “supramundane”. [108]
 According to the preamble found in all versions of the discourse, the main intent of
-the present exposition was to show the supportive function of the other seven path factors for right concentration. That is, the point at stake does not seem to have been an
+the present exposition was to show the supportive function of the other seven path factors for right samādhi. That is, the point at stake does not seem to have been an
 exposition of the path factors individually, but rather their interrelation as a basis for
-developing right concentration, and in particular the function of right view, right effort,
+developing right samādhi, and in particular the function of right view, right effort,
 and right mindfulness as means of correction and support for the other path factors. [109]
 This intent of the exposition would not require a supramundane description of the path
 factors. Hence, it seems quite possible that the exposition of the supramundane path
@@ -6370,9 +6370,9 @@ course of transmission could have made its way into the Mahācattārīsaka-sutta
 case of the Pāli tradition and into the Sa�yukta-āgama discourse in the case of the reciter tradition that transmitted this particular discourse collection.
 Another difference between the Mahācattārīsaka-sutta and its parallels is that the
 Chinese and Tibetan versions extend their treatment to the path factors right effort,
-right mindfulness, and right concentration, with the Madhyama-āgama version also
+right mindfulness, and right samādhi, with the Madhyama-āgama version also
 mentioning right liberation and right knowledge (see table 12.6). [111]
-Yet, in all versions right concentration has already been defined as one-pointedness
+Yet, in all versions right samādhi has already been defined as one-pointedness
 of the mind endowed with the other seven path factors, while right effort and right mindfulness have been defined as the effort and the mindfulness required for establishing
 the right manifestations of the other path factors. Hence, it seems redundant to treat
 these path factors once more.
@@ -6383,7 +6383,7 @@ these path factors.
 The Chinese and Tibetan versions also differ in the definitions they employ. Whereas
 the Chinese version uses the standard descriptions of the four right efforts, the four
 satipa��hānas, and the four absorptions, the Tibetan version instead defines these three
-path factors by listing several synonyms for effort, mindfulness, and concentration in
+path factors by listing several synonyms for effort, mindfulness, and samādhi in
 turn.
 This makes it highly probable that the additional treatment of these three path factors
 was added during the process of transmission, with the reciter(s) supplying the ‘miss
@@ -6412,7 +6412,7 @@ Table 12.6: Survey of Path Factors in [[MN117]] and its Parallels
 
 |[[MN117]]|[[MA189]]|Abhidh-k-C|
 |---|---|---|
-|wrong view (1)<br>right view (2)<br>supramundane right view (3)<br>wrong intention (4)<br>right intention (5)<br>supramundane right intention (6)<br>wrong speech (7)<br>right speech (8)<br>supramundane right speech (9)<br>wrong action (10)<br>right action (11)<br>supramundane right action (12)<br>wrong livelihood (13)<br>right livelihood (14)<br>supramundane right livelihood (15)|wrong view (→ 1)<br>right view (→ 2)<br>wrong intention (→ 4)<br>right intention (→ 5)<br>wrong speech (→ 7)<br>right speech (→ 8)<br>wrong action (→ 10)<br>right action (→ 11)<br>wrong livelihood (→ 13)<br>right livelihood (→ 14)<br>right effort<br>right mindfulness<br>right concentration<br>right liberation<br>right knowledge<br>(≠ 3, 5, 9, 12, 15)|wrong view (→ 1)<br>right view (→ 2)<br>wrong intention (→ 4)<br>right intention (→ 5)<br>wrong speech (→ 7)<br>right speech (→ 8)<br>wrong action (→ 10)<br>right action (→ 11)<br>wrong livelihood (→ 13)<br>right livelihood (→ 14)<br>right effort<br>right mindfulness<br>right concentration<br> <br> <br>(≠ 3, 5, 9, 12, 15)|
+|wrong view (1)<br>right view (2)<br>supramundane right view (3)<br>wrong intention (4)<br>right intention (5)<br>supramundane right intention (6)<br>wrong speech (7)<br>right speech (8)<br>supramundane right speech (9)<br>wrong action (10)<br>right action (11)<br>supramundane right action (12)<br>wrong livelihood (13)<br>right livelihood (14)<br>supramundane right livelihood (15)|wrong view (→ 1)<br>right view (→ 2)<br>wrong intention (→ 4)<br>right intention (→ 5)<br>wrong speech (→ 7)<br>right speech (→ 8)<br>wrong action (→ 10)<br>right action (→ 11)<br>wrong livelihood (→ 13)<br>right livelihood (→ 14)<br>right effort<br>right mindfulness<br>right samādhi<br>right liberation<br>right knowledge<br>(≠ 3, 5, 9, 12, 15)|wrong view (→ 1)<br>right view (→ 2)<br>wrong intention (→ 4)<br>right intention (→ 5)<br>wrong speech (→ 7)<br>right speech (→ 8)<br>wrong action (→ 10)<br>right action (→ 11)<br>wrong livelihood (→ 13)<br>right livelihood (→ 14)<br>right effort<br>right mindfulness<br>right samādhi<br> <br> <br>(≠ 3, 5, 9, 12, 15)|
 
 
 
@@ -6425,9 +6425,9 @@ the purpose of overcoming its wrong counterpart. [113]
 
 
 112 Cf. also Meisig 1987a: 230. In fact, whereas the earlier part of [[MA189]] at T I 735c3 was concerned with
-a definition of “noble right concentration”,, just as its counterpart [[MN117]] at MN III 71,16: ariyo sammāsamādhi, the present part in [[MA189]] at T I 736b16 speaks merely of “right concentration”,
+a definition of “noble right samādhi”,, just as its counterpart [[MN117]] at MN III 71,16: ariyo sammāsamādhi, the present part in [[MA189]] at T I 736b16 speaks merely of “right samādhi”,
 , a change of terminology that supports the impression that this part of the discourse may be a later
-expansion or addition. The Tibetan version, however, speaks from the outset only of “right concentration”, without further qualifying it as “noble”, cf. D (4094) mngon pa, nyu 44a2 or Q (5595) thu 83b1:
+expansion or addition. The Tibetan version, however, speaks from the outset only of “right samādhi”, without further qualifying it as “noble”, cf. D (4094) mngon pa, nyu 44a2 or Q (5595) thu 83b1:
 yang dag pa’i ting nge ’dzin.
 113 A description of how the right path factors overcome their wrong counterparts can also be found in [[DN34]] at DN III 291,13 and in [[AN10.106]] at AN V 215,1, cf. also the Daśottara-sūtra fragment 679 folio
 23R in Schlingloff 1962a: 12 and its Chinese counterpart [[DA10]] at T I 57b14.
@@ -6731,7 +6731,7 @@ abhijjhādomanassa�, a specification not made in [[SA810]]
 142 [[MN118]] at MN III 84,9: “I call this a certain feeling among feelings, namely giving close attention to
 breathing in and out”, vedanāsu vedanāññatarāha� ... vadāmi yadida� assāsapassāsāna� sādhuka�
 manasikāra� (C [e] -MN III 230,28: vedanaññatarāha�). This explanation is puzzling, since it reckons
-attention as a feeling. Although paying close attention to the breath would lead to deeper concentration
+attention as a feeling. Although paying close attention to the breath would lead to deeper samādhi
 and therewith to the arising of pleasant feelings, to speak of attention to the breaths as a type of feeling 爾時身身觀念住異於身者
 does not seem to fit too well with the usage of the term 異於身者 “attention”, manasikāra, in other discourses. Ps
 IV 140,14 recognizes the difficulty with this passage and explains that it is just a figurative way of speech
@@ -6800,7 +6800,7 @@ tetrads. [147]
 The Ānāpānasati-sutta and its Sa�yukta-āgama parallel continue by describing how,
 once mindfulness becomes well established through satipa��hāna, the development of
 mindfulness as an awakening factor takes place. The two versions continue by indicating that the remaining awakening factors arise in conditional dependence on each other,
-leading from investigation-of-dharmas, [148] to energy, rapture, [149] tranquillity, concentration, and equanimity.
+leading from investigation-of-dharmas, [148] to energy, rapture, [149] tranquillity, samādhi, and equanimity.
 
 
 contemplation of the hindrances, or at the very least of the first hindrance of sensual desire, should not
@@ -6838,8 +6838,8 @@ MN III 85
 672   • A Comparative Study of the _Majjhima-nikāya_
 
 
-According to the Majjhima-nikāya presentation, the last step in this sequence, concerned with progressing from concentration to equanimity, requires to inspect with
-equanimity the concentrated state of mind. [150] The Sa�yukta-āgama account explains
+According to the Majjhima-nikāya presentation, the last step in this sequence, concerned with progressing from samādhi to equanimity, requires to inspect with
+equanimity the collected state of mind. [150] The Sa�yukta-āgama account explains
 that due to having overcome desires and discontent the mind at this stage reaches balance and equanimity. [151]
 
 MN III 88  The Ānāpānasati-sutta and its Sa�yukta-āgama parallel conclude their presentation
@@ -6848,7 +6848,7 @@ by indicating that the awakening factors lead to knowledge and liberation when t
 
 abhidhammabhājaniya equates the awakening factor dhammavicaya with various paññā synonyms.
 Notably, Nett 82,26 includes not only the awakening factor dhammavicaya, but also the awakening factor of equanimity, upekkhāsambojjha�ga, in a listing of paññā synonyms. Vibh-[[AN313.5]] relates dhammavicayasambojjha�ga to insight knowledge, vipassanañā�a. Ps IV 143,8 explains that dhammavicayasambojjha�ga stands for knowledge conjoined with the development of mindfulness, satiyā sampayutta� ñā�a� dhammavicayasambojjha�go. Pe� 187,3 sums up: “what understands in accordance
-with reality [when being] concentrated, that is the awakening factor of investigation-of-dharmas”, ya�
+with reality [when being] collected, that is the awakening factor of investigation-of-dharmas”, ya�
 samāhito yathābhūta� pajānāti, aya� dhammavicayasambojjha�go. According to Mil 83,23, realization takes place through this particular awakening factor and is impossible without it, ekena ... bojjha�gena bujjhati, dhammavicayasambojjha�gena ... dhammavicayasambojjha�gena vinā chahi bojjha�gehi na bujjhati. Another noteworthy point in relation to the description of the activity of the
 dhammavicayasambojjha�ga, given in [[MN118]] at MN III 85,16, is that dhamma here stands in the
 singular, which suggests an inquiry into the Dharma as the “teaching”. Such an understanding finds
@@ -6945,24 +6945,24 @@ top of a mountain”, . A version of this simile in the Sa�ghabhedavastu and i
 1990: 125) and T 13 at T I 234c1: “a spring water pond on top of a hillside”, . The specification of the lake’s location on a mountaintop clarifies why such a lake would not receive any water
 from outside, but is only fed by a mountain spring from inside. At the same time, this specification
 highlights the aloofness reached by attaining the second jhāna, an experience of non-sensual pleasure
-born not only of seclusion but of concentration proper, resulting in a unified and totally tranquil state of
+born not only of seclusion but of samādhi proper, resulting in a unified and totally tranquil state of
 mind. Although the first jhāna is already aloof through being “secluded from sensuality 山泉, 極淨澄清 ”, vivicc’ eva
 kāmehi, it nevertheless is an experience which due to is proximity to sensuality has not yet reached
 total aloofness. This can be seen in [[SN40.1]] at SN IV 263, 如山頂涼泉水 16, according to which Mahāmoggallāna’s
 attainment of the first jhāna was disturbed by the “arising of attention to perceptions related to sensuality”, kāmasahagatā saññā manasikārā samudācaranti. With the attainment of the second jhāna, the
-level of concentration is not only “born of seclusion”, but additionally “born of concentration 阪頭泉水池 ” proper,
+level of samādhi is not only “born of seclusion”, but additionally “born of samādhi 阪頭泉水池 ” proper,
 samādhija� pītisukha�, a state of “mental unification that is internally tranquil”, ajjhatta� sampasādana� cetaso ekodibhāva� and thereby more decisively aloof from any disturbance than the first jhāna
 (cf. [[MN119]] at MN III 93,5). The image of a pure lake on top of a mountain, self-sufficient and independent of any external source, aptly conveys such aloofness and tranquillity. According to the Path to
 Liberation (Vimuttimagga/ ), the same is also implicit in the reference to the absence of any
 inflow of water from the outside, which stands representative for the absence of initial and sustained
 application of the mind in the second jhāna, T 1648 at T XXXII 418c27. The same work explains that
 the welling up of water from within, which causes no waves, illustrates the welling up of happiness and
-joy born of concentration that completely pervade body and mind without causing any mental agitation.
+joy born of samādhi that completely pervade body and mind without causing any mental agitation.
 The Path to Liberation also offers helpful comments on the simile used to illustrate the first jhāna. According to T 1648 at T XXXII 417b8, bath powder in its natural state can easily be scattered by the
 wind (here it needs to be kept in mind that in ancient India bathing usually would have been undertaken
 out in the open, such as by the side of a river, cf., e.g., [[MN81]] at MN II 46,21 or [[MN93]] at MN II
-151,19). Similarly, a mind without joy and concentration will easily be scattered by the ‘wind’ of the
-five hindrances. Thus joy, happiness, and concentration are to the mind what water is to the bath pow- 解脫道論
+151,19). Similarly, a mind without joy and samādhi will easily be scattered by the ‘wind’ of the
+five hindrances. Thus joy, happiness, and samādhi are to the mind what water is to the bath pow- 解脫道論
 der, whose kneading is comparable to the action of initial and sustained application of the mind.
 159 [[MA81]] at T I 555c19: “clothes/robes of seven units length or clothes/robes of eight units length”,
 . [[DA30]] at T I 133a12 uses the same measurement given in [[MA81]] and explains that
@@ -7006,7 +7006,7 @@ according to Mathews 1963: 21 stands for “a measure of ten feet”. Applying t
 result in a huge cloth, so that in the present context is perhaps best taken to refer to a unit of length
 corresponding approximately to ). [[DA20]] at T I 85c4 speaks of “using a new white piece of cloth to
 cover the body”,, without giving any measurements.
-162 T 1579 at T XXX 339c8. The purity reached with this deep level of concentration is explicitly mentioned in the standard descriptions of the fourth jhāna as upekhāsatipārisuddhi, cf., e.g., [[MN119]] at
+162 T 1579 at T XXX 339c8. The purity reached with this deep level of samādhi is explicitly mentioned in the standard descriptions of the fourth jhāna as upekhāsatipārisuddhi, cf., e.g., [[MN119]] at
 MN III 94,11, a qualification referred to in Madhyama-āgama discourses as, e.g., [[MA2]] at T
 I 422b22. In its description of the effect of the fourth jhāna on the body, [[MN119]] at MN III 94,13 describes this purity in terms of the pure mind that pervades the whole body, parisuddhena cetasā ... pharitvā, an experience which [[MA81]] at T I 555c18 depicts in the following terms: “in regard to this body, 丈
 he dwells having accomplished its complete pervasion within by means of purity of the mind and mental understanding”, 丈 . Thus the image used to illustrate the fourth
@@ -7022,7 +7022,7 @@ white cloth that completely covers the meditator to represent the brilliancy and
 
 After each of the body contemplations, the Kāyagatāsati-sutta explains that practising diligently in this manner will lead to overcoming thoughts related to the household
 life and to concentrating the mind. [163] Its Madhyama-āgama counterpart similarly speaks
-of practising diligently in order to develop concentration, without, however, mentioning
+of practising diligently in order to develop samādhi, without, however, mentioning
 the removal of thoughts related to the household life. [164]
 The Kāyagatāsati-sutta next highlights that mindfulness of the body includes all
 wholesome things, which it compares to developing an awareness that encompasses the
@@ -7032,18 +7032,18 @@ become parts of it, without mentioning any awareness of the ocean. [166]
 
 spheres). It is noteworthy that according to the explanation given in the Pāli commentary the cloth protects the body, an idea that also suggests itself from the wording of the Madhyama-āgama simile, whereas the explanation offered in the Yogācārabhūmi fits well with the simile found in the Majjhima-nikāya.
 163 [[MN119]] at MN III 89,21: “by dwelling diligently, ardently, and resolutely in this way, memories and
-intentions related to the household life are abandoned, and with their abandoning the mind becomes internally ... concentrated”, evam appamattassa ātāpino pahitattassa viharato ye ... gehasitā sarasa�kappā te pahīyanti, tesa� pahānā ajjhattam eva citta� ... samādhiyati.
+intentions related to the household life are abandoned, and with their abandoning the mind becomes internally ... collected”, evam appamattassa ātāpino pahitattassa viharato ye ... gehasitā sarasa�kappā te pahīyanti, tesa� pahānā ajjhattam eva citta� ... samādhiyati.
 164 [[MA81]] at T I 555a15: “in this way, dwelling alone in a secluded spot, with a mind that is not negligent
-he practises energetically, removes distress from the mind, and attains concentration of the mind;
-having attained concentration of the mind, he knows the above [i.e. what has been mentioned earlier] as
+he practises energetically, removes distress from the mind, and attains samādhi of the mind;
+having attained samādhi of the mind, he knows the above [i.e. what has been mentioned earlier] as
 it really is”, .
 Notably, both discourses apply this description to all of the body contemplations in their respective
 lists, and thereby also to the bodily experience of the four jhānas. In [[MA81]] this is less problematic,
-since this application results only in the proposition that diligent practice of the four jhānas will develop concentration, although it would perhaps have been more natural to propose that the diligent
-practice of concentration will lead to developing the four jhānas. In the case of [[MN119]] this passage
+since this application results only in the proposition that diligent practice of the four jhānas will develop samādhi, although it would perhaps have been more natural to propose that the diligent
+practice of samādhi will lead to developing the four jhānas. In the case of [[MN119]] this passage
 becomes considerably more puzzling, since the Pāli discourse follows the attainment of each of the four
 jhānas by describing how, by abiding in this way, thoughts related to the household life can be overcome, whose removal then leads to settling and concentrating the mind. Yet, to attain the jhānas would
-require that the mind has already been settled and concentrated and that thoughts related to the household have long been left behind. Thus, [[MN119]] seems to present a stage of practice preliminary to 如是 在遠離獨住, 心無放逸, 修行精勤, 斷心諸患而得定心, 得定心已, 則知上如真
+require that the mind has already been settled and collected and that thoughts related to the household have long been left behind. Thus, [[MN119]] seems to present a stage of practice preliminary to 如是 在遠離獨住, 心無放逸, 修行精勤, 斷心諸患而得定心, 得定心已, 則知上如真
 jhāna attainment as if it were an outcome of jhāna attainment. This suggests that perhaps at some comparatively early stage during the discourse’s transmission the description of diligent practice was added
 to the treatment of each of the jhānas, even though this description does not fit too well with the content of the passage to which it was appended. From the perspective of the dynamics of oral transmission, it could easily be imagined how the description of diligent practice, which anyway was to be repeated after each of the other body contemplations, was accidentally also applied to the treatment of the
 jhānas during recitation.
@@ -7094,7 +7094,7 @@ A benefit of mindfulness of the body mentioned only in the Madhyama-āgama accou
 
 167 The pair-wise arrangement in [[MA81]] thus provides the contrast to each image immediately.
 168 The same similes recur in [[AN5.28]] at AN III 27,26, where they illustrate how, based on developing five
-types of right concentration, any attainment can be reached. The image of driving a chariot recurs in
+types of right samādhi, any attainment can be reached. The image of driving a chariot recurs in
 [[MN21]] at MN I 124,18 to illustrate the willingness of the early generation of monks to follow the Buddha’s instructions, while in [[SN35.198]] at SN IV 176,16 the same image illustrates control of the senses.
 169 A listing of the benefits to be obtained through developing mindfulness of the body can also be found
 in [[AN1.21]] at AN I 43-46.
@@ -7201,7 +7201,7 @@ devā. Fragment 10 verso h-c10+13 refers to the Brahmā of Five Thousand and ver
 Brahmā of Ten Thousand, cf. also recto c-h16.
 176 [[MA168]] at T I 700c9: “he is reborn according to his mental practice 意行經 ”, 行 .
 177 E.g., in relation to the first 行 jhāna, [[MA168]] at T I 700c7 explains that “these two [types of] joy and happiness arisen from seclusion are not different, the two are completely equal ... one who first practises
-this concentration will later be reborn there”,
+this samādhi will later be reborn there”,
 .
 如是意行生
 此二離生喜樂, 無有差別, 二俱等等 ... 先此行定, 然
@@ -7215,7 +7215,7 @@ MN III 99
 680   • A Comparative Study of the _Majjhima-nikāya_
 
 
-version’s exposition centres on the idea of being reborn through the power of an aspiration, based on a set of qualities that do not mention the development of concentration.
+version’s exposition centres on the idea of being reborn through the power of an aspiration, based on a set of qualities that do not mention the development of samādhi.
 A related treatment can be found in the Sa�gīti-sutta and a discourse in the A�guttara-nikāya, which describe how on giving a gift someone may aspire to rebirth in upper
 families or in the heavenly realms of the sensuous sphere. These two discourses present
 the development of such an aspiration in terms similar to the Sa�khāruppatti-sutta, [178]
@@ -7269,7 +7269,7 @@ of rebirth, if he has faith, virtue, learning, renunciation, and wisdom. [185]
 The Madhyama-āgama discourse also has the destruction of the influxes as its culmination point. In line with its presentation of levels of rebirth reached through developing the jhānas and the immaterial attainments, it describes how a monk goes beyond
 the attainment of neither-perception-nor-non-perception and attains the cessation of
 perceptions and feelings, [186] which it reckons the supreme and most excellent type of
-concentration, [187] as a monk who has reached it has completely transcended dukkha.
+samādhi, [187] as a monk who has reached it has completely transcended dukkha.
 
 
 rebirth in the Brahmā world, . The Dharmaskandha, T 1537 at T XXVI 506b14, however, stipulates the corresponding meditative attainment, similar to [[MA168]] cf. also Schmithausen 1987: 356
@@ -7422,7 +7422,7 @@ pa.
 11 [[MN121]] at MN III 104,17: bhikkhusa�gha� pa�icca ekatta�, directly followed in the next line at MN III
 104,18 by araññasañña� pa�icca manasikaroti ekatta�. The perception of forest recurs in [[AN6.42]] at
 AN III 343,9 (= [[AN8.86]] at AN IV 344,6) as a means to develop a unitary experience, ekatta. Vism 73,17
-considers the same as a supportive condition for developing concentration.
+considers the same as a supportive condition for developing samādhi.
 12 While [[MN121]] at MN III 105,10 only takes up what should not be attended to in order to develop a uni- 我見是空
 tary perception of earth, [[MA190]] at T 我見真實有 I 737a23 and the Tibetan version in Skilling 1994a: 156,9 also mention what should be attended 比丘 to, describing that the meditating monk gives attention to the aspect of sameness, similar to looking at the palm of a hand. 見是空 見真實有
 13 This simile recurs in [[MA199]] at T I 760b 一無事想 28 to illustrate a particular torture administered to evildoers in
@@ -7449,19 +7449,19 @@ Table 13.1: Gradual Descent into Emptiness in [[MN121]] and its Parallels
 
 
 
-The Cū�asuññata-sutta and its parallels agree in presenting the signless concentration
+The Cū�asuññata-sutta and its parallels agree in presenting the signless samādhi
 of the mind as the last step in this gradual series of perceptions. [15]
 
 124 and adopt the reading adhimuccati found in B [e] -MN III 147,18, C [e] -MN III 264,21, and S [e] -MN III
-227,1, instead of E [e] : vimuccati; cf. also above p. 194 note 263. An argument in favour of the reading vimuccati would be the expression vimocaya� citta� in [[MN118]] at MN III 83,10 which, since it is preceded by samādaha� citta�, clearly occurs in a context closely related to the development of concentration).
-15 [[MA190]] at T I 737c3 actually speaks of “unconscious concentration of the mind”, . The notion
+227,1, instead of E [e] : vimuccati; cf. also above p. 194 note 263. An argument in favour of the reading vimuccati would be the expression vimocaya� citta� in [[MN118]] at MN III 83,10 which, since it is preceded by samādaha� citta�, clearly occurs in a context closely related to the development of samādhi).
+15 [[MA190]] at T I 737c3 actually speaks of “unconscious samādhi of the mind”, . The notion
 of a meditative experience that involves the absence of perception is reflected in the expression asa�j[ñ]isa(m)[ā]patti�, found in the otherwise unrelated fragment SHT IV 623 folio 40V6 (p. 256); cf. also
 the asaññasamāpatti mentioned in Sp II 514,17. The reference in [[MA190]] to, however, points to
 an equivalent to cetosamādhi instead of samāpatti. Moreover, since the Pāli and Tibetan parallels qualify the present experience as “signless”, cf. [[MN121]] at MN III 107,29: animitta and the Tibetan version
 in Skilling 1994a: 172,5: mtshan ma med pa (though the Tibetan version differs in as much as it speaks
-of the signless “element” or “sphere”, dbyings, instead of the signless “concentration of the mind”), it
+of the signless “element” or “sphere”, dbyings, instead of the signless “samādhi of the mind”), it
 seems that in the present case the character, “perception”, should be corrected to, “sign”, resulting
-in what is the standard rendering of the signless concentration of the mind as ; for other cases
+in what is the standard rendering of the signless samādhi of the mind as ; for other cases
 where and appear to have been confused with each other cf. above p. 274 note 54. The main point 無想心定
 in developing such a “signless” form of meditation appears to be not to allow attention to be concerned
 with any “sign”, cf., e.g., [[MN43]] at MN I 296,33. A “sign” in such contexts refers to those aspects, marks,
@@ -7471,7 +7471,7 @@ SN IV 297,25 speak of unsurpassable liberation of the mind, akuppa cetovimutti, 
 signless experiences. According to [[SN43.4]] at SN IV 360,16 and [[SN43.12]] at SN IV 363,12, animitta
 samādhi constitutes a path that leads to the asa�khata. [[AN3.163]] at AN I 299,14 relates animitta samādhi to the removal of rāga, dosa, and moha 想 . [[AN7.53]] at AN IV 78,19 takes up a monk who dwells in 相
 signlessness, animittavihārin, in the context of a discussion of various noble disciples. To be able to 無相心定
-practise signless concentration of the mind does, however, not necessarily imply a high level of reali- 想 相
+practise signless samādhi of the mind does, however, not necessarily imply a high level of reali- 想 相
 zation, since [[AN6.60]] at AN III 397,11 describes the case of a monk who, priding himself on having
 attained signless meditative experiences, neglects seclusion and excessively associates with others, as a
 result of which lust invades his mind and he finally disrobes. An additional perspective on signlessness
@@ -7482,12 +7482,12 @@ Chapter 13 Suññata-vagga                                      -  687
 
 
 The three versions direct insightful contemplation to the conditioned and mentally MN III 108
-fabricated nature of such signless concentration. While the Pāli discourse instructs to
+fabricated nature of such signless samādhi. While the Pāli discourse instructs to
 contemplate this experience as impermanent and subject to cessation, [16] the Chinese and
 Tibetan accounts recommend avoiding delight in relation to this attainment. [17]
-The Pāli discourse stands alone in taking up the signless concentration of the mind
+The Pāli discourse stands alone in taking up the signless samādhi of the mind
 twice (see above table 13.1). The Chinese and the Tibetan versions mention signless
-concentration only once and then continue directly with the insightful contemplation to
+samādhi only once and then continue directly with the insightful contemplation to
 be undertaken in regard to this experience.
 The Pāli version also speaks twice of the only “disturbance” that remains at this stage,
 which is the continuity of the six sense-spheres conditioned by the life faculty. [18] The
@@ -7495,9 +7495,9 @@ Chinese and Tibetan versions speak of the six sense-spheres and the life faculty
 once, as part of the retrospective knowledge after the influxes have been eradicated. [19]
 
 
-signlessness (in its ultimate sense) without at first developing concentration on emptiness, cf. [[SA80]] at T
+signlessness (in its ultimate sense) without at first developing samādhi on emptiness, cf. [[SA80]] at T
 II 20b4: “having attained emptiness, it is possible to develop signlessness”,, a statement [[SA80]] precedes by explaining that without having attained emptiness, to develop signlessness is
-not possible. For a discussion of the relationship between śūnyatā and animitta cf. also SHT V 1131 V45 (p. 126). These various passages make it clear why signless concentration of the mind comes as the
+not possible. For a discussion of the relationship between śūnyatā and animitta cf. also SHT V 1131 V45 (p. 126). These various passages make it clear why signless samādhi of the mind comes as the
 climax of the gradual development of emptiness described in [[MN121]] and its parallels. For a detailed
 study of different occurrences of animitta in the Pāli discourses and commentaries cf. Harvey 1986.
 16 [[MN121]] at MN III 108,17: “this is impermanent and subject to cessation”, tad anicca� nirodhadhamman ti.
@@ -7524,7 +7524,7 @@ retrospective knowledge of the destruction of the influxes. Once the influxes ar
 
 
 According to all versions, insight contemplation undertaken in regard to the signless
-concentration of the mind leads to the destruction of the influxes, which the Pāli and
+samādhi of the mind leads to the destruction of the influxes, which the Pāli and
 the Tibetan discourses qualify as an unsurpassable manifestation of emptiness. [20]
 
 MN III 109  The Pāli version refers to recluses and Brahmins in past, present, or future times who
@@ -7542,7 +7542,7 @@ spheres stands for “what is related to the six sense-spheres”, sa�āyatana
 through the six senses), standing representative for the subtlest degree of dukkha recognized in early
 Buddhism, the unsatisfactoriness of all that is conditioned, cf., e.g., [[DN33]] at DN III 216,22 and its
 parallel [[DA9]] at T I 50b12 (on the three types of dukkha cf. also Schmithausen 1977; on a Jain counterpart to sa�khāradukkhatā cf. Jaini 1977/2001). The same qualification does, however, not fit signless
-concentration of the mind, which by its very absence of signs would be aloof from sensory experience.
+samādhi of the mind, which by its very absence of signs would be aloof from sensory experience.
 20 [[MN121]] at MN III 109,1: paramānuttarā suññatāvakkanti and the Tibetan version in Skilling 1994a:
 178,2: stong pa nyid la ’jug pa bla na med pa.
 21 [[MN121]] at MN III 109,2, [[MA190]] at T I 737c21, and Skilling 1994a: 178,10. The Chinese and Tibetan
@@ -7716,8 +7716,8 @@ further references cf. Deleanu 2006b: 546 note 208.
 692   • A Comparative Study of the _Majjhima-nikāya_
 
 
-to the arising of joy, rapture, tranquillity, happiness, and concentration. [40] This passage
-thus depicts mental experiences that only lead up to the development of concentration.
+to the arising of joy, rapture, tranquillity, happiness, and samādhi. [40] This passage
+thus depicts mental experiences that only lead up to the development of samādhi.
 Feelings of joy and happiness, in particular, are long left behind when the sphere of
 boundless space is attained, as such feelings are experienced only during the lower jhānas. Considered from this perspective, the present reference to overcoming perceptions
 of form in the Chinese and Tibetan versions would even fall short of being the attainment of boundless space.
@@ -7735,9 +7735,9 @@ The three versions next take up the Buddha’s attitude towards visitors, [42] e
 that he would instruct them with a mind that inclines to seclusion. [43]
 
 40 [[MA191]] at T I 738b15: “[when] I have been dwelling established in this sphere, joy arises ... rapture arises,
-tranquillity arises, happiness arises, concentration arises”,
+tranquillity arises, happiness arises, samādhi arises”,
 , and its Tibetan counterpart in Skilling 1994a: 200,10: “when I abide in this abiding, I experience
-supreme joy ... rapture, tranquillity, happiness and concentration” (my translation), nga gnas pa ’dis gnas
+supreme joy ... rapture, tranquillity, happiness and samādhi” (my translation), nga gnas pa ’dis gnas
 pa na, mchog tu dga’ ba skyes te ... dga’ ba dang, shin tu sbyangs pa dang, bde ba dang, ting nge ’dzin
 skyes te.
 41 [[MN122]] at MN III 111,6: tathāgatena abhisambuddho, [[MA191]] at T I 738b14:, and the
@@ -7762,7 +7762,7 @@ emptiness internally, externally, and internally-and-externally. [44] The Tibeta
 differs in so far as it begins with the external, followed by the internal, before coming
 to the external-and-internal. [45] The sequence from internal via external to internal-andexternal is standard not only in the Pāli discourses, [46] but also in the Chinese Āgamas, [47]
 hence it is unusual for the Tibetan version to adopt a different sequence.
-The three versions precede this topic by taking up the need to develop concentration
+The three versions precede this topic by taking up the need to develop samādhi
 as a basis for dwelling in emptiness. While the Pāli version lists the four jhānas as a
 way of settling and stabilizing the mind internally, the Chinese and Tibetan versions
 refer only to the first jhāna. [48]
@@ -7801,11 +7801,11 @@ the Yogācārabhūmi, cf. Delhey 2009a: 185,10 and 354,22 as well as T 1579 at T
 The Chinese and Tibetan versions indicate that the problem when giving attention to
 internal, external, and internal-and-external emptiness was that the mind had been
 “perturbed”. [50] This suggests that the attempt to develop emptiness in these different
-modes led to a loss of the level of concentration reached earlier. From this it would
+modes led to a loss of the level of samādhi reached earlier. From this it would
 follow that the basis for developing the emptiness contemplations was indeed the
-fourth jhāna, as suggested by the Pāli version, a level of concentration with which
+fourth jhāna, as suggested by the Pāli version, a level of samādhi with which
 mental stability becomes “imperturbable”. [51]
-The three versions agree that, once the basis of concentration has been stabilized again,
+The three versions agree that, once the basis of samādhi has been stabilized again,
 the monk will be able to develop emptiness meditation. In regard to this and subsequent
 stages of the meditative development of emptiness, the parallel versions mention the
 presence of clear comprehension as a characteristic aspect of this way of practice. [52]
@@ -7822,10 +7822,10 @@ and perception of du�kha.
 50 [[MA191]] at T I 738c4+8+12: and the Tibetan version in Skilling 1994a: 210,9: sems rnam par
 g.yo bar ’gyur zhing.
 51 To attain the fourth jhāna is equivalent to having “reached imperturbability”, āneñjappatte (cf., e.g., [[MN4]] at MN I 22,10), a condition which then enables the development of the immaterial attainments. If the
-meditating monk had earlier only developed concentration up to the level of the first jhāna, it would not
+meditating monk had earlier only developed samādhi up to the level of the first jhāna, it would not
 make sense for him to try to give attention to imperturbability at a junction of his practice where his earlier attempts to develop emptiness had failed. The point of the present passage in [[MN122]] rather seems
 to be that, in order to prepare himself for another attempt at meditating on emptiness, the monk at first
-has to re-establish the level of concentration he had earlier developed, but which during his attempts to
+has to re-establish the level of samādhi he had earlier developed, but which during his attempts to
 develop emptiness meditation had become ‘perturbed’.
 52 [[MN122]] at MN III 112,14+30 心移動 : itiha tattha sampājano hoti, [[MA191]] at T I 738c27 and T I 739a3+7+12:
 , and the Tibetan version in Skilling 1994a: 220,13: shes bzhin can du ’gyur ro, a qualification
@@ -8031,7 +8031,7 @@ Thus, in spite of the sometimes ingenious hypotheses that scholars have develope
 based on single instances of such shorter listings, [71] the possibility that these two instances of a three-fold and a four-fold listing could simply be accidents of oral transmission needs to be seriously taken into consideration.
 When considered within its context, the present passage is in fact to some extent puzzling, since the discourse, verses-with-prose, and (their?) explanations, for whose sake
 a disciple should not follow the teacher, are contrasted with beneficial types of talk for
-whose sake he should follow the teacher. Such beneficial types of talk are in all versions explained to be talk on morality, concentration, wisdom, liberation, and knowledge-and-vision-of-liberation. [72] These topics would be the very topics that are covered
+whose sake he should follow the teacher. Such beneficial types of talk are in all versions explained to be talk on morality, samādhi, wisdom, liberation, and knowledge-and-vision-of-liberation. [72] These topics would be the very topics that are covered
 in the discourses, in the verses-with-prose, and in (their?) explanations, etc. In view of
 this, one may wonder about the nature of the contrast between the texts for whose sake
 the disciple should not follow the teacher and the topics for whose sake the disciple
@@ -9018,7 +9018,7 @@ ing a forest elephant and the gradual path is a central topic of both discourses
 172 [[MN125]] at MN III 136,26. Notably, Ee also does not mention the fourth jhāna, although the same is
 found in B [e] -MN III 175,25, C [e] -MN III 316,20, and S [e] -MN III 269,20.
 173 [[MA198]] at T I 758b25.
-174 The foundational role of satipa��hāna for deeper levels of concentration can be seen, e.g., in [[DN18]] at
+174 The foundational role of satipa��hāna for deeper levels of samādhi can be seen, e.g., in [[DN18]] at
 DN II 216,12, [[SN52.6]] at SN V 299,19, and [[SN52.11-24]] at SN V 303-305.
 175 For a similar case cf. above p. 140; cf. also Anālayo 2012d.
 176 [[MA198]] at T I 758b29.
@@ -9166,9 +9166,9 @@ the prince’s question that elicited this reply. For a similar case cf. above p
 192 [[MA173]] at T I 710a27.
 193 While in [[MA173]] at T I 710b1 Bhūmija merely reports the conversation, in [[MN126]] at MN III 139,29
 he inquires whether he has presented the Buddha’s position correctly, which the Buddha confirms.
-194 [[MA173]] at T I 710b5 literally speaks of “wrong view, wrong view concentration”, . In
+194 [[MA173]] at T I 710b5 literally speaks of “wrong view, wrong view samādhi”, . In
 analogy with [[MN126]] at MN III 140,7, which lists all eight path-factors, I assume the passage in [[MA173]] to be an abbreviation of the same, i.e.,, where the implications of “wrong view
-concentration”,, could intend “concentration [based on] wrong view 正 ”, similar to a formulation
+samādhi”,, could intend “samādhi [based on] wrong view 正 ”, similar to a formulation
 found in [[MA64]] at T I 503c9: .
 195 [[MN126]] applies the four negative similes to the fruitless holy life, followed by taking up the fruitful
 邪見, 邪見定
@@ -9456,7 +9456,7 @@ that he had personally met those devas, so that he indeed spoke from personal ex
 
 218 [[MN127]] at MN III 151,15: “bodily inertia has not been fully allayed, sloth-and-torpor have not been
 fully removed, and restlessness-and-worry have not been fully dispelled”, kāyadu��hullam pi na suppa�ippasaddha� hoti, thīnamiddham pi na susamūhata� hoti, uddhaccakukkuccam pi na suppa�ivinīta� hoti (B [e] -MN III 190,7: thinamiddham, S [e] -MN III 293,1: supa�ivinīta�).
-219 [[MA79]] at T I 551a10: “they did not cultivate this concentration, did not practise it, did not widely [undertake] it, did not fully put it into operation”, .
+219 [[MA79]] at T I 551a10: “they did not cultivate this samādhi, did not practise it, did not widely [undertake] it, did not fully put it into operation”, .
 220 [[MA79]] at T I 551a14+25. The same image recurs in other Pāli discourse, cf., e.g., [[DN14]] at DN II 38,24,
 [[MN26]] at MN I 169,10, [[MN85]] at MN II 93,25, and [[SN6.1]] at SN I 138,8 (or SN [2] 172 at SN [2] I 302,3).
 221 [[MA79]] at T I 551b14, which does not mention the bodily inertia listed in [[MN127]] at MN III 151,15.
@@ -9484,7 +9484,7 @@ the host and the assembled monks. [224]
 
 The Upakkilesa-sutta, the “discourse on [minor] defilements”, records the Buddha’s
 attempt to settle a quarrel among the monks at Kosambī and his subsequent visit to another group of monks, a visit during which the Buddha gave a detailed description of
-various mental obstacles to the development of deeper stages of concentration. This
+various mental obstacles to the development of deeper stages of samādhi. This
 discourse has a parallel in the Madhyama-āgama and a partial parallel in the Ekottarika-āgama. [225] The first part of the Upakkilesa-sutta, which records the Buddha’s attempt to settle the Kosambī quarrel, has also counterparts in the Dharmaguptaka, Mahāsā�ghika, Mahīśāsaka, (Mūla-)Sarvāstivāda and Theravāda Vinayas. [226] Parts of the
 Upakkilesa-sutta have also been preserved in Sanskrit and Uighur fragments, [227] and in
 a discourse quotation in Śamathadeva’s commentary on the Abhidharmakośabhā�ya,
@@ -9628,7 +9628,7 @@ that he and his companions experienced meditative light and saw forms, which the
 disappeared again. They failed to penetrate or apprehend the ‘sign’ responsible for this. [244]
 
 239 [[MA72]] at T I 535c26: “I day and night energetically practise the path without drowsiness, being resolved
-to practise concentration continuously and to be established in the requisites of awakening (bodhipakkhiyā dhammā)”, . [[MA72]] adds that, in approval of Bhagu’s practice, the Buddha decided to give him a discourse. The expression recurs in [[SA733]] at
+to practise samādhi continuously and to be established in the requisites of awakening (bodhipakkhiyā dhammā)”, . [[MA72]] adds that, in approval of Bhagu’s practice, the Buddha decided to give him a discourse. The expression recurs in [[SA733]] at
 T II 196b15 and [[SA737]] at T II 196c25 with the further specification “seven”, introduced as an equivalent to, the seven bojjha�gas. In Ekottarika-āgama discourses, however, the expressions
 or are introduced as a set of “thirty-seven”, cf., e.g., [[EA1.1]] at T II 551a4, [[EA16.4]] at T II
 579c26, [[EA23.3]] at T II 612a19, [[EA26.2]] a T II 635b27, [[EA26.4]] at T II 635c21, [[EA34.5]] at T II 696c9
@@ -9662,15 +9662,15 @@ characteristics of phenomena by which perception recognizes an object. This mean
 preserves the causal nuance, since it is due to the nimitta that recognition takes place.
 In a more specific sense, such a ‘sign’ also plays a role in relation to the practice of
 meditation. The use of nimitta in the sense of a meditative ‘sign’ as a causal factor in
-the development of concentration comes to the fore particularly in the commentaries,
+the development of samādhi comes to the fore particularly in the commentaries,
 where it regularly stands for the meditative object used for entering into deeper stages
-of concentration. [246]
-The use of the term nimitta in a context related to the development of concentration is,
+of samādhi. [246]
+The use of the term nimitta in a context related to the development of samādhi is,
 however, not confined to the commentaries, but can already be found in the discourses,
 which repeatedly speak of the “sign of tranquillity”, samathanimitta, [247] or of the “sign of
-concentration”, samādhinimitta. [248]
-This sense of nimitta as a mental ‘sign’ or object used for the development of concentration would also fit the present context well, which describes meditative visions
-and the development of concentration. At a later point of its exposition, the Upakkilesa-sutta in fact explicitly uses the term nimitta in order to refer to the vision of light
+samādhi”, samādhinimitta. [248]
+This sense of nimitta as a mental ‘sign’ or object used for the development of samādhi would also fit the present context well, which describes meditative visions
+and the development of samādhi. At a later point of its exposition, the Upakkilesa-sutta in fact explicitly uses the term nimitta in order to refer to the vision of light
 and forms that Anuruddha and his companions had been unable to stabilize, a usage
 where nimitta clearly stands for a mental sign, for something that is perceived. [249]
 
@@ -9678,7 +9678,7 @@ to them): . D (4094) mngon pa, ju 276a2 or Q (5595) thu 20a3: bdag gis gzugs mth
 zhing shes pa de’i rgyu mtshan legs par yid la byas te rtogs par nus pa ma yin la.
 245 Ps IV 207,13 glosses nimitta with kāra�a, thereby indicating that in the present context nimitta should
 be understood as “cause”; on the term nimitta cf. also Anālayo 2003b.
-246 Vism 125,1 describes the progress of concentration, based on a kasi�a object, as proceeding from a first
+246 Vism 125,1 describes the progress of samādhi, based on a kasi�a object, as proceeding from a first
 apperception of the meditation object, via the ability to remember and thereby mentally see this meditation object with closed eyes, the uggahanimitta, to the stage when this memory image becomes a very
 bright, clear, and stable mental image, the pa�ibhāganimitta, heralding the entry into jhāna.
 247 [[DN33]] at DN III 213,14, [[SN46.2]] at SN V 66,31, and [[SN46.51]] at SN V 105,3.
@@ -9686,20 +9686,20 @@ bright, clear, and stable mental image, the pa�ibhāganimitta, heralding the e
 249 [[MN128]] at MN III 161,12 refers to giving attention to the meditative experience of forms in terms of
 the “sign of form”, rūpanimitta, and to giving attention to the meditative experience of light in terms of
 the “sign of light”, obhāsanimitta. Cousins 1973: 119, in the context of examining the commentarial
-usage of nimitta as a mental sign that leads to deeper concentration, comments that “the most striking
+usage of nimitta as a mental sign that leads to deeper samādhi, comments that “the most striking
 evidence for the antiquity of the concept is to be found in the Upakkilesa-sutta”.
 
 
 736   • A Comparative Study of the _Majjhima-nikāya_
 
 
-That the development of deeper stages of concentration forms a central theme in this
+That the development of deeper stages of samādhi forms a central theme in this
 part of the Upakkilesa-sutta and its parallel can also be seen from the mental obstructions listed in both versions. This list of mental obstructions does not mention the first
 two of the five hindrances, sensual desire and aversion. Their absence indicates that the
 meditative development described in the present discourse sets in at a more advanced
 stage, when these two comparatively gross mental defilements have been subdued and
 a minimum degree of mental tranquillity has already been established. It is precisely at
-this point, when the gross hindrances of sensual desire and aversion have been overcome and the mind becomes increasingly concentrated, that according to the Visuddhimagga’s account the mental sign, the nimitta, will manifest to the meditator. [250] Thus it
+this point, when the gross hindrances of sensual desire and aversion have been overcome and the mind becomes increasingly collected, that according to the Visuddhimagga’s account the mental sign, the nimitta, will manifest to the meditator. [250] Thus it
 seems that the present passage covers the same phenomena described in the Visuddhimagga in terms of a nimitta that needs to be stabilized and mastered in order to be able
 to attain jhāna. [251]
 
@@ -9716,9 +9716,9 @@ of energy, [257] and perception of diversity. [258]
 250 Vism 125,32.
 251 This is not the way the commentary understands this passage, however, as Ps IV 207,11 takes the expression “vision of forms” to stand for seeing forms with the divine eye, dassanañ ca rūpānan ti dibbacakkhunā rūpadassanañ ca sañjānāma. The commentarial explanation could be inspired by [[AN8.64]] at
 AN IV 302,14, where to see forms and perceive lights leads to being able to converse with devas. In the
-present context, however, the commentarial explanation does not seem to fit the context, pace Schlingloff 1985: 330, since the exercise of the divine eye requires the concentrative stability of the fourth jhāna, whereas in [[MN128]] and [[MA72]] the level of concentration achieved through stabilizing the vision of
+present context, however, the commentarial explanation does not seem to fit the context, pace Schlingloff 1985: 330, since the exercise of the divine eye requires the concentrative stability of the fourth jhāna, whereas in [[MN128]] and [[MA72]] the level of samādhi achieved through stabilizing the vision of
 lights and forms is evidently lower, leading at [[MN128]] at MN III 162,14 and [[MA72]] at T I 538c3 to
-concentration with initial and sustained mental application, savitakka savicāra samādhi/,
+samādhi with initial and sustained mental application, savitakka savicāra samādhi/,
 which corresponds to the first jhāna only.
 252 The overall count of eleven mental obstructions recurs in the Yogācārabhūmi, Delhey 2009a: 193,3 and
 T 1579 at T XXX 338c10, which continues with detailed explanations on their respective significance.
@@ -9754,8 +9754,8 @@ in [[MA72]] is far from conclusive, it suggests the term kāyadu��hulla inst
 meaning is also reflected in the commentary at Ps IV 208, 身麁重 10, which glosses du��hulla in the present
 context as “bodily inertia, bodily distress, bodily sloth”, kāyadu��hulla� kāyadaratho kāyālasiya�. The
 term kāyadu��hulla recurs in [[MN64]] at MN I 435,29 and in [[MN127]] at MN III 151,15 in the context of a
-development of deeper stages of concentration, which indicates that this term would fit the present
-examination of stages bordering on deep concentration better than du��hulla. The term kāyadu��hulla
+development of deeper stages of samādhi, which indicates that this term would fit the present
+examination of stages bordering on deep samādhi better than du��hulla. The term kāyadu��hulla
 occurs also in Th 114 and in Vibh 352,16, where it seems to stand for some form of bodily inertia or
 sloth. The idea of bodily inertia would suit the present context well, as in this part of the exposition in
 [[MN128]] the obstacles appear to come in pairs that contrast opposite qualities, the preceding pair being
@@ -9786,14 +9786,14 @@ relation to lack of energy.
 
 This statement further supports the assumption that the stages of meditation described
 at this point are related to the manifestation of the mental sign, the nimitta. It is precisely the shift from the commonly experienced world of the senses to mental visions
-and signs during the progress towards deeper stages of concentration that easily can
+and signs during the progress towards deeper stages of samādhi that easily can
 cause the arising of such doubt and uncertainty, as it entails a shift from the known
 world of sensory experience to an unknown terrain consisting of purely mental visions
 and experiences, something that from the perspective of normal experience does not
 really seem to exist.
 
 
-Table 13.7: Mental Obstructions to Concentration in [[MN128]] and [[MA72]]
+Table 13.7: Mental Obstructions to samādhi in [[MN128]] and [[MA72]]
 
 |[[MN128]]|[[MA72]]|
 |---|---|
@@ -9801,17 +9801,17 @@ Table 13.7: Mental Obstructions to Concentration in [[MN128]] and [[MA72]]
 
 
 
-After surveying the obstructions to deeper concentration, in the Madhyama-āgama
-version the Buddha continues by describing his development of three types of concentration. Although the Majjhima-nikāya version does not take up these three types of
-concentration at the present junction of its account, the same threefold development of
-concentration comes up again towards the end of both versions. The two versions agree
-that these three types of concentration cover:
+After surveying the obstructions to deeper samādhi, in the Madhyama-āgama
+version the Buddha continues by describing his development of three types of samādhi. Although the Majjhima-nikāya version does not take up these three types of
+samādhi at the present junction of its account, the same threefold development of
+samādhi comes up again towards the end of both versions. The two versions agree
+that these three types of samādhi cover:
 
- - concentration with initial and sustained mental application,
+ - samādhi with initial and sustained mental application,
 
- - concentration without initial but with a remainder of sustained mental application,
+ - samādhi without initial but with a remainder of sustained mental application,
 
- - concentration free from both. [262]
+ - samādhi free from both. [262]
 
 
 doubt arose”, (adopting the and variant
@@ -9823,7 +9823,7 @@ pa gang yin pa de ni bdag gis shes pa ’am mthong ba’i gnas med do. On the re
 to Sarvāstivāda doctrine cf. Enomoto 1986: 21.
 262 [[MA72]] at T I 538c3 lists,, and, corresponding to the savitakka
 savicāra samādhi, avitakka vicāramatta samādhi, and avitakka avicāra samādhi mentioned in [[MN128]]
-at MN III 162,14 若世中無是, . Stuart-Fox 1989: 93 suggests that the descriptions of the second type of concentration 我可見可知彼耶, 我心中生此疑患 宋, 元, 明
+at MN III 162,14 若世中無是, . Stuart-Fox 1989: 93 suggests that the descriptions of the second type of samādhi 我可見可知彼耶, 我心中生此疑患 宋, 元, 明
 是 道
 世間所無, 我知, 我見, 無是處者 若法於世間無, 我應知,
 我應見, 無有是處
@@ -9833,15 +9833,15 @@ at MN III 162,14 若世中無是, . Stuart-Fox 1989: 93 suggests that the descri
 Chapter 13 Suññata-vagga                                      -  739
 
 
-The first of these three types of concentration corresponds to concentration up to the
+The first of these three types of samādhi corresponds to samādhi up to the
 level of the first jhāna, while the last of these three corresponds to the second, third,
-and fourth jhānas. Concentration without initial but with still a remainder of sustained
-mental application represents a level of concentration situated between the first and the
+and fourth jhānas. samādhi without initial but with still a remainder of sustained
+mental application represents a level of samādhi situated between the first and the
 second jhāna, a level not explicitly taken into account in the usual fourfold reckoning
 of the jhānas found in the discourses. [263]
-In relation to these three types of concentration, according to the Madhyama-āgama
+In relation to these three types of samādhi, according to the Madhyama-āgama
 account the Buddha realized that, while dwelling in one of them and inclining the mind
-to another of these three types of concentration, the knowledge and vision (of light and
+to another of these three types of samādhi, the knowledge and vision (of light and
 forms) would certainly not get lost. [264] On realizing this, he developed each of these con
 
 in [[MN128]] and [[MA72]] differ, as according to him in [[MA72]] “the second samādhi is described as one in
@@ -9852,7 +9852,7 @@ agree in their description; cf. also Bucknell 2010: 49-50. In fact, the expressi
 pemamattakena in [[MN65]] at MN I 444,28 have their counterpart in [[MA194]] at T I 749a3 in and
 , which confirms that in the Madhyama-āgama corresponds to matta or mattaka (cf. also
 Hirakawa 1997: 398, who under lists mātra and mātraka).
-263 Although this type of presentation comes to the fore mainly with the Abhidharma and the commentaries, references to a stage of concentration where vitakka has been overcome but vicāra still persists can
+263 Although this type of presentation comes to the fore mainly with the Abhidharma and the commentaries, references to a stage of samādhi where vitakka has been overcome but vicāra still persists can
 be found already in several discourses, cf. [[DN33]] at DN III 219,18, [[SN43.3]] at SN IV 360,11, and [[AN8.63]] at AN IV 300,5. [[SN43.3]] and [[AN8.63]] do not appear to have a Chinese parallel. In the case of DN 少 觀
 33, the fragments of the Sa�gīti-sūtra have preserved a reference to these three samādhis, K 484Vc in
 Stache-Rosen 1968: 23, cf. also the Sa�gītiparyāya, T 1536 at T XXVI 389b4:
@@ -9861,15 +9861,15 @@ under the heading of an exposition given in a discourse, cf. Pradhan 1967: 448,1
 少愛 uktāh sūtre, savitarka� savicāra� samādhi�, avitarko vicāramātra�, 少 avitarko ’vicāra, T 1558 at T XXIX
 149c4: 少, T 1559 at T XXIX 301a24:
 . Whether the stage where
-vitakka has been overcome but vicāra still persists is taken into account explicitly or only covered implicitly in a description of the development of deeper concentration depends on the perspective taken in
+vitakka has been overcome but vicāra still persists is taken into account explicitly or only covered implicitly in a description of the development of deeper samādhi depends on the perspective taken in
 regard to this stage of development. The threefold way of presentation found in [[MN128]] focuses on the
 role of vitakka and vicāra in particular, and thus explicitly takes up the intermediate stage where the
-former has disappeared and the latter still persists. In contrast, the presentation by way of the four 三定者, 一有尋有伺 jhā三摩地, nas has a stronger emphasis on the affective tone of the progress through the 二無尋唯伺三摩地, 三無尋無伺三摩地 jhāna, a progress that proceeds from the rapture and happiness of seclusion (1 [st] jhāna), via the rapture and happiness of concentration (2 [nd] jhāna) and the happiness devoid of rapture (3 [rd] jhāna) to equanimity (4 [th] jhāna). This more
+former has disappeared and the latter still persists. In contrast, the presentation by way of the four 三定者, 一有尋有伺 jhā三摩地, nas has a stronger emphasis on the affective tone of the progress through the 二無尋唯伺三摩地, 三無尋無伺三摩地 jhāna, a progress that proceeds from the rapture and happiness of seclusion (1 [st] jhāna), via the rapture and happiness of samādhi (2 [nd] jhāna) and the happiness devoid of rapture (3 [rd] jhāna) to equanimity (4 [th] jhāna). This more
 affectively oriented perspective does not need to take into account the stage where 經說等持總有三種, 一有尋有伺, 二無尋唯伺, 三無尋無伺 vicāra still persists, 於經
 中說有三定, as this stage still falls under the category of 一有覺有觀三摩提, 二無覺有觀三摩提, “rapture and happiness related to seclusion 三無覺無觀三摩提 ” and, although
-being more refined than the rapture and happiness of seclusion experienced when vitakka is still present, still falls short of being the “rapture and happiness of concentration” experienced with the second
+being more refined than the rapture and happiness of seclusion experienced when vitakka is still present, still falls short of being the “rapture and happiness of samādhi” experienced with the second
 jhāna. Thus, these two modes of reckoning jhāna experience do not entail a substantial difference in regard to actual jhāna experience, but are complementary perspectives on the same process of deepening
-concentration.
+samādhi.
 264 [[MA72]] at T I 538c8: “in this way I will certainly not lose that knowledge and vision [of light and forms]”,
 
 
@@ -9883,39 +9883,39 @@ night comes up in both versions again as part of an examination that investigate
 at times only light is experienced and at other times only forms are seen. [265] The Upakkilesa-sutta and its Madhyama-āgama parallel explain that in each case attention has
 been given to only one of these two aspects of the meditative experience, thereby neglecting to give corresponding attention to the other aspect.
 The two versions continue by explaining that to experience limited light and forms is
-due to having developed only a limited degree of concentration. [266] They indicate that,
-once concentration has become immeasurable, the experienced light and forms will
+due to having developed only a limited degree of samādhi. [266] They indicate that,
+once samādhi has become immeasurable, the experienced light and forms will
 similarly become immeasurable. That is, the nature of the experienced light and forms
-is simply a reflection of the degree to which the mind has become concentrated. This
+is simply a reflection of the degree to which the mind has become collected. This
 presentation further supports the impression that the point at stake is the development
 of a nimitta in the sense of a mental sign, whose form and brilliancy reflects the depth
-of concentration.
+of samādhi.
 
 MN III 162   The Upakkilesa-sutta and its Madhyama-āgama parallel round off their exposition by
-recapitulating the mental obstructions to be overcome, after which they take up the development of concentration by way of initial and sustained mental application, absence
+recapitulating the mental obstructions to be overcome, after which they take up the development of samādhi by way of initial and sustained mental application, absence
 of initial but presence of sustained mental application, and absence of both. The
-Majjhima-nikāya version continues by listing concentration with and without rapture,
-concentration with enjoyment, and concentration with equanimity. [267] The Madhyamaāgama account instead lists one-sided and variegated concentration, as well as limited
-and immeasurable concentration. [268]
+Majjhima-nikāya version continues by listing samādhi with and without rapture,
+samādhi with enjoyment, and samādhi with equanimity. [267] The Madhyamaāgama account instead lists one-sided and variegated samādhi, as well as limited
+and immeasurable samādhi. [268]
 
 
-. [[MA72]] continues by examining the possibility that the mind may incline towards another of the three types of concentration for all possible cases, that is, not only in the ascending and descending order of these three levels of concentration, but also for the possibility that the mind
+. [[MA72]] continues by examining the possibility that the mind may incline towards another of the three types of samādhi for all possible cases, that is, not only in the ascending and descending order of these three levels of samādhi, but also for the possibility that the mind
 may incline from initial and sustained mental application directly to the absence of both, and vice versa.
 265 [[MN128]] at MN III 161,4 and [[MA72]] at T I 539a2.
-266 [[MN128]] at MN III 161,30 explains that “at the time when concentration is limited, at that time my
+266 [[MN128]] at MN III 161,30 explains that “at the time when samādhi is limited, at that time my
 
 [mental] eye is limited”, yasmi� kho samaye paritto samādhi hoti, paritta� me tamhi samaye cakkhu
 hoti (B [e] -MN III 200,8 and C [e] -MN III 356,39 add me after kho and read tasmi�, S [e] -MN III 308,18 adds
 me after paritto), which then results in experiencing limited light and forms. [[MA72]] at T I 539a18 offers a small but noteworthy additional detail in this respect, as it indicates that “because of entering
-如是我必不失此智見 concentration to a limited degree, the purity of the [mental] eye is limited, and because of the limited
+如是我必不失此智見 samādhi to a limited degree, the purity of the [mental] eye is limited, and because of the limited
 purity of the [mental] eye, I experience light and see forms to a limited degree”,
 . The reference to “purity” helps to clarify the idea behind the reference to a “limited [mental] eye” in [[MN128]]
 267 [[MN128]] at MN III 162,17: sappītikam pi samādhi� ... nippītikam pi samādhi� ... sātasahagatam pi
 samādhi� ... upekhāsahagatam pi samādhi� (B [e] -MN III 201,8, C [e] -MN III 358,24, and S [e] -MN III
-310,8: upekkhāsahagatam). The same series of concentrations recurs in [[AN8.63]] at AN IV 300,8,
-preceded by the three types of concentration (with and without vitakka).
-268 [[MA72]] at T I 539b4: “one-sided concentration”,, “variegated concentration”,, “limited
-concentration”,, and “immeasurable concentration”, . The expressions “one-sided con少入定故, 少眼清淨,
+310,8: upekkhāsahagatam). The same series of samādhis recurs in [[AN8.63]] at AN IV 300,8,
+preceded by the three types of samādhi (with and without vitakka).
+268 [[MA72]] at T I 539b4: “one-sided samādhi”,, “variegated samādhi”,, “limited
+samādhi”,, and “immeasurable samādhi”, . The expressions “one-sided con少入定故, 少眼清淨,
 少眼清淨故, 我少知光明, 亦少見色
 一向定 雜定
 少定 廣無量定
@@ -9924,12 +9924,12 @@ concentration”,, and “immeasurable concentration”, . The expressions “on
 Chapter 13 Suññata-vagga                                      -  741
 
 
-The Majjhima-nikāya discourse introduces this survey of concentrations with an announcement by the Buddha that he will develop a threefold concentration. [269] This suggests the three types of concentration mentioned in both versions to be the more original part of the exposition, while the other concentrations listed subsequently in each
+The Majjhima-nikāya discourse introduces this survey of samādhis with an announcement by the Buddha that he will develop a threefold samādhi. [269] This suggests the three types of samādhi mentioned in both versions to be the more original part of the exposition, while the other samādhis listed subsequently in each
 version, which are without a counterpart in the parallel version, could be later additions.
 The Upakkilesa-sutta concludes with the Buddha’s explanation that, after developing
-these types of concentration, he attained awakening. [270] The Madhyama-āgama version
+these types of samādhi, he attained awakening. [270] The Madhyama-āgama version
 makes explicit what is only implicit in the Majjhima-nikāya version, as it mentions that
-after developing these types of concentration the Buddha practised the requisites of
+after developing these types of samādhi the Buddha practised the requisites of
 awakening and thereby reached awakening, clarifying that the present passage is not
 meant to imply that jhāna alone will suffice for awakening. [271]
 
@@ -9942,14 +9942,14 @@ Madhyama-āgama and another parallel in an individual translation. [272] A small
 the discourse has also been preserved as a discourse quotation in Śamathadeva’s commentary on the Abhidharmakośabhā�ya, extant in Tibetan. [273] Moreover, a counterpart
 
 
-centration” and “variegated concentration” recur in Paramartha’s translation of the Abhidharmakośabhā�ya, T 1559 at T XXIX 168a11, which uses in the context of discussing the three types of
-concentration mentioned also in [[MN128]] and [[MA72]] while T 1559 at T XXIX 277b2 explains that the
+centration” and “variegated samādhi” recur in Paramartha’s translation of the Abhidharmakośabhā�ya, T 1559 at T XXIX 168a11, which uses in the context of discussing the three types of
+samādhi mentioned also in [[MN128]] and [[MA72]] while T 1559 at T XXIX 277b2 explains that the
 development of leads to rebirth in the Akani��ha Brahmāloka, .
-269 [[MN128]] at MN III 162,13: “let me now develop concentration in three ways”, handa dānāha� tividhena samādhi� bhāvemī ti (S [e] -MN III 310,4: bhāvesin ti). Bodhi in Ñā�amoli 1995/2005: 1340 note 1195
-suggests this expression to stand for the three types of concentration (with and without vitakka), as [[DN33]] at DN III 219,19 lists the same three under the heading tayo samādhi.
-270 According to Ps IV 209,26, the development of this threefold concentration took place during the last
+269 [[MN128]] at MN III 162,13: “let me now develop samādhi in three ways”, handa dānāha� tividhena samādhi� bhāvemī ti (S [e] -MN III 310,4: bhāvesin ti). Bodhi in Ñā�amoli 1995/2005: 1340 note 1195
+suggests this expression to stand for the three types of samādhi (with and without vitakka), as [[DN33]] at DN III 219,19 lists the same three under the heading tayo samādhi.
+270 According to Ps IV 209,26, the development of this threefold samādhi took place during the last
 watch of the night of the Buddha’s awakening, mahābodhimūle nisinno pacchimayāme. This explanation does not fit [[MN128]] at MN III 161,5 and its parallel [[MA72]] at T I 538c9, according to which the
-Buddha repeatedly spoke of developing these different types of concentration for a whole day, a whole 一向定
+Buddha repeatedly spoke of developing these different types of samādhi for a whole day, a whole 一向定
 night, and a whole day and night, kevalam pi ratti� kevalam pi divasa� kevalam pi rattindiva� (B [e]  MN III 199,20: diva� 雜定 instead of divasa�),, indicating that this whole development 若修雜定, 此人必生阿迦尼師吒天
 was not confined to a single night.
 271 [[MA72]] at T I 539b6: “progressing in this concentrative dwelling, I diligently cultivated the requisites of
@@ -11532,7 +11532,7 @@ which Ānanda decided to report the whole matter to the Buddha. According to the
 action is fruitless, yid kyi las kyi ’bras bu med pa, presumably a textual error. Ps V 15,20 explains that
 Potaliputta had come to the conclusion that according to the Buddha’s teaching only mental action is
 real, since he had heard about (and misunderstood) the emphasis given by the Buddha to mental action
-in the Upāli-sutta, [[MN56]] at MN I 373,19. Regarding Potaliputta’s reference to a statement by the Buddha about a state of concentration in which nothing is felt, according to the commentary this remark
+in the Upāli-sutta, [[MN56]] at MN I 373,19. Regarding Potaliputta’s reference to a statement by the Buddha about a state of samādhi in which nothing is felt, according to the commentary this remark
 originated from having heard about the exposition on abhisaññānirodha given in the Po��hapāda-sutta,
 [[DN9]] at DN I 184,26. Premasiri 2006c: 739 comments that “the Buddha appears to have been known
 among contemporary ascetics for his teaching concerning the cessation of saññā”.
@@ -11583,7 +11583,7 @@ had in regard to this statement about the relationship of all feelings to dukkha
 clarify that the statement, according to which all feelings are included in dukkha, refers to their conditioned nature, not to their affective tone. That is, not all feelings are dukkha in the sense of being “suffering”, since some feelings are pleasant or neutral, but all feelings are dukkha in the sense of being ultimately “unsatisfactory”, because all feelings are conditioned and impermanent. Similar to [[MA171]] in
 [[SA474]] the monk who inquires about this statement is Ānanda. The exposition in [[SN36.11]] at SN IV
 217,14 and [[SA474]] at T II 121b8 culminates in the attainment of the cessation of perceptions and feelings, a topic that according to [[MN136]] at MN III 207,12 and [[MA171]] at T I 706b22 appears to have also
-been on Potaliputta’s mind, as in his initial statement he had referred to a type of concentration during
+been on Potaliputta’s mind, as in his initial statement he had referred to a type of samādhi during
 which feelings cease.
 
 
@@ -12241,7 +12241,7 @@ Anuruddha 2010: 96, Johansson 1965, Lee 2010, Matthews 1983: 37-52, McGovern 187
 Minh Thành 2001: 4, Pieris 1980: 213, Premasiri 2003a: 1-3, Schmithausen 1987/2007: 426 note 820,
 Somaratne 2005, Sugunasiri 1995: 415-416, and Swearer 1972: 358.
 167 [[MN138]] at MN III 226,13+20+27+34 examines the gratification derived from the happiness and rapture
-of seclusion (of the first jhāna), vivekajapītisukhassāda, from the happiness and rapture of concentration (of the second jhāna), samādhijapītisukhassāda, from the equanimity and happiness (of the third
+of seclusion (of the first jhāna), vivekajapītisukhassāda, from the happiness and rapture of samādhi (of the second jhāna), samādhijapītisukhassāda, from the equanimity and happiness (of the third
 
 
 792   •   A Comparative Study of the Majjhima-nikāya
@@ -12272,7 +12272,7 @@ the Majjhima-nikāya version, [170] it describes how someone becomes attached to
 mentally established in an aggregate, considering it as ‘I’ and ‘mine’. Such attachment
 then results in agitation as soon as the respective aggregate changes and becomes oth
 jhāna), upekhāsukhassāda (B [e] -MN III 269,12, C [e] -MN III 476,17, and S [e] -MN III 417,3: upekkhāsukhassāda), and from the neutral feeling (of the fourth jhāna), adukkhamasukhassāda. [[MA164]] at T I 695a25+28
-and T I 695b3+6 similarly takes up the gratification [derived from] seclusion,, the gratification [derived from] concentration,, the gratification [derived from] the absence of rapture,, and
+and T I 695b3+6 similarly takes up the gratification [derived from] seclusion,, the gratification [derived from] samādhi,, the gratification [derived from] the absence of rapture,, and
 the gratification [derived from] equanimity together with purity of mindfulness, .
 168 In the case of the four immaterial attainments, [[MA164]] at T I 695 b9+12+14+17 mentions the “gratification [derived from] knowledge of space”,, the “gratification [derived from] knowledge of consciousness”,, the “gratification [derived from] knowledge of nothingness”,, and
 the “gratification [derived from] knowledge of the absence of perception”, .
@@ -12488,8 +12488,8 @@ earlier and [[MN139]] at MN III 236,6 includes it in its recapitulation.
 emptiness, . References to Subhūti’s qualities recur in other discourses, although with some
 differences in the qualities that are highlighted. The list of outstanding disciples in [[AN1.75]] at AN I
 24,8 takes up Subhūti’s excellence in dwelling free from conflict, to which it adds his worthiness in receiving gifts; cf. also Maithrimurthi 2004: 205. [[UD6.7]] at [[UD71.10]] records the Buddha praising Subhūti
-for his meditative abilities, in particular for his removal of thoughts and his ability to attain the perception of the immaterial. According to Th 1, in what tradition reckons to be his own verse, Subhūti highlights his liberated and concentrated state of mind. The listing of outstanding disciples in [[EA4.8]] at T II
-558b15 extols Subhūti for his continuous delight in emptiness concentration and his ability to discriminate properly the meaning of emptiness,, followed by praising him for his resolution on being established in the peace of emptiness and his sublime and virtuous actions,
+for his meditative abilities, in particular for his removal of thoughts and his ability to attain the perception of the immaterial. According to Th 1, in what tradition reckons to be his own verse, Subhūti highlights his liberated and collected state of mind. The listing of outstanding disciples in [[EA4.8]] at T II
+558b15 extols Subhūti for his continuous delight in emptiness samādhi and his ability to discriminate properly the meaning of emptiness,, followed by praising him for his resolution on being established in the peace of emptiness and his sublime and virtuous actions,
 . Subhūti’s understanding of emptiness comes up for praise again in [[EA22.3]] at T II 663a 行真實空 4
 恒樂空定, 分別空義
 志在空寂,
@@ -13000,7 +13000,7 @@ abhidharmic flavour in this way, where interest proceeds from what tasks the pat
 that are present in each case. [247]
 According to the Madhyama-āgama presentation, such analysing and observing can
 be directed in various ways, such as contemplating one’s former deeds, or being mindful of mental formations, or seeing the disadvantage inherent in formations, or seeing
-the peacefulness of Nirvā�a, or remaining with detachment and mindfulness when attaining a temporary liberation of the mind (i.e. a deeper state of concentration). [248]
+the peacefulness of Nirvā�a, or remaining with detachment and mindfulness when attaining a temporary liberation of the mind (i.e. a deeper state of samādhi). [248]
 When defining right intention, the Majjhima-nikāya version lists three types of right
 intention, namely intention of renunciation, of non ill will, and of non cruelty. [249] The
 Madhyama-āgama version and the individual translation approach this topic differently,
@@ -13086,7 +13086,7 @@ the four satipa��hānas, while the Madhyama-āgama discourse and the individ
 truths’ perspective. The individual translation additionally recommends speaking little
 as a way of avoiding loss of mindfulness. [257]
 The Majjhima-nikāya version and the Madhyama-āgama account agree in taking
-right concentration to stand for jhāna attainment. While the Majjhima-nikāya version
+right samādhi to stand for jhāna attainment. While the Majjhima-nikāya version
 lists the four jhānas, the Madhyama-āgama version only describes that the mind is established in a jhāna without being scattered, without specifying a particular level of
 jhāna attainment. [258]
 
@@ -13107,7 +13107,7 @@ and D (4094) mngon pa, nyu 44b5 or Q (5595) thu 84a7, according to which right e
 257 T 32 at T I 816c9: “speaking little and without being separated from mindfulness”, .
 258 [[MA31]] at T I 469b28: “the mind is established, absorption is established, well established, without wavering and without being scattered”, . T 32 at T I 816c15 similarly describes how “because of mental tranquillity [the mind] is unmoving and steadfast, because of having
 taken hold of tranquillity, the mind and mindfulness are established in oneness 喜不毀不滅, 念正止 ”,
-, a description which in its recapitulation at T I 816c19, however, reads rather differently. According to [[MN52]] at MN I 350,10 (= [[AN11.17]] at AN V 343,18), the destruction of the influxes is possible with each of the four jhānas, i.e., even with the first jhāna, so that the standard definition of right concentration in the Pāli discourses by listing all four jhānas may not intend to stipulate
+, a description which in its recapitulation at T I 816c19, however, reads rather differently. According to [[MN52]] at MN I 350,10 (= [[AN11.17]] at AN V 343,18), the destruction of the influxes is possible with each of the four jhānas, i.e., even with the first jhāna, so that the standard definition of right samādhi in the Pāli discourses by listing all four jhānas may not intend to stipulate
 少言念不離
 心住, 禪住, 順住, 不亂, 不散
 意止故, 不動不走,
@@ -13137,12 +13137,12 @@ of the earlier section of this discourse can also be found in Sanskrit fragments
 fragments of the Maitrisimit, preserved in Tocharian and Uighur. [263] Another parallel
 
 
-the attainment of all four jhānas in order for the noble eightfold path to lead to full awakening. The additional stipulation made in [[MA31]] that right concentration needs to be based on the perspective of the
+the attainment of all four jhānas in order for the noble eightfold path to lead to full awakening. The additional stipulation made in [[MA31]] that right samādhi needs to be based on the perspective of the
 four noble truths squares well with an exposition on the topic of proper effacement given in [[MN8]] at
-MN I 42,27 and [[MA91]] at T I 573c20. These two discourses agree in reckoning right concentration as
+MN I 42,27 and [[MA91]] at T I 573c20. These two discourses agree in reckoning right samādhi as
 an instance of proper effacement, yet [[MN8]] at MN I 40,30 and [[MA91]] at T I 573b28 also agree that
 mere attainment of the jhānas falls short of being proper effacement. In the light of [[MA31]] this could
-be understood to imply that attainment of a jhāna only becomes an instance of right concentration −
+be understood to imply that attainment of a jhāna only becomes an instance of right samādhi −
 and therewith an instance of proper effacement − when it takes place based on the four noble truths’
 perspective, thereby with the insight that such attainment is also of an ultimately unsatisfactory nature.
 259 According to [[MA31]] at T I 469c5, Sāriputta concluded his exposition with a verse in praise of the Buddha’s teaching of the four noble truths, a verse which has a prose counterpart in T 32 at T I 816c26.
@@ -14573,7 +14573,7 @@ how one with such knowledge and vision is endowed with the following path factor
 
        - right mindfulness,
 
-       - right concentration.
+       - right samādhi.
 The other three path factors should be understood to have been developed earlier. [112]
 Practising the noble eightfold path in this way then leads to developing:
 
@@ -14946,11 +14946,11 @@ discourse quotation in the Vibhā�ā translations, which agree with [[SA282]] 
 was made by Ānanda cf. T 1545 at T XXVII 729b6, T 1546 at T XXVIII 271a18, and T 1547 at T XXVIII
 439c19. Bronkhorst 1993/2000: x and id. 1999: 86 sees a contradiction between this criticism of the
 “development of the faculties” through avoiding sights and sounds, proposed by Uttara’s teacher, and
-the approving attitude shown in other discourses towards deeper states of concentration during which
+the approving attitude shown in other discourses towards deeper states of samādhi during which
 sights or sounds are no longer experienced, e.g., in [[DN16]] at DN II 131,20. Yet, the point made in the
 present discourse is how to relate to everyday experience, in fact the expression 盲者 “development of the
 faculties”, indriyabhāvanā 聾者, is an obvious counterpart to “restraint of the faculties”, indriyasa�vara.
-Thus, the present passage is not a criticism of deeper stages of concentration during which sensory experience is absent, but rather a criticism of attempting to deal with sensory impact during daily life by
+Thus, the present passage is not a criticism of deeper stages of samādhi during which sensory experience is absent, but rather a criticism of attempting to deal with sensory impact during daily life by
 simply trying to avoid it, instead of developing equanimity towards whatever is experienced. For a critical review of Bronkhorst’s argument regarding [[MN152]] cf. also Pāsādika 2009: 92-93.
 
 146 [[MN152]] at MN III 299,6: anuttarā indriyabhāvanā.
@@ -15266,7 +15266,7 @@ that “the mere memorization of the text is not judged to be the most important
 858   • A Comparative Study of the _Majjhima-nikāya_
 
 
-can arise, which in turn leads to joy, tranquillity, and concentration, thereby establishing the necessary conditions for attaining liberation. [14] Thus, recitation undertaken for
+can arise, which in turn leads to joy, tranquillity, and samādhi, thereby establishing the necessary conditions for attaining liberation. [14] Thus, recitation undertaken for
 its own sake was seen as a means of meditative development in a wider sense, and as
 such could become a tool for progress on the path to liberation.
 The discourses also suggest that listening to the oral delivery of a teaching can help
@@ -15292,8 +15292,8 @@ transmission, where the texts became part of life, “eine ganz andere Art der T
 zu einem unmittelbaren Teil des Lebens selbst werden lässt. Das gilt ganz besonders, solange die Texte
 ausschließlich mündlich weitergegeben ... werden”. Cf. also Zacchetti 1998: 492-493 on the influence of
 sacramental aspects of recitation on the Chinese translation procedures.
-14 Pāsādika 1990: 26 (cf. also Pāsādika 2003: 68-69) notes that a discourse quotation in the Abhidharmakośavyākhyā offers additional details on the dynamics that set in, once concentration has been established
-based on any of the five occasions for liberation, indicating that such concentration results in a vision in
+14 Pāsādika 1990: 26 (cf. also Pāsādika 2003: 68-69) notes that a discourse quotation in the Abhidharmakośavyākhyā offers additional details on the dynamics that set in, once samādhi has been established
+based on any of the five occasions for liberation, indicating that such samādhi results in a vision in
 accordance with reality, which then leads via disenchantment and dispassion to liberation, cf. Wogihara
 1971b: 54,8: yathābhūta� paśyan nirvidyate nirvi��o virajyate virakto vimucyate.
 15 [[AN10.60]] at AN V 112,16 and the ri’i kun dga’ bo’i mdo, D (38) shes, ka 279a1 or Q (754) sher, tsi
@@ -15327,7 +15327,7 @@ practised today, which shows that it must be serving a greater purpose than pres
 listening to the teachings leads to the arising of joy and to calmness of the body. De Silva 1993: 33 (without knowing the Chinese and Sanskrit versions) states that “when one is reminded of the spiritual qualities one has already cultivated ... great joy must be arising in the mind. Such joy is perhaps capable of
 altering the body’s chemistry in a positive manner”.
 19 Kwella 1978: 173 notes that “the texts repeat very often the same words ... the citta ... comes to the same
-subtle pictures ever and ever again ... a comparatively high concentration of the mind ... will be the ...
+subtle pictures ever and ever again ... a comparatively high samādhi of the mind ... will be the ...
 result”; cf. also Tuxen 1926: 98-99, who points out that repetition in the Pāli texts has a function comparable to a recurring motif in music.
 20 [[AN7.58]] at AN IV 86,9 聞說七覺分, : yathāsuta� yathāpariyatta� dhamma� vitthārena sajjhāya� kareyyāsi 深達正覺味, with
 its counterparts in [[MA83]] at T I 559c13: and in T 47 at T I 837a21:
@@ -23693,7 +23693,7 @@ cloth
   - stepping on .................................... 479
 coherence, principle of ...................... xxvi
 concatenation ........................................ 11
-concentration
+samādhi
 
   - and rough speech .......................... 191
 
@@ -25625,7 +25625,7 @@ Revata ........................................ 209f, 370
 �gveda ......... 159, 469, 538, 551, 707, 869
 rhinoceros ............................................ 733
 rich man able to go forth, simile of ..... 366
-right concentration, definition of . 658, 809
+right samādhi, definition of . 658, 809
 right effort, which aggregate? ............... 280
 right knowledge, right liberation . 430, 663
 right view
@@ -26097,7 +26097,7 @@ Theravāda Vinaya ......... 20, 147, 179, 181,
 184f, 187, 203, 208, 267, 324, 397, 478,
 480, 533, 546f, 689, 710, 712, 731ff,
 812, 814f, 855, 861f, 868
-thinking and concentration .................. 139
+thinking and samādhi .................. 139
 thirsty man, simile of ................... 115, 261
 Thirty-three
 

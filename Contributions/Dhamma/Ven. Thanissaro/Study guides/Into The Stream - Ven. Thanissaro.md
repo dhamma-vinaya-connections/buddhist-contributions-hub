@@ -247,7 +247,7 @@ As he was seated to one side, Ven. Ananda said to the Blessed
   dependent on seclusion, dependent on dispassion, dependent on
   cessation, resulting in letting go. He develops right resolve…
   right speech… right action… right livelihood… right effort… right
-  mindfulness… right concentration dependent on seclusion…
+  mindfulness… right samādhi dependent on seclusion…
   dispassion… cessation, resulting in letting go. This is how a
   monk who has admirable people as friends, companions, &
   colleagues, develops & pursues the noble eightfold path.
@@ -791,7 +791,7 @@ Understanding’s the heartwood
 
 of well-spoken words;
 
-concentration, the heartwood
+samādhi, the heartwood
 
 of learning & understanding.
 
@@ -817,7 +817,7 @@ calm,
 
 composure, &
 
-concentration,
+samādhi,
 
 have reached
 
@@ -834,7 +834,7 @@ Notes
  
 1. According to the Commentary, one’s
     superiors include those who have more wisdom than oneself, more
-    skill in concentration and other aspects of the path than
+    skill in samādhi and other aspects of the path than
     oneself, and those senior to oneself. ^[[SN12.9]]note01
 
 2. The Commentary says that the right time
@@ -1662,13 +1662,13 @@ The practice leading to disenchantment, dispassion, and
   of its development.
 
 “[6] For one who is at ease—his body calmed—the mind becomes
-  concentrated. When the mind of one who is at ease—his body
-  calmed—becomes concentrated, then *concentration* as a
+  collected. When the mind of one who is at ease—his body
+  calmed—becomes collected, then *samādhi* as a
   factor for awakening becomes aroused. He develops it, and for him
   it goes to the culmination of its development.
 
-“[7] He oversees the mind thus concentrated with equanimity.
-  When he oversees the mind thus concentrated with equanimity,
+“[7] He oversees the mind thus collected with equanimity.
+  When he oversees the mind thus collected with equanimity,
   *equanimity* as a factor for awakening becomes aroused. He
   develops it, and for him it goes to the culmination of its
   development.
@@ -1690,7 +1690,7 @@ The practice leading to disenchantment, dispassion, and
   develops *analysis of qualities* as a factor for
   awakening… *persistence* as a factor for awakening…
   *rapture* as a factor for awakening… *calm* as a
-  factor for awakening… *concentration* as a factor for
+  factor for awakening… *samādhi* as a factor for
   awakening… *equanimity* as a factor for awakening
   dependent on seclusion… dispassion… cessation, resulting in
   relinquishment.
@@ -1713,7 +1713,7 @@ The ability to follow this path to completion is not just a
   persistence is aroused, not for one who is lazy. This Dhamma is
   for one whose mindfulness is established, not for one whose
   mindfulness is confused. This Dhamma is for one whose mind is
-  concentrated, not for one whose mind is unconcentrated. This
+  collected, not for one whose mind is uncollected. This
   Dhamma is for one endowed with discernment, not for one whose
   discernment is weak. This Dhamma is for one who enjoys
   non-objectification, who delights in non-objectification, not for
@@ -1728,8 +1728,8 @@ The ability to follow this path to completion is not just a
   persistence being aroused, he does not want it to be known that
   ‘His persistence is aroused.’ His mindfulness being established,
   he does not want it to be known that ‘His mindfulness is
-  established.’ His mind being concentrated, he does not want it to
-  be known that ‘His mind is concentrated.’ Being endowed with
+  established.’ His mind being collected, he does not want it to
+  be known that ‘His mind is collected.’ Being endowed with
   discernment, he does not want it to be known that ‘He is endowed
   with discernment.’ Enjoying non-objectification, he does not want
   it to be known that ‘He is enjoying non-objectification.’ ‘This
@@ -1776,15 +1776,15 @@ The ability to follow this path to completion is not just a
   mindfulness is confused.’ Thus was it said. And with reference to
   this was it said.
 
-“‘This Dhamma is for one whose mind is concentrated, not for
-  one whose mind is unconcentrated.’ Thus was it said. With
+“‘This Dhamma is for one whose mind is collected, not for
+  one whose mind is uncollected.’ Thus was it said. With
   reference to what was it said? There is the case where a
   monk—quite secluded from sensuality, secluded from unskillful
   qualities—enters & remains in the first jhana: rapture & pleasure
   born of seclusion, accompanied by directed thought & evaluation.
   With the stilling of directed thoughts & evaluations, he enters &
   remains in the second jhana: rapture & pleasure born of
-  concentration, unification of awareness free from directed
+  samādhi, unification of awareness free from directed
   thought & evaluation—internal assurance. With the fading of
   rapture he remains equanimous, mindful, & alert, and senses
   pleasure with the body. He enters & remains in the third jhana,
@@ -1793,7 +1793,7 @@ The ability to follow this path to completion is not just a
   the earlier disappearance of elation & distress—he enters &
   remains in the fourth jhana: purity of equanimity & mindfulness,
   neither pleasure nor pain. ‘This Dhamma is for one whose mind is
-  concentrated, not for one whose mind is unconcentrated.’ Thus was
+  collected, not for one whose mind is uncollected.’ Thus was
   it said. And with reference to this was it said.
 
 “‘This Dhamma is for one endowed with discernment, not for one
@@ -2069,12 +2069,12 @@ The material in this part of the study guide is presented in
 
 “This noble eightfold path, lord, is the stream: right view,
   right resolve, right speech, right action, right livelihood,
-  right effort, right mindfulness, right concentration.”
+  right effort, right mindfulness, right samādhi.”
 
 “Very good, Sariputta! Very good! This noble eightfold
   path—right view, right resolve, right speech, right action, right
   livelihood, right effort, right mindfulness, right
-  concentration—is the stream.”
+  samādhi—is the stream.”
 
 —[[SN55.5]]
 
@@ -2118,13 +2118,13 @@ The material in this part of the study guide is presented in
   alert, & mindful—putting aside greed & distress with reference to
   the world. This is called right mindfulness.
 
-“And what is right concentration? There is the case where a
+“And what is right samādhi? There is the case where a
   monk—quite secluded from sensuality, secluded from unskillful
   qualities—enters & remains in the first jhana: rapture & pleasure
   born of seclusion, accompanied by directed thought & evaluation.
   With the stilling of directed thoughts & evaluations, he enters &
   remains in the second jhana: rapture & pleasure born of
-  concentration, unification of awareness free from directed
+  samādhi, unification of awareness free from directed
   thought & evaluation—internal assurance. With the fading of
   rapture he remains equanimous, mindful, & alert, and senses
   pleasure with the body. He enters & remains in the third jhana,
@@ -2133,7 +2133,7 @@ The material in this part of the study guide is presented in
   the earlier disappearance of elation & distress—he enters &
   remains in the fourth jhana: purity of equanimity & mindfulness,
   neither pleasure nor pain. This is called right
-  concentration.”
+  samādhi.”
 
 —[[SN45.8]]
 
@@ -2535,7 +2535,7 @@ The Canon contains passages that amplify what it means to
 
 [Sister Dhammadinna:] “Precisely this noble eightfold
   path—right view, right resolve, right speech, right action, right
-  livelihood, right effort, right mindfulness, right concentration:
+  livelihood, right effort, right mindfulness, right samādhi:
   This, friend Visakha, is the way of practice leading to the
   cessation of self-identity described by the Blessed One.”
 
@@ -2744,7 +2744,7 @@ A standard formula in the Canon describes a stream-enterer
   confidence in the Dhamma… verified confidence in the Sangha….
   He/she is endowed with virtues that are appealing to the noble
   ones: untorn, unbroken, unspotted, unsplattered, liberating,
-  praised by the wise, untarnished, leading to concentration.”
+  praised by the wise, untarnished, leading to samādhi.”
 
 —[[AN10.92]]
 
@@ -2841,7 +2841,7 @@ When these lists are collated, we arrive at four qualities
   trainings under which all that is gathered.
 
 “There is the case where a monk is wholly accomplished in
-  virtue, moderately accomplished in concentration, and moderately
+  virtue, moderately accomplished in samādhi, and moderately
   accomplished in discernment. With reference to the lesser and
   minor training rules, he falls into offenses and rehabilitates
   himself. Why is that? Because I have not declared that to be a
@@ -3045,7 +3045,7 @@ When these lists are collated, we arrive at four qualities
 
 “Furthermore, the monk who is a learner discerns the five
   faculties: the faculty of conviction… persistence… mindfulness…
-  concentration… discernment. He sees clear through with
+  samādhi… discernment. He sees clear through with
   discernment their destiny, excellence, rewards, & consummation,
   but he does not touch them with his body. This too is a manner of
   reckoning whereby a monk who is a learner, standing at the level
@@ -3055,7 +3055,7 @@ When these lists are collated, we arrive at four qualities
   adept, standing at the level of an adept, can discern that ‘I am
   an adept’? There is the case where a monk who is an adept
   discerns the five faculties: the faculty of conviction…
-  persistence… mindfulness… concentration… discernment. He touches
+  persistence… mindfulness… samādhi… discernment. He touches
   with his body and sees clear through with discernment what their
   destiny, excellence, rewards, & consummation are. This is a
   manner of reckoning whereby a monk who is an adept, standing at
@@ -3565,7 +3565,7 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   accompanied by effluents. When his mind is guarded with regard to
   effluents and qualities accompanied by effluents, the faculty of
   conviction goes to the culmination of its development. The
-  faculty of persistence… mindfulness… concentration… discernment
+  faculty of persistence… mindfulness… samādhi… discernment
   goes to the culmination of its development.
 
 —[[SN48.56]]
@@ -3578,8 +3578,8 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   For him, living thus heedlessly, there is no joy. There being no
   joy, there is no rapture. There being no rapture, there is no
   calm. There being no calm, he dwells in pain. When pained, the
-  mind does not become concentrated. When the mind is
-  unconcentrated, phenomena do not become manifest. When phenomena
+  mind does not become collected. When the mind is
+  uncollected, phenomena do not become manifest. When phenomena
   are not manifest, he is reckoned simply as one who dwells
   heedlessly.
 
@@ -3587,13 +3587,13 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   verified confidence in the Dhamma…. verified confidence in the
   Sangha… virtues that are appealing to the noble ones: untorn,
   unbroken, unspotted, unsplattered, liberating, praised by the
-  wise, untarnished, leading to concentration. Content with those
+  wise, untarnished, leading to samādhi. Content with those
   virtues pleasing to the noble ones, he does not exert himself
   further in solitude by day or seclusion by night. For him, living
   thus heedlessly, there is no joy. There being no joy, there is no
   rapture. There being no rapture, there is no calm. There being no
   calm, he dwells in pain. When pained, the mind does not become
-  concentrated. When the mind is unconcentrated, phenomena do not
+  collected. When the mind is uncollected, phenomena do not
   become manifest. When phenomena are not manifest, he is reckoned
   simply as one who dwells heedlessly….
 
@@ -3605,7 +3605,7 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   For him, living thus heedfully, joy arises. In one who has joy,
   rapture arises. In one who has rapture, the body becomes calm.
   When the body is calm, one feels pleasure. Feeling pleasure, the
-  mind becomes concentrated. When the mind is concentrated,
+  mind becomes collected. When the mind is collected,
   phenomena become manifest. When phenomena are manifest, he is
   reckoned as one who dwells heedfully.
 
@@ -3613,13 +3613,13 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   verified confidence in the Dhamma…. verified confidence in the
   Sangha… virtues that are appealing to the noble ones: untorn,
   unbroken, unspotted, unsplattered, liberating, praised by the
-  wise, untarnished, leading to concentration. Not content with
+  wise, untarnished, leading to samādhi. Not content with
   those virtues pleasing to the noble ones, he exerts himself
   further in solitude by day or seclusion by night. For him, living
   thus heedfully, joy arises. In one who has joy, rapture arises.
   In one who has rapture, the body becomes calm. When the body is
   calm, one feels pleasure. Feeling pleasure, the mind becomes
-  concentrated. When the mind is concentrated, phenomena become
+  collected. When the mind is collected, phenomena become
   manifest. When phenomena are manifest, he is reckoned as one who
   dwells heedfully.”
 
@@ -3651,7 +3651,7 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
   verified confidence in the Dhamma… verified confidence in the
   Sangha… virtues that are appealing to the noble ones: untorn,
   unbroken, unspotted, unsplattered, liberating, praised by the
-  wise, untarnished, leading to concentration.’
+  wise, untarnished, leading to samādhi.’
 
 “Mahanama, when a discerning lay follower who is diseased, in
   pain, severely ill has been reassured by another discerning lay
@@ -3755,7 +3755,7 @@ Then the Blessed One addressed the monks, “Now, then, monks, I
     *Dharma.*
 
 **Jhana:** Mental absorption. A state
-    of strong concentration focused on a single sensation or mental
+    of strong samādhi focused on a single sensation or mental
     notion. This term is derived from the verb *jhayati,*
     which means to burn with a still, steady flame.
 

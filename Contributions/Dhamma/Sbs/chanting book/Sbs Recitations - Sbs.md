@@ -13,7 +13,7 @@ Monk Training Centre
 
 Pāli-English Recitations
 
-*In whatever way a bhikkhu recites the Dhamma in detail as he has heard it and learned it, in just that way, in relation to that Dhamma, he experiences inspiration in the meaning and inspiration in the Dhamma. As he does so, joy arises in him. When he is joyful, rapture arises. For one with a rapturous mind, the body becomes tranquil. One tranquil in body feels pleasure. For one feeling pleasure, the mind becomes concentrated.*
+*In whatever way a bhikkhu recites the Dhamma in detail as he has heard it and learned it, in just that way, in relation to that Dhamma, he experiences inspiration in the meaning and inspiration in the Dhamma. As he does so, joy arises in him. When he is joyful, rapture arises. For one with a rapturous mind, the body becomes tranquil. One tranquil in body feels pleasure. For one feeling pleasure, the mind becomes collected.*
 
 *([[AN5.26]])*
 
@@ -469,13 +469,13 @@ He has learned much, remembers what he has learned, and accumulates what he has 
 
 In our current age of easy access to Dhamma books and multimedia, it is tempting to conclude that it is now not necessary anymore to memorize large bodies of texts for the sake of transmission, and that we are blessed with being able to read any of the texts at any time, from the comfort of our kuṭis or living rooms. And blessed we are. Nonetheless, even today recitation has benefits that surpass a regular silent reading, or even reading out loud. As seen in the earlier quote from [[AN8.2]] the Buddha doesn’t only speak about reciting the texts verbally, but also about retaining them in mind and investigating them mentally. This is where the benefits of recitation differ considerably from a more casual reading, or even from chanting with the help of a chanting book. By means of committing a text to memory, it lives much deeper within our minds and hearts, and we can reflect on it whenever and wherever we choose. Dhamma that has been well-memorized, is always with us. The Buddha’s teachings become accessible in the very moment we need them, without having to resort to a book or an e-reader.
 
-Since right view is the first of the eight path factors, it is of great importance for progress on the path to keep the Buddha’s teachings in mind so that they can shape our views and perspectives. By keeping them actively in memory one can recognize their relevance whenever a situation in life occurs when they naturally manifest, or when they are most necessary to intentionally recall. Recollecting the Dhamma can be a source of joy, leading to rapture, tranquility, and concentration ([[AN5.26]]); factors that can lead to a pleasant abiding here and now. It can also help to abandon drowsiness ([[AN7.61]]), as well as speed up recovery from illness ([[AN46.16]]), or to achieve a stage of awakening even on the deathbed ([[AN6.56]]). In fact, reciting the Dhamma is one of the occasions that can even bring about the attainment of final liberation ([[AN5.26]]).
+Since right view is the first of the eight path factors, it is of great importance for progress on the path to keep the Buddha’s teachings in mind so that they can shape our views and perspectives. By keeping them actively in memory one can recognize their relevance whenever a situation in life occurs when they naturally manifest, or when they are most necessary to intentionally recall. Recollecting the Dhamma can be a source of joy, leading to rapture, tranquility, and samādhi ([[AN5.26]]); factors that can lead to a pleasant abiding here and now. It can also help to abandon drowsiness ([[AN7.61]]), as well as speed up recovery from illness ([[AN46.16]]), or to achieve a stage of awakening even on the deathbed ([[AN6.56]]). In fact, reciting the Dhamma is one of the occasions that can even bring about the attainment of final liberation ([[AN5.26]]).
 
 “Though the bhikkhu Phagguṇa’s mind had not yet been liberated from the five lower fetters, when he heard that discourse on the Dhamma, his mind was liberated from them… There are, Ānanda, these six benefits of listening to the Dhamma at the proper time and of examining the meaning at the proper time. What six?
 
 ...At the time of his death he does not get to see the Tathāgata or a disciple of the Tathāgata, but he ponders, examines, and mentally inspects the Dhamma as he has heard it and learned it. As he does so, his mind is liberated in the unsurpassed extinction of the acquisitions. This is the sixth benefit of examining the meaning at the proper time. ([[AN6.56]])
 
-In whatever way the bhikkhu recites the Dhamma in detail as he has heard it and learned it, in just that way, in relation to that Dhamma, he experiences inspiration in the meaning and inspiration in the Dhamma. As he does so, joy arises in him. When he is joyful, rapture arises. For one with a rapturous mind, the body becomes tranquil. One tranquil in body feels pleasure. For one feeling pleasure, the mind becomes concentrated. This is the third basis of liberation, by means of which, if a bhikkhu dwells heedful, ardent, and resolute, his unliberated mind is liberated, his undestroyed taints are utterly destroyed, and he reaches the as-yet-unreached unsurpassed security from bondage. ([[AN5.26]])”
+In whatever way the bhikkhu recites the Dhamma in detail as he has heard it and learned it, in just that way, in relation to that Dhamma, he experiences inspiration in the meaning and inspiration in the Dhamma. As he does so, joy arises in him. When he is joyful, rapture arises. For one with a rapturous mind, the body becomes tranquil. One tranquil in body feels pleasure. For one feeling pleasure, the mind becomes collected. This is the third basis of liberation, by means of which, if a bhikkhu dwells heedful, ardent, and resolute, his unliberated mind is liberated, his undestroyed taints are utterly destroyed, and he reaches the as-yet-unreached unsurpassed security from bondage. ([[AN5.26]])”
 
     Benefits for Rebirth
   
@@ -2710,7 +2710,7 @@ Right Mindfulness
 
 Sammā-samādhi
 
-Right Concentration
+Right samādhi
 
 Ayaṁ kho sā bhikkhave majjhimā paṭipadā tathāgatena abhisambuddhā
 
@@ -2884,7 +2884,7 @@ Right Mindfulness
 
 Sammā-samādhi
 
-Right Concentration
+Right samādhi
 
 Idaṁ dukkhaṁ ariya-saccan’ti me bhikkhave
 
@@ -3242,7 +3242,7 @@ Ye kho te bhikkhū sekkhā apatta-mānasā anuttaraṁ yoga-kkhemaṁ patthayam�
 
 “Having abandoned these five hindrances ’ imperfections of the mind that weaken wisdom ’ he enters upon and abides in the first Jhāna ’ the second Jhāna ’ the third Jhāna ’ the fourth Jhāna.”
 
-“When his concentrated mind is thus purified ’ bright ’ unblemished ’ rid of imperfection ’ malleable ’ wieldy ’ steady ’ and attained to imperturbability ’ he directs it to knowledge of the recollection of past lives ’ to knowledge of the passing away and reappearance of beings ’ and to knowledge of the destruction of the taints.”
+“When his collected mind is thus purified ’ bright ’ unblemished ’ rid of imperfection ’ malleable ’ wieldy ’ steady ’ and attained to imperturbability ’ he directs it to knowledge of the recollection of past lives ’ to knowledge of the passing away and reappearance of beings ’ and to knowledge of the destruction of the taints.”
 
 “He understands as it actually is: This is suffering ’ This is the origin of suffering ’ This is the cessation of suffering ’ This is the way of practice ’ leading to the cessation of suffering ’ These are the taints ’ This is the origin of the taints ’ This is the cessation of the taints ’ This is the way of practice ’ leading to the cessation of the taints.”
 
@@ -3366,7 +3366,7 @@ Who are accomplished in virtue
 
 Samādhi-sampannā
 
-Accomplished in concentration
+Accomplished in samādhi
 
 Ñāṇa-sampannā
 
@@ -3474,13 +3474,13 @@ For one whose body is tranquil and who is happy
 
 Cittaṁ samādhiyati
 
-The mind becomes concentrated
+The mind becomes collected
 
 So tathā-samāhitaṁ cittaṁ sādhukaṁ ajjhupekkhitā hoti
 
 One closely looks on with equanimity
 
-At the mind thus concentrated
+At the mind thus collected
 
 [[[SN46.3]]]
 
@@ -3539,7 +3539,7 @@ Right Mindfulness
 
 Sammā-samādhi
 
-Right Concentration
+Right samādhi
 
 Katamā ca bhikkhave sammā-diṭṭhi
 
@@ -3827,7 +3827,7 @@ This bhikkhus is called Right Mindfulness
 
 Katamo ca bhikkhave sammā-samādhi
 
-And what bhikkhus is Right Concentration?
+And what bhikkhus is Right samādhi?
 
 Idha bhikkhave bhikkhu
 
@@ -3865,7 +3865,7 @@ Accompanied by self-confidence[[#^en78appendix|78]] ’ and singleness of mind
 
 Without thought and examination
 
-With rapture and pleasure ’ born of concentration
+With rapture and pleasure ’ born of samādhi
 
 Pītiyā ca virāgā
 
@@ -3919,7 +3919,7 @@ Due to equanimity
 
 Ayaṁ vuccati bhikkhave sammā-samādhi
 
-This bhikkhus is called Right Concentration
+This bhikkhus is called Right samādhi
 
 Ayam’eva ariyo aṭṭh’aṅgiko maggo
 
@@ -4948,7 +4948,7 @@ That are unbroken ’ untorn ’ unblotched ’ unmottled ’ liberating
 
 Viññu-ppasatthāni aparāmaṭṭhāni samādhi-saṁvattanikāni
 
-Commended by the wise ’ not misapprehended ’ and conducive to concentration
+Commended by the wise ’ not misapprehended ’ and conducive to samādhi
 
 Tathā-rūpesu sīlesu sīla-sāmaññagato viharati
 
@@ -6503,7 +6503,7 @@ And what bhikkhus ’ is the Middle Way awakened to by the Tathāgata ’ whic
 
 It is this Noble Eightfold Path:
 
-That is Right View ’ Right Intention ’ Right Speech ’ Right Action ’ Right Livelihood ’ Right Effort ’ Right Mindfulness ’ Right Concentration
+That is Right View ’ Right Intention ’ Right Speech ’ Right Action ’ Right Livelihood ’ Right Effort ’ Right Mindfulness ’ Right samādhi
 
 This bhikkhus ’ is that Middle Way awakened to by the Tathāgata ’ which gives rise to vision ’ which gives rise to knowledge ’ which leads to peace ’ to direct knowledge ’ to enlightenment ’ to Nibbāna
 
@@ -6515,7 +6515,7 @@ Now this bhikkhus ’ is the noble truth of the cessation of suffering: it is t
 
 Now this bhikkhus ’ is the noble truth of the way leading to the cessation of suffering: It is this Noble Eightfold Path
 
-That is Right View ’ Right Intention ’ Right Speech ’ Right Action ’ Right Livelihood ’ Right Effort ’ Right Mindfulness ’ Right Concentration
+That is Right View ’ Right Intention ’ Right Speech ’ Right Action ’ Right Livelihood ’ Right Effort ’ Right Mindfulness ’ Right samādhi
 
 ‘This is the noble truth of suffering’: thus bhikkhus in regard to things unheard before ’ there arose in me vision ’ knowledge ’ wisdom ’ true knowledge ’ and light
 
@@ -7410,7 +7410,7 @@ Aggappatto pamodatī’ti
 
 The wise one who gives to the foremost,
 
-Concentrated upon the foremost Dhamma,
+collected upon the foremost Dhamma,
 
 Having become a deva or human being,
 
@@ -8085,7 +8085,7 @@ Etena saccena suvatthi hotu
 
 Destruction, dispassion, the deathless, the sublime,
 
-Which Sakyamuni, concentrated, attained:
+Which Sakyamuni, collected, attained:
 
 There is nothing equal to that Dhamma.
 
@@ -8105,9 +8105,9 @@ Etena saccena suvatthi hotu
 
 The purity that the supreme Buddha praised,
 
-Which they call concentration without interval
+Which they call samādhi without interval
 
-The equal of that concentration does not exist.
+The equal of that samādhi does not exist.
 
 This too is the sublime gem in the Dhamma:
 
@@ -8912,7 +8912,7 @@ Investigation of qualities,
 
 Persistence, rapture, & serenity,
 
-Plus concentration & equanimity Factors for Awakening.
+Plus samādhi & equanimity Factors for Awakening.
 
 These seven, which the All-seeing Sage has perfectly taught,
 
@@ -9772,7 +9772,7 @@ Cakkhu’ndriyaṁ sot’indriyaṁ ghān’indriyaṁ jivh’indriyaṁ kāy’
 
 Twenty-two faculties:
 
-The eye faculty, ear faculty, nose faculty, tongue faculty, body faculty, mind faculty, faculty of feminity, faculty of masculinity, life faculty, pleasure faculty, pain faculty, happiness faculty, displeasure faculty, equanimity faculty, conviction faculty, energy faculty, mindfulness faculty, concentration faculty, wisdom faculty, the ‘I am knowing the unknown’ faculty, knowledge faculty, the faculty of one with complete knowledge.
+The eye faculty, ear faculty, nose faculty, tongue faculty, body faculty, mind faculty, faculty of feminity, faculty of masculinity, life faculty, pleasure faculty, pain faculty, happiness faculty, displeasure faculty, equanimity faculty, conviction faculty, energy faculty, mindfulness faculty, samādhi faculty, wisdom faculty, the ‘I am knowing the unknown’ faculty, knowledge faculty, the faculty of one with complete knowledge.
 
 [Vibh]
 
@@ -10133,7 +10133,7 @@ Cakkhu’ndriyaṁ sot’indriyaṁ ghān’indriyaṁ jivh’indriyaṁ kāy’
 
 Twenty-two faculties:
 
-The eye faculty, ear faculty, nose faculty, tongue faculty, body faculty, mind faculty, faculty of feminity, faculty of masculinity, life faculty, pleasure faculty, pain faculty, happiness faculty, displeasure faculty, equanimity faculty, conviction faculty, energy faculty, mindfulness faculty, concentration faculty, wisdom faculty, the ‘I am knowing the unknown’ faculty, knowledge faculty, the faculty of one with complete knowledge.
+The eye faculty, ear faculty, nose faculty, tongue faculty, body faculty, mind faculty, faculty of feminity, faculty of masculinity, life faculty, pleasure faculty, pain faculty, happiness faculty, displeasure faculty, equanimity faculty, conviction faculty, energy faculty, mindfulness faculty, samādhi faculty, wisdom faculty, the ‘I am knowing the unknown’ faculty, knowledge faculty, the faculty of one with complete knowledge.
 
 [Vibh]
 
@@ -11203,7 +11203,7 @@ Thanks to all Saṅgha members who are willing to share this responsibility, by 
 
 [[#^en43|43]] WPN: The beast of burden though is man. The Pāli word *puggalo* is in masculine, which is the expected grammatical form even if a term refers to males and females alike, as is probably the case here. Furthermore, the phrase beast of burden is an English idiomatic expression, signifying an animal used for heavy work such as carrying or pulling things (Oxford Dictionary).
 
-[[#^en44|44]] Unity here refers to unity of mind due to concentration (*samādhi*, *cittass-ekaggatā*). *Nekatta* = *na* + *ekatta* [abstr. fr. *eka*].
+[[#^en44|44]] Unity here refers to unity of mind due to samādhi (*samādhi*, *cittass-ekaggatā*). *Nekatta* = *na* + *ekatta* [abstr. fr. *eka*].
 
 [[#^en45|45]] WPN: The dust of passions all the more. The Pāli only speaks of stirring up dust, but the Commentary explains that it refers to the dust of *kilesā*. As a translation for *kilesā*, the term defilements has a broader scope than just passions, wherefore the former has been given preference.
 

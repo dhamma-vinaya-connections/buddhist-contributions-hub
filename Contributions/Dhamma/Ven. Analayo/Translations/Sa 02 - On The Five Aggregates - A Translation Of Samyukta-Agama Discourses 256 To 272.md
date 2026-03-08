@@ -2692,9 +2692,9 @@ thoughts of not harming.
 
 "Going forward on the left path is wrong view, wrong intention,
 wrong speech, wrong action, wrong livelihood, wrong effort, wrong
-mindfulness, and wrong concentration. Going forward on the right
+mindfulness, and wrong samādhi. Going forward on the right
 path is right view, right intention, right speech, right action, right
-livelihood, right effort, right mindfulness, and right concentration.
+livelihood, right effort, right mindfulness, and right samādhi.
 The ravine with a stream is anger, obstruction, worry, and sadness.
 The forest is the five strands of sensual pleasures. The city is
 Nirvāṇa." [157]
@@ -2835,7 +2835,7 @@ The Buddha said to the monks: "Monks, you have gone forth in this
 way for the supreme benefit. How could it be that yet among you there
 is still a foolish worldling who gives rise to lustful desires, gives rise
 to extremely defiled attachments, being angry and violent, lazy and
-bad, with mindfulness lost and without concentration, all faculties
+bad, with mindfulness lost and without samādhi, all faculties
 being confounded?
 
 "It is just as if a person proceeds from darkness to darkness, from
@@ -2862,7 +2862,7 @@ without asking the monks for confirmation.
 in a cemetery, it cannot be picked up and used as firewood. [170] A
 foolish worldling, a monk who gives rise to lustful desires, gives rise
 to extremely defiled attachments, being angry and violent, lazy and
-bad, with mindfulness lost and without concentration, all faculties
+bad, with mindfulness lost and without samādhi, all faculties
 being confounded, is just like this simile I have spoken.
 
 "Monks, there are three unwholesome thought conditions. What are
@@ -2878,13 +2878,13 @@ harming, thoughts with lust, thoughts with hatred, and thoughts of
 harming – these are innumerable types of what is unwholesome.
 
 "What is their complete cessation? [If] the mind is well settled in the
-four establishments of mindfulness or established in concentration on
+four establishments of mindfulness or established in samādhi on
 the signless. Cultivating it, much cultivating it, evil and unwholesome
 states will thereby cease, be forever eradicated without remainder,
 rightly by way of this practice. [172]
 
 "A clansman or a clanswomen who out of faith delights in going forth
-and cultivates concentration on the signless, who has cultivated it,
+and cultivates samādhi on the signless, who has cultivated it,
 much cultivated it, stands at the door of the deathless and proceeds to
 the supreme deathless of Nirvāṇa. [173] [72b]
 
@@ -2898,7 +2898,7 @@ occurs, however, in [[MN78]] at MN II 27,27 and in its parallel [[MA179]] at T I
 translated in Anālayo 2012c: 127; cf. also Anālayo 2011a: 428.
 
 172 [[SN22.80]] at SN III 93,26 instead just remarks that this is sufficient to develop
-signless concentration, whose cultivation is of much benefit.
+signless samādhi, whose cultivation is of much benefit.
 
 173 This sentence has no counterpart in [[SN22.80]]
 
