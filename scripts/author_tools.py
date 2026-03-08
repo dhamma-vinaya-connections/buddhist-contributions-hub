@@ -2,38 +2,29 @@ import unicodedata
 import re
 
 # ==========================================
-# 👤 AUTHOR DICTIONARY (Specific Overrides)
+# 👤 AUTHOR DICTIONARY
 # ==========================================
 AUTHOR_MAP = {
-    # Thai Forest Nicknames
-    "ajaan geoff": "Ven. Thanissaro",
-    "ajahn geoff": "Ven. Thanissaro",
     "thanissaro": "Ven. Thanissaro",
-    
-    # Specific Spellings
     "bhikkhu bodhi": "Ven. Bodhi",
     "analayo": "Ven. Analayo",
     "sujato": "Ven. Sujato",
     "brahmali": "Ven. Brahmali",
-    
-    # Lay Scholars
     "gombrich": "Gombrich Richard",
-    "richard gombrich": "Gombrich Richard",
 }
 
 # ==========================================
 # 📚 FOLDER TYPE DICTIONARY
 # ==========================================
 TYPE_MAP = {
-    "guide": "Study Guide",
-    "manual": "Study Guide",
-    "textbook": "Study Guide",
-    "talk": "Dhamma Talk",
-    "transcript": "Dhamma Talk",
-    "article": "Essay",
-    "paper": "Essay",
-    "canon": "Sutta Translation",
-    "nikaya": "Sutta Translation",
+    "manual": "study guide",
+    "handbook": "study guide",
+    "textbook": "study guide",
+    "talk": "dhamma talk",
+    "transcript": "dhamma talk",
+    "paper": "essay",
+    "article": "essay",
+    "canon": "sutta translation",
 }
 # ==========================================
 
@@ -43,35 +34,50 @@ def clean_text(text):
     text = "".join([c for c in text if unicodedata.category(c) != 'Mn'])
     return text.lower().strip()
 
+def make_singular(text):
+    """
+    Smartly converts plural to singular without a map.
+    Logic: Lowercase -> Check endings -> Strip 's'.
+    """
+    if not text: return "to_fill"
+    clean = text.lower().strip()
+    
+    # 1. Protect words ending in 'ss' (Mindfulness, Glass)
+    if clean.endswith('ss'): return clean
+    
+    # 2. Protect words ending in 'is' (Analysis, Basis)
+    if clean.endswith('is'): return clean
+    
+    # 3. Protect words ending in 'us' (Status, Consensus)
+    if clean.endswith('us'): return clean
+    
+    # 4. Standard Strip: If it ends in 's', remove it.
+    if clean.endswith('s'):
+        return clean[:-1]
+        
+    return clean
+
 def normalize_type(folder_name):
-    """Standardizes 'study_guides' -> 'Study Guide'."""
-    if not folder_name: return "Book"
+    """Standardizes 'Study_Guides' -> 'study guide'."""
+    if not folder_name: return "book"
+    
     clean = re.sub(r'^\d+[\.\-_]\s*', '', folder_name)
     clean = re.sub(r'[\-_]', ' ', clean).strip().lower()
     
-    if clean.endswith('s') and not clean.endswith('ss'):
-        clean_singular = clean[:-1]
-    else:
-        clean_singular = clean
+    # Apply Singular Logic
+    singular = make_singular(clean)
 
-    if clean in TYPE_MAP: return TYPE_MAP[clean]
-    if clean_singular in TYPE_MAP: return TYPE_MAP[clean_singular]
+    if singular in TYPE_MAP: return TYPE_MAP[singular]
     
-    return clean.title()
+    return singular
 
 def normalize_author(raw_name):
-    """
-    Standardizes Author Names with Rules & Dictionary.
-    """
     if not raw_name: return "Unknown"
     
     clean = clean_text(raw_name)
     
-    # 1. DICTIONARY CHECK
-    if clean in AUTHOR_MAP:
-        return AUTHOR_MAP[clean]
+    if clean in AUTHOR_MAP: return AUTHOR_MAP[clean]
         
-    # 2. RULE ENGINE
     if "bhikkhu" in clean and "bhikkhuni" not in clean:
         name_part = re.sub(r'\bbhikkhu\b', '', clean).strip().title()
         return f"Ven. {name_part}"

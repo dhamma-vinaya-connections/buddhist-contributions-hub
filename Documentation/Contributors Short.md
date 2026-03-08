@@ -1,4 +1,4 @@
-# 🧾 Contributor Cheat Sheet (TL;DR)
+# 🧾 Contributor Cheat Sheet 
 
 > [!summary]+ ✅ If you remember nothing else
 > 

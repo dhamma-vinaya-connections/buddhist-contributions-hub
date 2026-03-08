@@ -11,24 +11,26 @@ import citation_scanner
 import author_tools 
 import gatekeeper 
 
-def clean_filename(stem):
-    stem = re.sub(r'^[\d\-\.\_\s]+', '', stem)
-    stem = re.sub(r'_[\d]{4,}$', '', stem)
-    return stem.strip()
+def clean_and_format_title(text):
+    text = str(Path(text).stem)
+    text = re.sub(r'^[\d\-\.\_\s]+', '', text)
+    text = re.sub(r'[_.\s-]*\d{4,}[_.\s-]*$', '', text) 
+    text = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', text)
+    text = text.replace("_", " ").replace("-", " ")
+    return text.strip().title()
 
 def determine_author_and_title(source_path, author_override):
     original_stem = source_path.stem
     if " - " in original_stem:
         file_title_part, file_author_part = original_stem.split(" - ", 1)
         final_author = author_tools.normalize_author(file_author_part)
-        final_title = clean_filename(file_title_part)
+        final_title = clean_and_format_title(file_title_part)
     elif author_override:
         final_author = author_tools.normalize_author(author_override)
-        final_title = clean_filename(original_stem)
+        final_title = clean_and_format_title(original_stem)
     else:
         final_author = "Unknown"
-        final_title = clean_filename(original_stem)
-    final_title = author_tools.clean_text(final_title).title()
+        final_title = clean_and_format_title(original_stem)
     return final_author, final_title
 
 def extract_text_from_pdf(filepath):
@@ -59,19 +61,16 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     if ext == '.pdf': raw_text = extract_text_from_pdf(filepath)
     elif ext == '.epub': raw_text = extract_text_from_epub(filepath)
     
-    # --- 🛡️ GATEKEEPER ---
     word_count = citation_scanner.count_words(raw_text)
     citation_count = citation_scanner.get_citation_count(raw_text)
     required_citations = gatekeeper.get_quality_threshold(word_count)
 
     if citation_count < required_citations:
-        reason = f"Low Quality/Scan (Words: {word_count}, Refs: {citation_count}/{required_citations})"
-        gatekeeper.reject_and_delete(filepath, reason)
+        gatekeeper.reject_and_delete(filepath, f"Low Quality/Scan (Words: {word_count}, Refs: {citation_count}/{required_citations})")
         return 
-    # ---------------------
     
     relative_path = Path("Books") 
-    contribution_type = "Book"
+    contribution_type = "book"
     if author_override:
         for parent in filepath.parents:
             if author_tools.clean_text(parent.name) == author_tools.clean_text(author_override):
@@ -79,7 +78,7 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
                     full_rel = filepath.parent.relative_to(parent)
                     if str(full_rel) == "." or author_tools.clean_text(full_rel.name) == author_tools.clean_text(author):
                          relative_path = Path("Books")
-                         contribution_type = "Book"
+                         contribution_type = "book"
                     else:
                         relative_path = full_rel
                         contribution_type = author_tools.normalize_type(full_rel.name)
@@ -87,7 +86,7 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
                 break
 
     storage_author = author_tools.normalize_author(author_override) if author_override else author
-    author_folder = dest_root / "Contributions" / category / storage_author / relative_path
+    author_folder = dest_root / "Contributions" / author_tools.make_singular(category) / storage_author / relative_path
     attachment_folder = author_folder / "attachments"
     attachment_folder.mkdir(parents=True, exist_ok=True)
     
@@ -99,9 +98,11 @@ def process_reference_file(filepath, dest_root, category, author_override=None):
     suttas, vinaya = citation_scanner.extract_citations(raw_text)
 
     frontmatter = {
-        "title": title, "author": author, "category": category,
-        "contribution": contribution_type, "status": "reference_only",
-        "theme": "To_Fill", 
+        "title": title, "author": author, 
+        "category": author_tools.make_singular(category),
+        "contribution": contribution_type, 
+        "status": "reference_only",
+        "topic": "to_fill", 
         "sutta_citations": suttas, "vin_citations": vinaya
     }
 

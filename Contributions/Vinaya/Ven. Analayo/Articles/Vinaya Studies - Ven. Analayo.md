@@ -544,7 +544,7 @@ material, rather than in isolation. [3]
 At that time, it being the fifteenth of the month and the
 time to recite the code of rules, the Blessed One sat in front of
 the community of monks on a prepared seat. Having sat down,
-the Blessed One in turn entered concentration and with the
+the Blessed One in turn entered samādhi and with the
 knowledge of the mind of others he surveyed the minds in the
 community. Having surveyed the minds in the community, he
 sat silently until the end of the first watch of the night.
@@ -605,23 +605,23 @@ At that time the venerable Mahāmoggallāna was also among
 the community. Thereupon the venerable Mahāmoggallāna
 thought in turn: [4] 'Of which monk does the Blessed One say
 that one monk in this community has become impure? Let me
-enter an appropriate type of concentration so that, by way of
+enter an appropriate type of samādhi so that, by way of
 
 
 _Pārājika_  11
 
 
-that appropriate type of concentration, by knowing the minds
+that appropriate type of samādhi, by knowing the minds
 of others, I will survey the minds in the community.'
 
 The venerable Mahāmoggallāna entered an appropriate
-type of concentration so that, by way of that appropriate type
-of concentration, by knowing the minds of others, he surveyed
+type of samādhi so that, by way of that appropriate type
+of samādhi, by knowing the minds of others, he surveyed
 the minds in the community. The venerable Mahāmoggallāna
 in turn knew of which monk the Blessed One had said that one
 monk in this community had become impure.
 
-Thereupon the venerable Mahāmoggallāna rose from concentration and went in front of that monk, took him by the arm
+Thereupon the venerable Mahāmoggallāna rose from samādhi and went in front of that monk, took him by the arm
 and led him out, opening the door and placing him outside [with
 the words]: "Foolish man, go far away, do not stay in here. You
 are no longer in communion with the community of monks,
@@ -7524,7 +7524,7 @@ seem to consider these instances as conflicting with his hypothesis.
 
 
 In reply to my criticism of his hypothesis, von Hinüber (2015b:
-198) argues that "concentration on the Theravāda tradition is … a
+198) argues that "samādhi on the Theravāda tradition is … a
 methodological necessity. Only the oldest levels of the Buddhist
 tradition we can reach might occasionally tell something about
 the very early history of Buddhism." Certainly the oldest levels of
@@ -10990,7 +10990,7 @@ Mallā and Dhammadāsiyā.
 
 
 "These _bhikkhunī_ s
-are concentrated and have shaken off lust,
+are collected and have shaken off lust,
 their mental thoughts are pure
 and they delight in the true Dharma and Vinaya.
 

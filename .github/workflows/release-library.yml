@@ -4,7 +4,7 @@ name: 📦 Publish Library
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 0 * * 0' # Weekly (Sunday at Midnight UTC)
+    - cron: '0 0 1 * *' # Monthly (1st day of the month at Midnight UTC)
 
 permissions:
   contents: write
